@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: Unit1_BouncingBall.ma
-//Last modified: Wed, May 13, 2026 03:20:58 PM
+//Last modified: Wed, May 13, 2026 03:58:59 PM
 //Codeset: 1252
 requires maya "2027";
 requires "mtoa" "5.6.0";
@@ -10,21 +10,21 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202603302215-e16e754b0e";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "7CA1BC43-4DC4-7CB3-ED2F-B1BFBABC3089";
+fileInfo "UUID" "5DF827D2-40B7-467F-D72A-9497A6698690";
 createNode transform -s -n "persp";
 	rename -uid "88C8C15A-48EE-7E62-DC5B-47BD7D106891";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -13.176849047955814 11.520389361734315 -25.62018196332971 ;
-	setAttr ".r" -type "double3" -16.538352729692612 926.59999999997251 0 ;
+	setAttr ".t" -type "double3" 26.219217274113916 9.3308464637135433 -20.919326515518378 ;
+	setAttr ".r" -type "double3" -11.738352728859606 1208.1999999997729 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "6C3010D3-4B63-8E08-4965-9AB36CE7F9FF";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 30.226851540931605;
+	setAttr ".coi" 34.628477322491541;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" -8.9406967163085938e-08 4.4500848296314572 -1.1920928955078125e-07 ;
+	setAttr ".tp" -type "double3" -1.162290572676028e-07 0.53873765265150964 -1.5497207639381116e-07 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "CBF4E438-4AA9-B2B6-B191-9496CFAD4973";
@@ -83,6 +83,7 @@ createNode mesh -n "BallShape" -p "Ball";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.37500002980232239 0.67500010132789612 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
@@ -154,77 +155,83 @@ createNode script -n "sceneConfigurationScriptNode";
 	rename -uid "060A4083-4125-B797-207B-CF978A7F1995";
 	setAttr ".b" -type "string" "playbackOptions -min 1 -max 47 -ast 1 -aet 47 ";
 	setAttr ".st" 6;
-createNode polySphere -n "polySphere1";
-	rename -uid "8F793742-4035-C6E2-03A3-9C83D04A16A9";
-	setAttr ".r" 0.8;
 createNode animCurveTL -n "pSphere1_translateY";
 	rename -uid "1DA6DF42-40F3-CA6C-95A3-7288C019F667";
 	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr -s 5 ".ktv[0:4]"  1 0.79424624571506486 12 6.82978503988247
-		 24 0.79424624571506486 36 6.82978503988247 48 0.79424624571506486;
+	setAttr -s 5 ".ktv[0:4]"  1 0.53873765265150964 12 6.82978503988247
+		 24 0.53873765265150964 36 6.82978503988247 48 0.53873765265150964;
 	setAttr -s 5 ".kit[1:4]"  18 1 1 1;
 	setAttr -s 5 ".kot[1:4]"  18 1 1 1;
 	setAttr -s 5 ".ktl[2:4]" no yes yes;
-	setAttr -s 5 ".kix[0:4]"  0.036469155718127123 1 0.043237354618840818 
-		1 0.048047038274547267;
-	setAttr -s 5 ".kiy[0:4]"  0.99933477908116808 0 -0.9990648283097372 
-		0 -0.99884507412963908;
-	setAttr -s 5 ".kox[0:4]"  0.03646914860706213 1 0.042973581797177841 
-		1 0.048047071161748743;
-	setAttr -s 5 ".koy[0:4]"  0.99933477934067527 0 0.99907620893879834 
-		0 -0.99884507254767885;
-createNode animCurveTL -n "Ball_translateX";
-	rename -uid "BF532239-42DB-C2EF-7756-539CAEC3E7A0";
-	setAttr ".tan" 18;
-	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  12 0;
-createNode animCurveTL -n "Ball_translateZ";
-	rename -uid "51DDA8AB-4EF4-4224-B05E-64B55E922010";
-	setAttr ".tan" 18;
-	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  12 0;
-createNode animCurveTU -n "Ball_visibility";
-	rename -uid "BD284C22-41F1-8B7E-79E7-8DAEC0452A26";
-	setAttr ".tan" 9;
-	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  12 1;
-	setAttr ".kot[0]"  5;
-	setAttr ".kox[0]"  0;
-	setAttr ".koy[0]"  0;
-createNode animCurveTA -n "Ball_rotateX";
-	rename -uid "20479F22-4FFA-25F3-AD00-37AE3F28AC2C";
-	setAttr ".tan" 18;
-	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  12 0;
-createNode animCurveTA -n "Ball_rotateY";
-	rename -uid "B97C2EB5-406F-8D98-62D8-FBA177677AC8";
-	setAttr ".tan" 18;
-	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  12 0;
-createNode animCurveTA -n "Ball_rotateZ";
-	rename -uid "81680E0B-4DB4-7CC5-84D5-60B8CB32CA10";
-	setAttr ".tan" 18;
-	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  12 0;
-createNode animCurveTU -n "Ball_scaleX";
-	rename -uid "2CC1314D-48F1-91E5-B031-E386D01EE5B6";
-	setAttr ".tan" 18;
-	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  12 1;
-createNode animCurveTU -n "Ball_scaleY";
-	rename -uid "348BCBBD-41C6-DA2D-F213-E3A34A4CE915";
-	setAttr ".tan" 18;
-	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  12 1;
+	setAttr -s 5 ".kix[0:4]"  0.036469155718127123 1 0.031220489273841263 
+		1 0.028482938990920515;
+	setAttr -s 5 ".kiy[0:4]"  0.99933477908116808 0 -0.99951252170720806 
+		0 -0.99959427878836904;
+	setAttr -s 5 ".kox[0:4]"  0.03646914860706213 1 0.028839861056410985 
+		1 0.028482928241112815;
+	setAttr -s 5 ".koy[0:4]"  0.99933477934067527 0 0.99958404469771678 
+		0 -0.99959427909467924;
 createNode animCurveTU -n "Ball_scaleZ";
-	rename -uid "76F37AB3-43C0-B636-C882-77909BCDBA10";
-	setAttr ".tan" 18;
+	rename -uid "F41B63CC-4935-951C-DBAE-7889092712EE";
+	setAttr ".tan" 1;
 	setAttr ".wgt" no;
-	setAttr ".ktv[0]"  12 1;
+	setAttr -s 11 ".ktv[0:10]"  1 1.3 2 0.7 5 1 20 1 23 0.7 24 1.3 25 0.7
+		 28 1 44 1 47 0.7 48 1.3;
+	setAttr -s 11 ".kit[0:10]"  18 1 18 1 1 1 1 1 
+		1 1 18;
+	setAttr -s 11 ".kot[0:10]"  18 1 18 1 1 1 1 1 
+		1 1 18;
+	setAttr -s 11 ".kix[1:10]"  1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 11 ".kiy[1:10]"  0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 11 ".kox[1:10]"  1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 11 ".koy[1:10]"  0 0 0 0 0 0 0 0 0 0;
+createNode animCurveTU -n "Ball_scaleY";
+	rename -uid "DB21B85D-435D-D36C-7CD3-379E36966CB3";
+	setAttr ".tan" 1;
+	setAttr ".wgt" no;
+	setAttr -s 11 ".ktv[0:10]"  1 0.7 2 1.3 5 1 20 1 23 1.3 24 0.7 25 1.3
+		 28 1 44 1 47 1.3 48 0.7;
+	setAttr -s 11 ".kit[0:10]"  18 18 18 1 1 1 1 1 
+		1 1 18;
+	setAttr -s 11 ".kot[0:10]"  18 18 18 1 1 1 1 1 
+		1 1 18;
+	setAttr -s 11 ".kix[3:10]"  1 1 1 1 1 1 1 1;
+	setAttr -s 11 ".kiy[3:10]"  0 0 0 0 0 0 0 0;
+	setAttr -s 11 ".kox[3:10]"  1 1 1 1 1 1 1 1;
+	setAttr -s 11 ".koy[3:10]"  0 0 0 0 0 0 0 0;
+createNode animCurveTU -n "Ball_visibility";
+	rename -uid "3DA0532A-49FB-1896-8271-26A6BE30258E";
+	setAttr ".tan" 5;
+	setAttr ".wgt" no;
+	setAttr -s 11 ".ktv[0:10]"  1 1 2 1 5 1 20 1 23 0.91574490106387119
+		 24 1 25 1 28 1 44 1 47 1 48 1;
+	setAttr -s 11 ".kit[0:10]"  9 9 9 1 1 1 1 1 
+		1 1 9;
+	setAttr -s 11 ".kix[3:10]"  1 1 1 1 1 1 1 1;
+	setAttr -s 11 ".kiy[3:10]"  0 0 0 0 0 0 0 0;
+	setAttr -s 11 ".kox[0:10]"  0 0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 11 ".koy[0:10]"  0 0 0 0 0 0 0 0 0 0 0;
+createNode animCurveTU -n "Ball_scaleX";
+	rename -uid "C95ACACC-4EBB-2554-AED5-EB81D690E9F0";
+	setAttr ".tan" 1;
+	setAttr ".wgt" no;
+	setAttr -s 11 ".ktv[0:10]"  1 1.3 2 0.7 5 1 20 1 23 0.7 24 1.3 25 0.7
+		 28 1 44 1 47 0.7 48 1.3;
+	setAttr -s 11 ".kit[0:10]"  18 1 18 1 1 1 1 1 
+		1 1 18;
+	setAttr -s 11 ".kot[0:10]"  18 1 18 1 1 1 1 1 
+		1 1 18;
+	setAttr -s 11 ".kix[1:10]"  1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 11 ".kiy[1:10]"  0 0 0 0 0 0 0 0 0 0;
+	setAttr -s 11 ".kox[1:10]"  1 1 1 1 1 1 1 1 1 1;
+	setAttr -s 11 ".koy[1:10]"  0 0 0 0 0 0 0 0 0 0;
+createNode polySphere -n "polySphere1";
+	rename -uid "8F793742-4035-C6E2-03A3-9C83D04A16A9";
+	setAttr ".r" 0.8;
 select -ne :time1;
-	setAttr ".o" 6;
-	setAttr ".unw" 6;
+	setAttr ".o" 15;
+	setAttr ".unw" 15;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
@@ -269,12 +276,7 @@ select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
 connectAttr "Ball_visibility.o" "Ball.v";
-connectAttr "Ball_translateX.o" "Ball.tx";
 connectAttr "pSphere1_translateY.o" "Ball.ty";
-connectAttr "Ball_translateZ.o" "Ball.tz";
-connectAttr "Ball_rotateX.o" "Ball.rx";
-connectAttr "Ball_rotateY.o" "Ball.ry";
-connectAttr "Ball_rotateZ.o" "Ball.rz";
 connectAttr "Ball_scaleX.o" "Ball.sx";
 connectAttr "Ball_scaleY.o" "Ball.sy";
 connectAttr "Ball_scaleZ.o" "Ball.sz";
