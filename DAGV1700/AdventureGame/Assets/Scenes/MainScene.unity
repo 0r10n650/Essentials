@@ -337,7 +337,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.2, z: 0.2}
+  m_Size: {x: 0.21, y: 0.21, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &40994917
 SpriteRenderer:
@@ -1221,7 +1221,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.2, z: 0.2}
+  m_Size: {x: 0.21, y: 0.21, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &560414466
 SpriteRenderer:
@@ -1372,7 +1372,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.2, z: 0.2}
+  m_Size: {x: 0.21, y: 0.21, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &728214811
 SpriteRenderer:
@@ -1852,7 +1852,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.2, z: 0.2}
+  m_Size: {x: 0.21, y: 0.21, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &931023464
 SpriteRenderer:
@@ -3853,7 +3853,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e8cbbe35153640cea23bf58a428eab0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SimpleCharacterController
-  moveSpeed: 5
+  acceleration: 0.1
+  baseMaxSpeed: 8
   jumpForce: 3
   gravity: -20
 --- !u!143 &1551166749
@@ -3950,7 +3951,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.2, z: 0.2}
+  m_Size: {x: 0.21, y: 0.21, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1555399444
 SpriteRenderer:
@@ -4063,7 +4064,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.2, z: 0.2}
+  m_Size: {x: 0.21, y: 0.21, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &1578793360
 SpriteRenderer:
