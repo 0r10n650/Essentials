@@ -11,8 +11,6 @@ public class WallBreakingBehaviour : MonoBehaviour
 
         if (controller == null) return;
 
-        print(Mathf.Abs(controller.getVelocity().x));
-
         if (Mathf.Abs(controller.getVelocity().x) > requiredSpeed)
         {
             Destroy(gameObject);
