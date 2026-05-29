@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: AnimationPage118-129MyVariation1.ma
-//Last modified: Wed, May 27, 2026 12:26:42 PM
+//Last modified: Wed, May 27, 2026 01:12:37 PM
 //Codeset: 1252
 file -rdi 1 -ns "Ultimate_Walker_IK_v1_0_1" -rfn "Ultimate_Walker_IK_v1_0_1RN"
 		 -op "v=0;" -typ "mayaAscii" "/Users/anthonyromrell/GitRepos/Essentials/DAGV1100and1200/Maya//scenes/Rigs/Ultimate_Walker_IK_v1.0.1.ma";
@@ -10,19 +10,18 @@ requires maya "2027";
 requires "stereoCamera" "10.0";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiImagerDenoiserOidn"
 		 "mtoa" "5.6.0";
-requires "stereoCamera" "10.0";
 currentUnit -l centimeter -a degree -t film;
 fileInfo "application" "maya";
 fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202603302215-e16e754b0e";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "58174CF9-4A65-F489-21AB-7ABE1E4D4E7E";
+fileInfo "UUID" "465A1752-48ED-9140-E1F4-B39DCA4FD424";
 createNode transform -s -n "persp";
 	rename -uid "C9712CCD-754C-F86E-AD2A-73826B605734";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -23.426929380438008 5.4297805749480901 0.52314871459922685 ;
-	setAttr ".r" -type "double3" -9.3383527325030293 2072.2000000000126 -2.0713312097298026e-14 ;
+	setAttr ".t" -type "double3" -19.813983173662319 7.0914134403529046 -12.070324969306807 ;
+	setAttr ".r" -type "double3" -13.538352732503697 2038.5999999999983 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "461DA5EF-F84A-C499-F69E-15ADE383DA43";
 	setAttr -k off ".v" no;
@@ -84,20 +83,20 @@ createNode camera -s -n "sideShape" -p "side";
 	setAttr ".o" yes;
 	setAttr ".ai_translator" -type "string" "orthographic";
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "B8840A0E-4393-3ECE-B74E-83B6ECD61BE4";
+	rename -uid "066DEAB2-4FDB-F351-11D9-3EA4FEFBB6DF";
 	setAttr -s 4 ".lnk";
 	setAttr -s 4 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "EFBE7BD3-4963-03C8-6187-79998DECEC72";
+	rename -uid "B6722B36-4F89-188E-5A40-4690A72FAAA2";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "DAC47420-4FC3-9310-33D1-D5801B2B97A6";
+	rename -uid "0754FDBF-45EF-ED62-A92A-EAA2877CA630";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "488A6459-4919-3DF5-B027-65975C1BDA35";
+	rename -uid "75FCA44C-4F0F-9164-EE5A-489ACE8DFCCB";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "AC91CB9A-E140-CD7A-D861-648C94E9970F";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "37FAD8B0-4436-5A81-4DFF-BEB1DE0EF87D";
+	rename -uid "B570B0FC-4E5A-6677-FB82-7992A87DEBBC";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "48A7C263-8948-E2C3-249C-098B228EC5C9";
 	setAttr ".g" yes;
@@ -164,7 +163,7 @@ createNode reference -n "Ultimate_Walker_IK_v1_0_1RN";
 		"Ultimate_Walker_IK_v1_0_1RN" 0
 		"Ultimate_Walker_IK_v1_0_1RN" 42
 		2 "|Ultimate_Walker_IK_v1_0_1:AniM_walker_Main|Ultimate_Walker_IK_v1_0_1:Body_Rig_Grp|Ultimate_Walker_IK_v1_0_1:CNT_Grp|Ultimate_Walker_IK_v1_0_1:CTRL_Main_Grp|Ultimate_Walker_IK_v1_0_1:CTRL_Main" 
-		"translate" " -type \"double3\" 0 -0.80069606542227367 0"
+		"translate" " -type \"double3\" 0 -0.49401039897848076 0"
 		2 "|Ultimate_Walker_IK_v1_0_1:AniM_walker_Main|Ultimate_Walker_IK_v1_0_1:Body_Rig_Grp|Ultimate_Walker_IK_v1_0_1:CNT_Grp|Ultimate_Walker_IK_v1_0_1:CTRL_Main_Grp|Ultimate_Walker_IK_v1_0_1:CTRL_Main" 
 		"rotate" " -type \"double3\" 0 0 0"
 		5 4 "Ultimate_Walker_IK_v1_0_1RN" "|Ultimate_Walker_IK_v1_0_1:AniM_walker_Main|Ultimate_Walker_IK_v1_0_1:Rig_Leg_grp|Ultimate_Walker_IK_v1_0_1:walker_lf_leg_rig_grp|Ultimate_Walker_IK_v1_0_1:walker_lf_heel_ik_ctrl_frzGrp|Ultimate_Walker_IK_v1_0_1:walker_lf_heel_ik_ctrl.pvControl" 
@@ -728,8 +727,8 @@ createNode animCurveTU -n "walker_rt_heel_ik_ctrl_toeTwist";
 	setAttr -s 9 ".kix[0:8]"  1 1 1 1 1 1 1 1 1;
 	setAttr -s 9 ".kiy[0:8]"  0 0 0 0 0 0 0 0 0;
 select -ne :time1;
-	setAttr ".o" 16;
-	setAttr ".unw" 16;
+	setAttr ".o" 7;
+	setAttr ".unw" 7;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
@@ -779,7 +778,6 @@ select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
 select -ne :ikSystem;
-	setAttr -s 4 ".sol";
 connectAttr "walker_lf_heel_ik_ctrl_pvControl.o" "Ultimate_Walker_IK_v1_0_1RN.phl[1]"
 		;
 connectAttr "walker_lf_heel_ik_ctrl_legTwist.o" "Ultimate_Walker_IK_v1_0_1RN.phl[2]"

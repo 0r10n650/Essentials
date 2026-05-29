@@ -21,10 +21,10 @@ TagManager:
   - PowerUps
   - 
   - 
-  - PowerDowns
+  - Debuffs
   - 
   - 
-  - Flipper
+  - 
   - 
   - 
   - 
@@ -43,3 +43,4 @@ TagManager:
     locked: 0
   m_RenderingLayers:
   - Default
+  m_MigratedRenderPipelines: []
