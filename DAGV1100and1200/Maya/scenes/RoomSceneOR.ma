@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: RoomSceneOR.ma
-//Last modified: Wed, Jun 10, 2026 04:23:43 PM
+//Last modified: Wed, Jun 10, 2026 04:24:47 PM
 //Codeset: 1252
 file -rdi 1 -ns "Floor" -rfn "FloorRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/Floor.ma";
 file -rdi 1 -ns "BlankWall" -rfn "BlankWallRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/BlankWall.ma";
@@ -37,17 +37,17 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202603302215-e16e754b0e";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "875424D5-4563-FDDF-BDB0-ED8287F5BE62";
+fileInfo "UUID" "6B56903C-4ECD-5E97-9E22-BFAA17222A91";
 createNode transform -s -n "persp";
 	rename -uid "3DB38EFD-4CC0-FF7E-305F-B2A07B8118E0";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 39.463131738129604 24.374755778740507 30.516711244360337 ;
-	setAttr ".r" -type "double3" -21.938352729645452 50.600000000003512 -2.5054370439965102e-15 ;
+	setAttr ".t" -type "double3" 39.453436513535941 25.179809762977225 29.994380799413989 ;
+	setAttr ".r" -type "double3" -22.538352729645705 51.800000000003834 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "169DBE45-4284-ABF0-0CBA-50B8316BBC60";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 56.463248636121151;
+	setAttr ".coi" 56.463248636115495;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
