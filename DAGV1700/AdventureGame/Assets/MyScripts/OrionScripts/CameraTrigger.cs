@@ -3,13 +3,18 @@ using UnityEngine;
 public class CameraTrigger : MonoBehaviour
 {
     public CameraTransition cameraTransition;
-    [SerializeField] private Vector3 cameraTargetPosition;
 
     private void OnTriggerEnter(Collider other)
     {
+        
         if (other.CompareTag("Player"))
         {
-            cameraTransition.SlideToNextArea(cameraTargetPosition);
+            Vector3 targetPosition = new Vector3(
+                transform.position.x,
+                transform.position.y,
+                -10f
+            );
+            cameraTransition.SlideToNextArea(targetPosition);
         }
     }
 }
