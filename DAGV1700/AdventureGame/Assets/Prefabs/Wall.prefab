@@ -141,6 +141,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WallBreakingBehaviour
   requiredSpeed: 7.5
+  boxBreakPrefab: {fileID: 7044399405902710374, guid: 086189de0a9058f44af60f96ce5756e0, type: 3}
+  pieceSprites:
+  - {fileID: -4784554060977693878, guid: a766483fddea6b64f827838e089d1970, type: 3}
+  - {fileID: 2985246200973115026, guid: a766483fddea6b64f827838e089d1970, type: 3}
+  - {fileID: -8102069304995713464, guid: a766483fddea6b64f827838e089d1970, type: 3}
+  - {fileID: 2874570451049708880, guid: a766483fddea6b64f827838e089d1970, type: 3}
+  pieceSpeed: 5
+  spreadAngle: 75
+  useGravity: 1
 --- !u!1001 &1702346858359748922
 PrefabInstance:
   m_ObjectHideFlags: 0
