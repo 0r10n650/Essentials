@@ -22,6 +22,8 @@ public class WallBreakingBehaviour : MonoBehaviour
 
     private bool isBreaking = false;
 
+    public AudioClip breakSound;
+
     public void CheckCollisionSpeed()
     {
         if (isBreaking) return;
@@ -39,6 +41,8 @@ public class WallBreakingBehaviour : MonoBehaviour
     private void SpawnPiecesFromChildren()
     {
         isBreaking = true;
+        if (breakSound != null)
+            AudioSource.PlayClipAtPoint(breakSound, transform.position);
 
         foreach (Transform child in transform)
         {
