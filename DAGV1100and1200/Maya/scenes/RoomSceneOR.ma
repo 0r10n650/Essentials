@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: RoomSceneOR.ma
-//Last modified: Thu, Jun 25, 2026 02:57:03 PM
+//Last modified: Thu, Jun 25, 2026 07:20:19 PM
 //Codeset: 1252
 file -rdi 1 -ns "Floor" -dr 1 -rfn "FloorRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/Floor.ma";
 file -rdi 1 -ns "BlankWall" -rfn "BlankWallRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/BlankWall.ma";
@@ -10,7 +10,7 @@ file -rdi 1 -ns "BookShelves" -rfn "BookShelvesRN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/BookShelves.ma";
 file -rdi 1 -ns "Table" -rfn "TableRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/Table.ma";
 file -rdi 1 -ns "Pillar" -rfn "PillarRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/Pillar.ma";
-file -rdi 1 -ns "Ladder" -rfn "LadderRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/Ladder.ma";
+file -rdi 1 -ns "Ladder" -dr 1 -rfn "LadderRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/Ladder.ma";
 file -rdi 1 -ns "Chair" -rfn "ChairRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/Chair.ma";
 file -rdi 1 -ns "Chair1" -rfn "ChairRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/Chair.ma";
 file -rdi 1 -ns "BookSet" -rfn "BookSetRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/BookSet.ma";
@@ -20,6 +20,7 @@ file -rdi 1 -ns "Globe" -rfn "GlobeRN" -op "v=0;" -typ "mayaAscii" "C:/Users/ori
 file -rdi 1 -ns "Books" -dr 1 -rfn "BooksRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/Books.ma";
 file -rdi 1 -ns "BookSet2" -rfn "BookSetRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/assets/BookSet.ma";
 file -rdi 1 -ns "Floor1" -rfn "FloorRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/assets/Floor.ma";
+file -rdi 1 -ns "Ladder1" -rfn "LadderRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/Ladder.ma";
 file -r -ns "Floor" -dr 1 -rfn "FloorRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/Floor.ma";
 file -r -ns "BlankWall" -dr 1 -rfn "BlankWallRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/BlankWall.ma";
 file -r -ns "WindowWall" -dr 1 -rfn "WindowWallRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/WindowWall.ma";
@@ -37,6 +38,7 @@ file -r -ns "Globe" -dr 1 -rfn "GlobeRN" -op "v=0;" -typ "mayaAscii" "C:/Users/o
 file -r -ns "Books" -dr 1 -rfn "BooksRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/Books.ma";
 file -r -ns "BookSet2" -dr 1 -rfn "BookSetRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/assets/BookSet.ma";
 file -r -ns "Floor1" -dr 1 -rfn "FloorRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/assets/Floor.ma";
+file -r -ns "Ladder1" -dr 1 -rfn "LadderRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/Ladder.ma";
 requires maya "2027";
 requires "stereoCamera" "10.0";
 requires "mtoa" "5.6.0";
@@ -46,17 +48,17 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202603302215-e16e754b0e";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "273DC1D0-4BBC-8C77-3499-909A0F05D78D";
+fileInfo "UUID" "71C1B5C1-44F4-147F-F3AE-19B6E4051BCC";
 createNode transform -s -n "persp";
 	rename -uid "3DB38EFD-4CC0-FF7E-305F-B2A07B8118E0";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 31.413670252029288 15.950561160325279 29.913964505929638 ;
-	setAttr ".r" -type "double3" -14.738352729713178 407.79999999996789 -1.1837342535038086e-15 ;
+	setAttr ".t" -type "double3" 36.833012919572397 26.578777307845883 32.456628639275287 ;
+	setAttr ".r" -type "double3" -27.338352729645973 404.99999999987233 -2.2489917831924613e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "169DBE45-4284-ABF0-0CBA-50B8316BBC60";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 38.097449473499005;
+	setAttr ".coi" 57.612949596945604;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -25672,20 +25674,20 @@ createNode mesh -n "BookSet6Shape" -p "BookSet6";
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "686BD5EB-4F11-5A73-B8EB-26A53CBDF86E";
+	rename -uid "68DA845B-45E7-D5FA-83E3-4B97CBCD7AA3";
 	setAttr -s 20 ".lnk";
 	setAttr -s 20 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "0A17E2BF-40D3-4E8F-38A2-DF885CA0ACB9";
+	rename -uid "E8232ADE-4EAC-8F93-BE5E-24846630DF2A";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "84908B8C-4137-2FDF-1DEB-7991ED974077";
+	rename -uid "24C3BF8E-45CB-9513-1E8A-FAA7A836C125";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "013AACFF-4EF0-68BC-29A3-02BFF131C514";
+	rename -uid "9605F35F-4E4F-537B-E38E-AD9BABDD576D";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "2B219338-47E5-9EC1-8590-5B856A915CAD";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "A5B8833F-486C-7187-C703-0FB9903A64ED";
+	rename -uid "46BC38A3-409F-0614-C4F8-36BDED7E4699";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "80E90F62-4AC4-EF0D-B2D5-7380AF9073F3";
 	setAttr ".g" yes;
@@ -25728,8 +25730,7 @@ createNode reference -n "FloorRN";
 		2 "|Floor:Floor|Floor:FloorShape" "pnts[7]" " -type \"float3\" 0 0 0"
 		2 "|Floor:Floor|Floor:FloorShape" "pnts[7].pntx" " -av"
 		2 "|Floor:Floor|Floor:FloorShape" "pnts[7].pnty" " -av"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[7].pntz" " -av"
-		"FloorRN" 0;
+		2 "|Floor:Floor|Floor:FloorShape" "pnts[7].pntz" " -av";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "BlankWallRN";
@@ -25778,7 +25779,7 @@ createNode reference -n "BookShelvesRN";
 lockNode -l 1 ;
 createNode reference -n "TableRN";
 	rename -uid "62F4D474-45E7-9A2D-90CA-DC9B57C11958";
-	setAttr ".fn[0]" -type "string" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/Table.ma";
+	setAttr ".fn[0]" -type "string" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/assets/Table.ma";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"TableRN"
 		"TableRN" 0
@@ -25796,22 +25797,24 @@ createNode reference -n "PillarRN";
 lockNode -l 1 ;
 createNode reference -n "LadderRN";
 	rename -uid "DE60CB0B-49CC-B162-8FB4-D3B5682DDE77";
-	setAttr ".phl[1]" 0;
+	setAttr ".phl[1]" -type "TdataCompound" ;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"LadderRN"
-		"LadderRN" 0
-		"LadderRN" 8
+		"LadderRN" 11
 		2 "|Ladder:Ladder" "translate" " -type \"double3\" 3.80399820377154274 -0.45040839910507202 -17.41022681682653683"
 		
 		2 "|Ladder:Ladder" "rotate" " -type \"double3\" 0 180 0"
+		2 "|Ladder:Ladder" "rotateX" " -av"
+		2 "|Ladder:Ladder" "rotateY" " -av"
+		2 "|Ladder:Ladder" "rotateZ" " -av"
 		2 "|Ladder:Ladder" "rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		3 "Ladder:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Ladder:groupId1.groupId" "|Ladder:Ladder|Ladder:LadderShape.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Ladder:Ladder|Ladder:LadderShape.instObjGroups.objectGroups[0].objectGrpColor" 
 		""
 		3 "|Ladder:Ladder|Ladder:LadderShape.instObjGroups.objectGroups[0]" ":initialShadingGroup.dagSetMembers" 
 		"-na"
+		3 "Ladder:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 1 "LadderRN" "|Ladder:Ladder|Ladder:LadderShape.instObjGroups" "LadderRN.placeHolderList[1]" 
 		"";
 	setAttr ".ptag" -type "string" "";
@@ -25848,7 +25851,7 @@ createNode reference -n "ChairRN1";
 lockNode -l 1 ;
 createNode reference -n "BookSetRN";
 	rename -uid "F5B6ED18-4DB0-1519-5058-86A4939D9021";
-	setAttr ".fn[0]" -type "string" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/BookSet.ma";
+	setAttr ".fn[0]" -type "string" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/assets/BookSet.ma";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"BookSetRN"
 		"BookSetRN" 0
@@ -25949,10 +25952,6 @@ createNode reference -n "GlobeRN";
 		
 		2 "|Globe:polySurface3|Globe:polySurfaceShape4" "instObjGroups.objectGroups" 
 		" -s 6"
-		3 "Globe:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
-		3 "Globe:groupId2.message" ":initialShadingGroup.groupNodes" "-na"
-		3 "Globe:groupId4.message" ":initialShadingGroup.groupNodes" "-na"
-		3 "Globe:groupId3.message" ":initialShadingGroup.groupNodes" "-na"
 		3 "Globe:groupId1.groupId" "|Globe:polySurface3|Globe:polySurfaceShape4.instObjGroups.objectGroups[0].objectGroupId" 
 		""
 		3 ":initialShadingGroup.memberWireframeColor" "|Globe:polySurface3|Globe:polySurfaceShape4.instObjGroups.objectGroups[0].objectGrpColor" 
@@ -25977,6 +25976,10 @@ createNode reference -n "GlobeRN";
 		""
 		3 "|Globe:polySurface3|Globe:polySurfaceShape4.instObjGroups.objectGroups[3]" 
 		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Globe:groupId2.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Globe:groupId3.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Globe:groupId4.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Globe:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
 		5 1 "GlobeRN" "|Globe:polySurface3|Globe:polySurfaceShape4.instObjGroups" 
 		"GlobeRN.placeHolderList[1]" "";
 	setAttr ".ptag" -type "string" "";
@@ -26075,6 +26078,19 @@ createNode reference -n "FloorRN1";
 		"";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
+createNode reference -n "LadderRN1";
+	rename -uid "5EE87A43-497F-88A8-076D-A8AA392479F4";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"LadderRN1"
+		"LadderRN1" 0
+		"LadderRN1" 4
+		2 "|Ladder1:Ladder" "translate" " -type \"double3\" 8.00101664369291754 0 -17.51179599254692221"
+		
+		2 "|Ladder1:Ladder" "rotate" " -type \"double3\" 0 180 0"
+		2 "|Ladder1:Ladder" "rotateY" " -av"
+		2 "|Ladder1:Ladder" "rotatePivotTranslate" " -type \"double3\" 0 0 0";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
 select -ne :time1;
 	setAttr ".o" 1;
 	setAttr ".unw" 1;
@@ -26086,19 +26102,18 @@ select -ne :hardwareRenderingGlobals;
 	setAttr ".fprt" yes;
 	setAttr ".rtfm" 1;
 select -ne :renderPartition;
-	setAttr -s 17 ".st";
+	setAttr -s 18 ".st";
 select -ne :renderGlobalsList1;
 select -ne :defaultShaderList1;
-	setAttr -s 11 ".s";
+	setAttr -s 12 ".s";
 select -ne :postProcessList1;
 	setAttr -s 2 ".p";
 select -ne :defaultRenderUtilityList1;
-	setAttr -s 11 ".u";
+	setAttr -s 12 ".u";
 select -ne :defaultRenderingList1;
 	setAttr -s 14 ".r";
 select -ne :defaultTextureList1;
-	setAttr -s 11 ".tx";
-select -ne :lambert1;
+	setAttr -s 12 ".tx";
 select -ne :standardSurface1;
 	setAttr ".bc" -type "float3" 0.40000001 0.40000001 0.40000001 ;
 	setAttr ".sr" 0.5;
@@ -26110,7 +26125,7 @@ select -ne :initialShadingGroup;
 select -ne :initialParticleSE;
 	setAttr ".ro" yes;
 select -ne :initialMaterialInfo;
-	setAttr -s 2 ".t";
+	setAttr -s 3 ".t";
 select -ne :defaultRenderGlobals;
 	addAttr -ci true -h true -sn "dss" -ln "defaultSurfaceShader" -dt "string";
 	setAttr ".ren" -type "string" "arnold";
@@ -26149,6 +26164,7 @@ connectAttr "layerManager.dli[0]" "defaultLayer.id";
 connectAttr "renderLayerManager.rlmi[0]" "defaultRenderLayer.rlid";
 connectAttr "sharedReferenceNode.sr" "FloorRN.sr";
 connectAttr "sharedReferenceNode.sr" "TableRN.sr";
+connectAttr "sharedReferenceNode.sr" "LadderRN.sr";
 connectAttr "sharedReferenceNode.sr" "BookSetRN.sr";
 connectAttr "standardSurface2.oc" "standardSurface2SG.ss";
 connectAttr "standardSurface2SG.msg" "materialInfo1.sg";
