@@ -1,8 +1,7 @@
 //Maya ASCII 2027 scene
 //Name: RoomSceneOR.ma
-//Last modified: Thu, Jul 02, 2026 03:13:57 PM
+//Last modified: Thu, Jul 02, 2026 03:35:11 PM
 //Codeset: 1252
-file -rdi 1 -ns "Floor" -dr 1 -rfn "FloorRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/Floor.ma";
 file -rdi 1 -ns "BlankWall" -rfn "BlankWallRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/BlankWall.ma";
 file -rdi 1 -ns "WindowWall" -rfn "WindowWallRN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/WindowWall.ma";
@@ -12,21 +11,10 @@ file -rdi 2 -ns "BookShelves" -dr 1 -rfn "WindowWall:BookShelvesRN" -op "v=0;"
 		 -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/assets/BookShelves.ma";
 file -rdi 2 -ns "BlankWall" -dr 1 -rfn "WindowWall:BlankWallRN1" -op "v=0;"
 		 -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/assets/BlankWall.ma";
-file -rdi 1 -ns "BookShelves" -dr 1 -rfn "BookShelvesRN" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/BookShelves.ma";
 file -rdi 1 -ns "Table" -rfn "TableRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/Table.ma";
 file -rdi 1 -ns "Pillar" -rfn "PillarRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/Pillar.ma";
-file -rdi 1 -ns "Ladder" -dr 1 -rfn "LadderRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/Ladder.ma";
 file -rdi 1 -ns "Chair" -rfn "ChairRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/Chair.ma";
 file -rdi 1 -ns "Chair1" -rfn "ChairRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/Chair.ma";
-file -rdi 1 -ns "BookSet" -dr 1 -rfn "BookSetRN" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/BookSet.ma";
-file -rdi 1 -ns "Unit5_LabScene" -dr 1 -rfn "Unit5_LabSceneRN" -op "v=0;" -typ
-		 "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/Unit5_LabScene.ma";
-file -rdi 1 -ns "Globe" -dr 1 -rfn "GlobeRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/Globe.ma";
-file -rdi 1 -ns "Books" -dr 1 -rfn "BooksRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/Books.ma";
-file -rdi 1 -ns "BookSet2" -dr 1 -rfn "BookSetRN1" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/assets/BookSet.ma";
 file -rdi 1 -ns "Floor1" -rfn "FloorRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/assets/Floor.ma";
 file -rdi 1 -ns "Ladder1" -rfn "LadderRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/Ladder.ma";
 file -rdi 1 -ns "Globe1" -rfn "GlobeRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/Globe.ma";
@@ -36,22 +24,12 @@ file -rdi 1 -ns "BookShelves" -rfn "BookShelvesRN1" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/assets/BookShelves.ma";
 file -rdi 2 -ns "BookSet" -rfn "BookShelves:BookSetRN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/assets/BookSet.ma";
-file -r -ns "Floor" -dr 1 -rfn "FloorRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/Floor.ma";
 file -r -ns "BlankWall" -dr 1 -rfn "BlankWallRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/BlankWall.ma";
 file -r -ns "WindowWall" -dr 1 -rfn "WindowWallRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/WindowWall.ma";
-file -r -ns "BookShelves" -dr 1 -rfn "BookShelvesRN" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/BookShelves.ma";
 file -r -ns "Table" -dr 1 -rfn "TableRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/Table.ma";
 file -r -ns "Pillar" -dr 1 -rfn "PillarRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/Pillar.ma";
-file -r -ns "Ladder" -dr 1 -rfn "LadderRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/Ladder.ma";
 file -r -ns "Chair" -dr 1 -rfn "ChairRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/Chair.ma";
 file -r -ns "Chair1" -dr 1 -rfn "ChairRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/Chair.ma";
-file -r -ns "BookSet" -dr 1 -rfn "BookSetRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//assets/BookSet.ma";
-file -r -ns "Unit5_LabScene" -dr 1 -rfn "Unit5_LabSceneRN" -op "v=0;" -typ "mayaAscii"
-		 "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/Unit5_LabScene.ma";
-file -r -ns "Globe" -dr 1 -rfn "GlobeRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/Globe.ma";
-file -r -ns "Books" -dr 1 -rfn "BooksRN" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/Books.ma";
-file -r -ns "BookSet2" -dr 1 -rfn "BookSetRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/assets/BookSet.ma";
 file -r -ns "Floor1" -dr 1 -rfn "FloorRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/assets/Floor.ma";
 file -r -ns "Ladder1" -dr 1 -rfn "LadderRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/Ladder.ma";
 file -r -ns "Globe1" -dr 1 -rfn "GlobeRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/Globe.ma";
@@ -68,17 +46,17 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202603302215-e16e754b0e";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "B0F019F5-46C1-7209-ACC1-FEA717062C31";
+fileInfo "UUID" "EE774FDC-43B4-AFEF-E699-40BF0432F216";
 createNode transform -s -n "persp";
 	rename -uid "3DB38EFD-4CC0-FF7E-305F-B2A07B8118E0";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 41.056226110070995 24.735944840723597 37.040250211870656 ;
-	setAttr ".r" -type "double3" -21.338352729620841 44.999999999998835 0 ;
+	setAttr ".t" -type "double3" 12.024402145644586 15.010450572226526 15.304743962168786 ;
+	setAttr ".r" -type "double3" -32.738352729618683 42.19999999999839 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "169DBE45-4284-ABF0-0CBA-50B8316BBC60";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 53.288410183686977;
+	setAttr ".coi" 24.915349952937461;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -133,7 +111,9 @@ createNode camera -s -n "sideShape" -p "side";
 	setAttr ".hc" -type "string" "viewSet -s %camera";
 	setAttr ".o" yes;
 	setAttr ".ai_translator" -type "string" "orthographic";
-createNode transform -n "BookShelf1";
+createNode transform -n "Shelves";
+	rename -uid "A328E932-4AD6-58FC-BFD6-379FB11BBD41";
+createNode transform -n "BookShelf1" -p "Shelves";
 	rename -uid "C5AEA624-4BC5-85D2-C00F-1DBFC95B10EF";
 	setAttr ".t" -type "double3" -11.704151153564453 3.414700984954834 -7.6841006278991699 ;
 	setAttr ".r" -type "double3" 0 180 0 ;
@@ -334,7 +314,7 @@ createNode transform -n "pCube6" -p "BookShelf1";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape6" -p "|BookShelf1|pCube6";
+createNode mesh -n "pCubeShape6" -p "|Shelves|BookShelf1|pCube6";
 	rename -uid "F4899453-492C-DF3C-3F23-DA86C738FC89";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -502,7 +482,7 @@ createNode transform -n "pCube2" -p "BookShelf1";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape2" -p "|BookShelf1|pCube2";
+createNode mesh -n "pCubeShape2" -p "|Shelves|BookShelf1|pCube2";
 	rename -uid "3A0C63BA-4D8F-34ED-CE98-218486160EBA";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -670,7 +650,7 @@ createNode transform -n "pCube5" -p "BookShelf1";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape5" -p "|BookShelf1|pCube5";
+createNode mesh -n "pCubeShape5" -p "|Shelves|BookShelf1|pCube5";
 	rename -uid "467EFA5C-4C86-8922-8805-CCBC19227E71";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -838,7 +818,7 @@ createNode transform -n "pCube3" -p "BookShelf1";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape3" -p "|BookShelf1|pCube3";
+createNode mesh -n "pCubeShape3" -p "|Shelves|BookShelf1|pCube3";
 	rename -uid "C7CC6D19-4C25-641B-75F1-5893A206065B";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -1006,7 +986,7 @@ createNode transform -n "pCube9" -p "BookShelf1";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 -1.3877787807814457e-17 4.2188474935755949e-15 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape9" -p "|BookShelf1|pCube9";
+createNode mesh -n "pCubeShape9" -p "|Shelves|BookShelf1|pCube9";
 	rename -uid "8F494A3E-4908-40BF-F3D1-E6BCC6A6B254";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -1174,7 +1154,7 @@ createNode transform -n "pCube7" -p "BookShelf1";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape7" -p "|BookShelf1|pCube7";
+createNode mesh -n "pCubeShape7" -p "|Shelves|BookShelf1|pCube7";
 	rename -uid "AE31C6CF-4516-F05D-F38D-C4AC0E121F82";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -1342,7 +1322,7 @@ createNode transform -n "pCube1" -p "BookShelf1";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape1" -p "|BookShelf1|pCube1";
+createNode mesh -n "pCubeShape1" -p "|Shelves|BookShelf1|pCube1";
 	rename -uid "8EE65C35-4148-2F71-79EF-B2BC5410E26A";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -1510,7 +1490,7 @@ createNode transform -n "pCube8" -p "BookShelf1";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape8" -p "|BookShelf1|pCube8";
+createNode mesh -n "pCubeShape8" -p "|Shelves|BookShelf1|pCube8";
 	rename -uid "7090C257-4304-8C55-3BE7-DD9ECE5E6B6D";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -1678,7 +1658,7 @@ createNode transform -n "pCube4" -p "BookShelf1";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape4" -p "|BookShelf1|pCube4";
+createNode mesh -n "pCubeShape4" -p "|Shelves|BookShelf1|pCube4";
 	rename -uid "6600D960-4F06-ABFB-4D1A-898E0CFEDA25";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -1845,7 +1825,7 @@ createNode transform -n "pCube10" -p "BookShelf1";
 	setAttr ".rp" -type "double3" 0.86868900060653664 -1.1685971619569056 -0.20682014524936676 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape10" -p "|BookShelf1|pCube10";
+createNode mesh -n "pCubeShape10" -p "|Shelves|BookShelf1|pCube10";
 	rename -uid "456CD20C-46F0-E410-4CAB-3F8FBFA54426";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -2004,7 +1984,7 @@ createNode mesh -n "pCubeShape10" -p "|BookShelf1|pCube10";
 		21 0 
 		29 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-createNode transform -n "BookShelf2";
+createNode transform -n "BookShelf2" -p "Shelves";
 	rename -uid "909845B6-4D0C-7115-6ABF-6CA1733F5314";
 	setAttr ".t" -type "double3" -11.704151153564453 5.6635875701904297 -7.6841006278991699 ;
 	setAttr ".r" -type "double3" 0 180 0 ;
@@ -2205,7 +2185,7 @@ createNode transform -n "pCube6" -p "BookShelf2";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape6" -p "|BookShelf2|pCube6";
+createNode mesh -n "pCubeShape6" -p "|Shelves|BookShelf2|pCube6";
 	rename -uid "C9C670E1-40A9-A633-869E-BDB64333819B";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -2373,7 +2353,7 @@ createNode transform -n "pCube2" -p "BookShelf2";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape2" -p "|BookShelf2|pCube2";
+createNode mesh -n "pCubeShape2" -p "|Shelves|BookShelf2|pCube2";
 	rename -uid "9144ED8C-4E2F-27DC-F59D-248CE2A9A90B";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -2541,7 +2521,7 @@ createNode transform -n "pCube5" -p "BookShelf2";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape5" -p "|BookShelf2|pCube5";
+createNode mesh -n "pCubeShape5" -p "|Shelves|BookShelf2|pCube5";
 	rename -uid "7D88E4F4-4D86-5B29-F780-84AFDF826F1B";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -2709,7 +2689,7 @@ createNode transform -n "pCube3" -p "BookShelf2";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape3" -p "|BookShelf2|pCube3";
+createNode mesh -n "pCubeShape3" -p "|Shelves|BookShelf2|pCube3";
 	rename -uid "DC8E455E-4139-97E2-0298-34AB1E772426";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -2877,7 +2857,7 @@ createNode transform -n "pCube9" -p "BookShelf2";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 -1.3877787807814457e-17 4.2188474935755949e-15 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape9" -p "|BookShelf2|pCube9";
+createNode mesh -n "pCubeShape9" -p "|Shelves|BookShelf2|pCube9";
 	rename -uid "BD2BA3FC-4B46-870B-6B7E-D7B5CB188963";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -3045,7 +3025,7 @@ createNode transform -n "pCube7" -p "BookShelf2";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape7" -p "|BookShelf2|pCube7";
+createNode mesh -n "pCubeShape7" -p "|Shelves|BookShelf2|pCube7";
 	rename -uid "E2B6BA00-4AD9-03C7-5E6D-28B0CA3A895B";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -3213,7 +3193,7 @@ createNode transform -n "pCube1" -p "BookShelf2";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape1" -p "|BookShelf2|pCube1";
+createNode mesh -n "pCubeShape1" -p "|Shelves|BookShelf2|pCube1";
 	rename -uid "AC7CB39C-4E5D-07B4-7169-4697ED9B78EF";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -3381,7 +3361,7 @@ createNode transform -n "pCube8" -p "BookShelf2";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape8" -p "|BookShelf2|pCube8";
+createNode mesh -n "pCubeShape8" -p "|Shelves|BookShelf2|pCube8";
 	rename -uid "B3BA776D-482A-0E9E-D81C-59A5180F4933";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -3549,7 +3529,7 @@ createNode transform -n "pCube4" -p "BookShelf2";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape4" -p "|BookShelf2|pCube4";
+createNode mesh -n "pCubeShape4" -p "|Shelves|BookShelf2|pCube4";
 	rename -uid "31A93076-4523-812F-BF73-BA9F11229EA2";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -3716,7 +3696,7 @@ createNode transform -n "pCube10" -p "BookShelf2";
 	setAttr ".rp" -type "double3" 0.86868900060653664 -1.1685971619569056 -0.20682014524936676 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape10" -p "|BookShelf2|pCube10";
+createNode mesh -n "pCubeShape10" -p "|Shelves|BookShelf2|pCube10";
 	rename -uid "C61D1965-41E7-3B6F-40B1-7CA334E9AC44";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -3875,7 +3855,7 @@ createNode mesh -n "pCubeShape10" -p "|BookShelf2|pCube10";
 		21 0 
 		29 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-createNode transform -n "BookShelf3";
+createNode transform -n "BookShelf3" -p "Shelves";
 	rename -uid "DF56E1DD-4B2B-4B40-532E-CDB74046C01C";
 	setAttr ".t" -type "double3" -11.704151153564453 7.9124741554260254 -7.6841006278991699 ;
 	setAttr ".r" -type "double3" 0 180 0 ;
@@ -4076,7 +4056,7 @@ createNode transform -n "pCube6" -p "BookShelf3";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape6" -p "|BookShelf3|pCube6";
+createNode mesh -n "pCubeShape6" -p "|Shelves|BookShelf3|pCube6";
 	rename -uid "88AB0024-420F-F6DB-5A66-6E8D3C2EA568";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -4244,7 +4224,7 @@ createNode transform -n "pCube2" -p "BookShelf3";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape2" -p "|BookShelf3|pCube2";
+createNode mesh -n "pCubeShape2" -p "|Shelves|BookShelf3|pCube2";
 	rename -uid "93882B03-4878-7EB2-5F20-07B59CC7CD23";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -4412,7 +4392,7 @@ createNode transform -n "pCube5" -p "BookShelf3";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape5" -p "|BookShelf3|pCube5";
+createNode mesh -n "pCubeShape5" -p "|Shelves|BookShelf3|pCube5";
 	rename -uid "59C21F7B-49FF-2BFE-518B-18B5C58AF2F3";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -4580,7 +4560,7 @@ createNode transform -n "pCube3" -p "BookShelf3";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape3" -p "|BookShelf3|pCube3";
+createNode mesh -n "pCubeShape3" -p "|Shelves|BookShelf3|pCube3";
 	rename -uid "947DBAEA-45AC-6DB5-02CF-9690AB0F2670";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -4748,7 +4728,7 @@ createNode transform -n "pCube9" -p "BookShelf3";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 -1.3877787807814457e-17 4.2188474935755949e-15 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape9" -p "|BookShelf3|pCube9";
+createNode mesh -n "pCubeShape9" -p "|Shelves|BookShelf3|pCube9";
 	rename -uid "DFF5F3A5-4AEA-6E89-57E7-46AC5117CE8C";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -4916,7 +4896,7 @@ createNode transform -n "pCube7" -p "BookShelf3";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape7" -p "|BookShelf3|pCube7";
+createNode mesh -n "pCubeShape7" -p "|Shelves|BookShelf3|pCube7";
 	rename -uid "0412C532-44EF-A311-4E53-5984643C489E";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -5084,7 +5064,7 @@ createNode transform -n "pCube1" -p "BookShelf3";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape1" -p "|BookShelf3|pCube1";
+createNode mesh -n "pCubeShape1" -p "|Shelves|BookShelf3|pCube1";
 	rename -uid "D1AEBE5F-4B1E-ED7D-EA01-28895A39F201";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -5252,7 +5232,7 @@ createNode transform -n "pCube8" -p "BookShelf3";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape8" -p "|BookShelf3|pCube8";
+createNode mesh -n "pCubeShape8" -p "|Shelves|BookShelf3|pCube8";
 	rename -uid "07C359EB-4A09-B634-8604-A8A431E2D3BE";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -5420,7 +5400,7 @@ createNode transform -n "pCube4" -p "BookShelf3";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape4" -p "|BookShelf3|pCube4";
+createNode mesh -n "pCubeShape4" -p "|Shelves|BookShelf3|pCube4";
 	rename -uid "245DF13F-437C-F9D9-FA42-9B931C802755";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -5587,7 +5567,7 @@ createNode transform -n "pCube10" -p "BookShelf3";
 	setAttr ".rp" -type "double3" 0.86868900060653664 -1.1685971619569056 -0.20682014524936676 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape10" -p "|BookShelf3|pCube10";
+createNode mesh -n "pCubeShape10" -p "|Shelves|BookShelf3|pCube10";
 	rename -uid "B421F450-4103-FD03-8452-519F2E8939ED";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -5746,7 +5726,7 @@ createNode mesh -n "pCubeShape10" -p "|BookShelf3|pCube10";
 		21 0 
 		29 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-createNode transform -n "BookShelf4";
+createNode transform -n "BookShelf4" -p "Shelves";
 	rename -uid "49907341-464C-9483-C9BD-DBA52A82C427";
 	setAttr ".t" -type "double3" -11.704151153564453 1.1658143997192383 -4.112332820892334 ;
 	setAttr ".r" -type "double3" 0 180 0 ;
@@ -5947,7 +5927,7 @@ createNode transform -n "pCube6" -p "BookShelf4";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape6" -p "|BookShelf4|pCube6";
+createNode mesh -n "pCubeShape6" -p "|Shelves|BookShelf4|pCube6";
 	rename -uid "830D14B6-4B8A-3D15-B1F7-7EA7A3CEE389";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -6115,7 +6095,7 @@ createNode transform -n "pCube2" -p "BookShelf4";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape2" -p "|BookShelf4|pCube2";
+createNode mesh -n "pCubeShape2" -p "|Shelves|BookShelf4|pCube2";
 	rename -uid "AF579173-4E51-8335-EA43-57A79FA1654E";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -6283,7 +6263,7 @@ createNode transform -n "pCube5" -p "BookShelf4";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape5" -p "|BookShelf4|pCube5";
+createNode mesh -n "pCubeShape5" -p "|Shelves|BookShelf4|pCube5";
 	rename -uid "79B03249-4A01-9C10-811A-6DBC7792924A";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -6451,7 +6431,7 @@ createNode transform -n "pCube3" -p "BookShelf4";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape3" -p "|BookShelf4|pCube3";
+createNode mesh -n "pCubeShape3" -p "|Shelves|BookShelf4|pCube3";
 	rename -uid "B0C9216E-4050-1DC4-8E83-9BB5FCBB98D2";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -6619,7 +6599,7 @@ createNode transform -n "pCube9" -p "BookShelf4";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 -1.3877787807814457e-17 4.2188474935755949e-15 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape9" -p "|BookShelf4|pCube9";
+createNode mesh -n "pCubeShape9" -p "|Shelves|BookShelf4|pCube9";
 	rename -uid "3C07FB86-41E8-5E01-1F2E-6492DC973FCC";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -6787,7 +6767,7 @@ createNode transform -n "pCube7" -p "BookShelf4";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape7" -p "|BookShelf4|pCube7";
+createNode mesh -n "pCubeShape7" -p "|Shelves|BookShelf4|pCube7";
 	rename -uid "427EC624-41CF-4190-4313-9D884178873F";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -6955,7 +6935,7 @@ createNode transform -n "pCube1" -p "BookShelf4";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape1" -p "|BookShelf4|pCube1";
+createNode mesh -n "pCubeShape1" -p "|Shelves|BookShelf4|pCube1";
 	rename -uid "8A4B1412-4DCC-794A-45B4-198F886ED81E";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -7123,7 +7103,7 @@ createNode transform -n "pCube8" -p "BookShelf4";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape8" -p "|BookShelf4|pCube8";
+createNode mesh -n "pCubeShape8" -p "|Shelves|BookShelf4|pCube8";
 	rename -uid "DD32BEF6-487C-7522-C5F1-A6801679EA6E";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -7291,7 +7271,7 @@ createNode transform -n "pCube4" -p "BookShelf4";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape4" -p "|BookShelf4|pCube4";
+createNode mesh -n "pCubeShape4" -p "|Shelves|BookShelf4|pCube4";
 	rename -uid "3218EBBA-412B-FF00-3FE5-26A562E444F6";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -7458,7 +7438,7 @@ createNode transform -n "pCube10" -p "BookShelf4";
 	setAttr ".rp" -type "double3" 0.86868900060653664 -1.1685971619569056 -0.20682014524936676 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape10" -p "|BookShelf4|pCube10";
+createNode mesh -n "pCubeShape10" -p "|Shelves|BookShelf4|pCube10";
 	rename -uid "E2CB171D-4810-FAF7-78E2-3399836035E6";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -7617,7 +7597,7 @@ createNode mesh -n "pCubeShape10" -p "|BookShelf4|pCube10";
 		21 0 
 		29 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-createNode transform -n "BookShelf5";
+createNode transform -n "BookShelf5" -p "Shelves";
 	rename -uid "46C89303-44E1-30CE-AB63-57B6E3634BF0";
 	setAttr ".t" -type "double3" -11.704151153564453 1.1658143997192383 -0.54056501388549805 ;
 	setAttr ".r" -type "double3" 0 180 0 ;
@@ -7818,7 +7798,7 @@ createNode transform -n "pCube6" -p "BookShelf5";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape6" -p "|BookShelf5|pCube6";
+createNode mesh -n "pCubeShape6" -p "|Shelves|BookShelf5|pCube6";
 	rename -uid "EFA2698D-40F5-991D-9C9C-C9BB161C837B";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -7986,7 +7966,7 @@ createNode transform -n "pCube2" -p "BookShelf5";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape2" -p "|BookShelf5|pCube2";
+createNode mesh -n "pCubeShape2" -p "|Shelves|BookShelf5|pCube2";
 	rename -uid "6485C833-482E-86B6-BDA6-CDA35940F4D4";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -8154,7 +8134,7 @@ createNode transform -n "pCube5" -p "BookShelf5";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape5" -p "|BookShelf5|pCube5";
+createNode mesh -n "pCubeShape5" -p "|Shelves|BookShelf5|pCube5";
 	rename -uid "E566C2C0-459C-2108-EB8F-EB98483F19C5";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -8322,7 +8302,7 @@ createNode transform -n "pCube3" -p "BookShelf5";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape3" -p "|BookShelf5|pCube3";
+createNode mesh -n "pCubeShape3" -p "|Shelves|BookShelf5|pCube3";
 	rename -uid "BBCABAEC-4DDE-682B-E26B-D9A537818DAB";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -8490,7 +8470,7 @@ createNode transform -n "pCube9" -p "BookShelf5";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 -1.3877787807814457e-17 4.2188474935755949e-15 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape9" -p "|BookShelf5|pCube9";
+createNode mesh -n "pCubeShape9" -p "|Shelves|BookShelf5|pCube9";
 	rename -uid "AE5D16EA-4577-D33A-0361-229B66C83AF9";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -8658,7 +8638,7 @@ createNode transform -n "pCube7" -p "BookShelf5";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape7" -p "|BookShelf5|pCube7";
+createNode mesh -n "pCubeShape7" -p "|Shelves|BookShelf5|pCube7";
 	rename -uid "9193FCB8-4FAE-D3B2-5F5C-FF92FD76E4BD";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -8826,7 +8806,7 @@ createNode transform -n "pCube1" -p "BookShelf5";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape1" -p "|BookShelf5|pCube1";
+createNode mesh -n "pCubeShape1" -p "|Shelves|BookShelf5|pCube1";
 	rename -uid "DE01D3D0-4E1B-B6FF-1856-A59DAE6648A8";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -8994,7 +8974,7 @@ createNode transform -n "pCube8" -p "BookShelf5";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape8" -p "|BookShelf5|pCube8";
+createNode mesh -n "pCubeShape8" -p "|Shelves|BookShelf5|pCube8";
 	rename -uid "18836975-425A-8740-3887-71BC4B26365A";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -9162,7 +9142,7 @@ createNode transform -n "pCube4" -p "BookShelf5";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape4" -p "|BookShelf5|pCube4";
+createNode mesh -n "pCubeShape4" -p "|Shelves|BookShelf5|pCube4";
 	rename -uid "7E5A80AD-42C3-0259-F1D1-F5B736585A9A";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -9329,7 +9309,7 @@ createNode transform -n "pCube10" -p "BookShelf5";
 	setAttr ".rp" -type "double3" 0.86868900060653664 -1.1685971619569056 -0.20682014524936676 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape10" -p "|BookShelf5|pCube10";
+createNode mesh -n "pCubeShape10" -p "|Shelves|BookShelf5|pCube10";
 	rename -uid "C6AD98DD-4432-2B84-4A1D-9C8BFE9B131F";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -9488,7 +9468,7 @@ createNode mesh -n "pCubeShape10" -p "|BookShelf5|pCube10";
 		21 0 
 		29 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-createNode transform -n "BookShelf6";
+createNode transform -n "BookShelf6" -p "Shelves";
 	rename -uid "3A97AA44-4DA7-498E-3217-9FA67863707D";
 	setAttr ".t" -type "double3" -11.704151153564453 1.1658143997192383 3.0312027931213379 ;
 	setAttr ".r" -type "double3" 0 180 0 ;
@@ -9689,7 +9669,7 @@ createNode transform -n "pCube6" -p "BookShelf6";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape6" -p "|BookShelf6|pCube6";
+createNode mesh -n "pCubeShape6" -p "|Shelves|BookShelf6|pCube6";
 	rename -uid "73DB9ED5-40F6-8BD2-C61A-B5ACCACCCC14";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -9857,7 +9837,7 @@ createNode transform -n "pCube2" -p "BookShelf6";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape2" -p "|BookShelf6|pCube2";
+createNode mesh -n "pCubeShape2" -p "|Shelves|BookShelf6|pCube2";
 	rename -uid "92EC5CE6-4B14-0A77-6046-75B99DC57F10";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -10025,7 +10005,7 @@ createNode transform -n "pCube5" -p "BookShelf6";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape5" -p "|BookShelf6|pCube5";
+createNode mesh -n "pCubeShape5" -p "|Shelves|BookShelf6|pCube5";
 	rename -uid "440F7D3A-4586-0365-FC55-BA804BA83C86";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -10193,7 +10173,7 @@ createNode transform -n "pCube3" -p "BookShelf6";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape3" -p "|BookShelf6|pCube3";
+createNode mesh -n "pCubeShape3" -p "|Shelves|BookShelf6|pCube3";
 	rename -uid "FEEE6C73-496A-E2CB-7E5B-20B6CE4523C0";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -10361,7 +10341,7 @@ createNode transform -n "pCube9" -p "BookShelf6";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 -1.3877787807814457e-17 4.2188474935755949e-15 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape9" -p "|BookShelf6|pCube9";
+createNode mesh -n "pCubeShape9" -p "|Shelves|BookShelf6|pCube9";
 	rename -uid "F25F5019-4784-F711-BAC3-CD8DEB1B2B9B";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -10529,7 +10509,7 @@ createNode transform -n "pCube7" -p "BookShelf6";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape7" -p "|BookShelf6|pCube7";
+createNode mesh -n "pCubeShape7" -p "|Shelves|BookShelf6|pCube7";
 	rename -uid "DF431E09-4993-915F-859E-268466D8E206";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -10697,7 +10677,7 @@ createNode transform -n "pCube1" -p "BookShelf6";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape1" -p "|BookShelf6|pCube1";
+createNode mesh -n "pCubeShape1" -p "|Shelves|BookShelf6|pCube1";
 	rename -uid "04421FEB-47E4-BFCA-FF73-2D9E2C397B70";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -10865,7 +10845,7 @@ createNode transform -n "pCube8" -p "BookShelf6";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape8" -p "|BookShelf6|pCube8";
+createNode mesh -n "pCubeShape8" -p "|Shelves|BookShelf6|pCube8";
 	rename -uid "58812F60-4A0A-E9B3-33C0-EC985551FA34";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -11033,7 +11013,7 @@ createNode transform -n "pCube4" -p "BookShelf6";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape4" -p "|BookShelf6|pCube4";
+createNode mesh -n "pCubeShape4" -p "|Shelves|BookShelf6|pCube4";
 	rename -uid "9BCB8042-4BD8-C8BA-E46F-61B7BF75EADA";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -11200,7 +11180,7 @@ createNode transform -n "pCube10" -p "BookShelf6";
 	setAttr ".rp" -type "double3" 0.86868900060653664 -1.1685971619569056 -0.20682014524936676 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape10" -p "|BookShelf6|pCube10";
+createNode mesh -n "pCubeShape10" -p "|Shelves|BookShelf6|pCube10";
 	rename -uid "D40743FF-4097-1E62-C05D-DCA9B4A1E0BE";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -11359,7 +11339,7 @@ createNode mesh -n "pCubeShape10" -p "|BookShelf6|pCube10";
 		21 0 
 		29 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-createNode transform -n "BookShelf7";
+createNode transform -n "BookShelf7" -p "Shelves";
 	rename -uid "6E11875F-434D-B77B-754D-978FC4A17904";
 	setAttr ".t" -type "double3" -11.704151153564453 1.1658143997192383 6.6029706001281738 ;
 	setAttr ".r" -type "double3" 0 180 0 ;
@@ -11560,7 +11540,7 @@ createNode transform -n "pCube6" -p "BookShelf7";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape6" -p "|BookShelf7|pCube6";
+createNode mesh -n "pCubeShape6" -p "|Shelves|BookShelf7|pCube6";
 	rename -uid "0140BDEB-43DC-AE4E-E0AE-75BA9A4D7F0B";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -11728,7 +11708,7 @@ createNode transform -n "pCube2" -p "BookShelf7";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape2" -p "|BookShelf7|pCube2";
+createNode mesh -n "pCubeShape2" -p "|Shelves|BookShelf7|pCube2";
 	rename -uid "EFA8146B-4210-1107-031F-FF966DF44511";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -11896,7 +11876,7 @@ createNode transform -n "pCube5" -p "BookShelf7";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape5" -p "|BookShelf7|pCube5";
+createNode mesh -n "pCubeShape5" -p "|Shelves|BookShelf7|pCube5";
 	rename -uid "FFFF984C-4432-3BCA-CBAE-DDBD197ABCD4";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -12064,7 +12044,7 @@ createNode transform -n "pCube3" -p "BookShelf7";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape3" -p "|BookShelf7|pCube3";
+createNode mesh -n "pCubeShape3" -p "|Shelves|BookShelf7|pCube3";
 	rename -uid "564A5663-4BE6-7E34-5358-9FAD177D3520";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -12232,7 +12212,7 @@ createNode transform -n "pCube9" -p "BookShelf7";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 -1.3877787807814457e-17 4.2188474935755949e-15 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape9" -p "|BookShelf7|pCube9";
+createNode mesh -n "pCubeShape9" -p "|Shelves|BookShelf7|pCube9";
 	rename -uid "A53CE824-4CFC-A108-DCF0-01810213BCC3";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -12400,7 +12380,7 @@ createNode transform -n "pCube7" -p "BookShelf7";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape7" -p "|BookShelf7|pCube7";
+createNode mesh -n "pCubeShape7" -p "|Shelves|BookShelf7|pCube7";
 	rename -uid "610427DD-43C1-FEA7-0D40-B7846B1591A5";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -12568,7 +12548,7 @@ createNode transform -n "pCube1" -p "BookShelf7";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape1" -p "|BookShelf7|pCube1";
+createNode mesh -n "pCubeShape1" -p "|Shelves|BookShelf7|pCube1";
 	rename -uid "F07BA6A3-476C-0A77-09EE-3E920A5A31D2";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -12736,7 +12716,7 @@ createNode transform -n "pCube8" -p "BookShelf7";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape8" -p "|BookShelf7|pCube8";
+createNode mesh -n "pCubeShape8" -p "|Shelves|BookShelf7|pCube8";
 	rename -uid "47CC4E56-4483-1A0E-0EF6-999E60C45BAD";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -12904,7 +12884,7 @@ createNode transform -n "pCube4" -p "BookShelf7";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape4" -p "|BookShelf7|pCube4";
+createNode mesh -n "pCubeShape4" -p "|Shelves|BookShelf7|pCube4";
 	rename -uid "C591010B-40B9-9D75-36AE-76BBCA3D322D";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -13071,7 +13051,7 @@ createNode transform -n "pCube10" -p "BookShelf7";
 	setAttr ".rp" -type "double3" 0.86868900060653664 -1.1685971619569056 -0.20682014524936676 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape10" -p "|BookShelf7|pCube10";
+createNode mesh -n "pCubeShape10" -p "|Shelves|BookShelf7|pCube10";
 	rename -uid "5E7139A1-4F56-789D-D019-0BB7AFC45C2F";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -13230,7 +13210,7 @@ createNode mesh -n "pCubeShape10" -p "|BookShelf7|pCube10";
 		21 0 
 		29 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-createNode transform -n "BookShelf8";
+createNode transform -n "BookShelf8" -p "Shelves";
 	rename -uid "A04280AF-4C20-5FDD-652B-32AF0E21A4BA";
 	setAttr ".t" -type "double3" -11.704151153564453 3.414700984954834 6.6029706001281738 ;
 	setAttr ".r" -type "double3" 0 180 0 ;
@@ -13431,7 +13411,7 @@ createNode transform -n "pCube6" -p "BookShelf8";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape6" -p "|BookShelf8|pCube6";
+createNode mesh -n "pCubeShape6" -p "|Shelves|BookShelf8|pCube6";
 	rename -uid "59FDEA6A-48EC-FAD3-E456-B5A0C945E7B1";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -13599,7 +13579,7 @@ createNode transform -n "pCube2" -p "BookShelf8";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape2" -p "|BookShelf8|pCube2";
+createNode mesh -n "pCubeShape2" -p "|Shelves|BookShelf8|pCube2";
 	rename -uid "9316D573-412C-6CF8-E9B2-33BA486DE78C";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -13767,7 +13747,7 @@ createNode transform -n "pCube5" -p "BookShelf8";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape5" -p "|BookShelf8|pCube5";
+createNode mesh -n "pCubeShape5" -p "|Shelves|BookShelf8|pCube5";
 	rename -uid "E1BA7F76-46E5-F656-E602-EBBB7CE44472";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -13935,7 +13915,7 @@ createNode transform -n "pCube3" -p "BookShelf8";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape3" -p "|BookShelf8|pCube3";
+createNode mesh -n "pCubeShape3" -p "|Shelves|BookShelf8|pCube3";
 	rename -uid "CA82A39B-4710-2581-F350-CBA85B3F9BF0";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -14103,7 +14083,7 @@ createNode transform -n "pCube9" -p "BookShelf8";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 -1.3877787807814457e-17 4.2188474935755949e-15 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape9" -p "|BookShelf8|pCube9";
+createNode mesh -n "pCubeShape9" -p "|Shelves|BookShelf8|pCube9";
 	rename -uid "E3C047AF-4A83-37EA-31B4-95814112C948";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -14271,7 +14251,7 @@ createNode transform -n "pCube7" -p "BookShelf8";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape7" -p "|BookShelf8|pCube7";
+createNode mesh -n "pCubeShape7" -p "|Shelves|BookShelf8|pCube7";
 	rename -uid "F532D910-4AF4-EA84-FE8B-85ABFE47471C";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -14439,7 +14419,7 @@ createNode transform -n "pCube1" -p "BookShelf8";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape1" -p "|BookShelf8|pCube1";
+createNode mesh -n "pCubeShape1" -p "|Shelves|BookShelf8|pCube1";
 	rename -uid "5C9024EA-4A74-8846-A6BE-278D3774E811";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -14607,7 +14587,7 @@ createNode transform -n "pCube8" -p "BookShelf8";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape8" -p "|BookShelf8|pCube8";
+createNode mesh -n "pCubeShape8" -p "|Shelves|BookShelf8|pCube8";
 	rename -uid "28B99D89-4C59-F9A9-5830-929E19BCF655";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -14775,7 +14755,7 @@ createNode transform -n "pCube4" -p "BookShelf8";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape4" -p "|BookShelf8|pCube4";
+createNode mesh -n "pCubeShape4" -p "|Shelves|BookShelf8|pCube4";
 	rename -uid "D6AAC842-4774-7A40-9D1B-5A88F7DF92C7";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -14942,7 +14922,7 @@ createNode transform -n "pCube10" -p "BookShelf8";
 	setAttr ".rp" -type "double3" 0.86868900060653664 -1.1685971619569056 -0.20682014524936676 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape10" -p "|BookShelf8|pCube10";
+createNode mesh -n "pCubeShape10" -p "|Shelves|BookShelf8|pCube10";
 	rename -uid "C4942C4E-466B-9057-4FA2-53B1D44C511C";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -15101,7 +15081,7 @@ createNode mesh -n "pCubeShape10" -p "|BookShelf8|pCube10";
 		21 0 
 		29 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-createNode transform -n "BookShelf9";
+createNode transform -n "BookShelf9" -p "Shelves";
 	rename -uid "6D349AB1-4CB9-4885-23E8-F5900A8ED3F7";
 	setAttr ".t" -type "double3" -11.704151153564453 5.6635875701904297 6.6029706001281738 ;
 	setAttr ".r" -type "double3" 0 180 0 ;
@@ -15302,7 +15282,7 @@ createNode transform -n "pCube6" -p "BookShelf9";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape6" -p "|BookShelf9|pCube6";
+createNode mesh -n "pCubeShape6" -p "|Shelves|BookShelf9|pCube6";
 	rename -uid "C08414E0-42DD-CDC0-2318-328446DCA1A9";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -15470,7 +15450,7 @@ createNode transform -n "pCube2" -p "BookShelf9";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape2" -p "|BookShelf9|pCube2";
+createNode mesh -n "pCubeShape2" -p "|Shelves|BookShelf9|pCube2";
 	rename -uid "33FF7FC6-48B6-C135-180D-A98D2BD0BEEE";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -15638,7 +15618,7 @@ createNode transform -n "pCube5" -p "BookShelf9";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape5" -p "|BookShelf9|pCube5";
+createNode mesh -n "pCubeShape5" -p "|Shelves|BookShelf9|pCube5";
 	rename -uid "3D56DD4D-46B3-C605-17C8-56A2973B2DED";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -15806,7 +15786,7 @@ createNode transform -n "pCube3" -p "BookShelf9";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape3" -p "|BookShelf9|pCube3";
+createNode mesh -n "pCubeShape3" -p "|Shelves|BookShelf9|pCube3";
 	rename -uid "AC7CDB5A-4ACC-E29C-7751-49A3A033D75C";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -15974,7 +15954,7 @@ createNode transform -n "pCube9" -p "BookShelf9";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 -1.3877787807814457e-17 4.2188474935755949e-15 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape9" -p "|BookShelf9|pCube9";
+createNode mesh -n "pCubeShape9" -p "|Shelves|BookShelf9|pCube9";
 	rename -uid "FADE79CF-4FE7-9C0B-C697-4583A1F572B0";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -16142,7 +16122,7 @@ createNode transform -n "pCube7" -p "BookShelf9";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape7" -p "|BookShelf9|pCube7";
+createNode mesh -n "pCubeShape7" -p "|Shelves|BookShelf9|pCube7";
 	rename -uid "48B9E67F-46BF-C446-B35C-83ADAD4D089F";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -16310,7 +16290,7 @@ createNode transform -n "pCube1" -p "BookShelf9";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape1" -p "|BookShelf9|pCube1";
+createNode mesh -n "pCubeShape1" -p "|Shelves|BookShelf9|pCube1";
 	rename -uid "0BBCD03C-4558-18C6-24D1-A18102470E11";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -16478,7 +16458,7 @@ createNode transform -n "pCube8" -p "BookShelf9";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape8" -p "|BookShelf9|pCube8";
+createNode mesh -n "pCubeShape8" -p "|Shelves|BookShelf9|pCube8";
 	rename -uid "0CC1DF2B-45DE-C5F6-5B93-00BC9423E0B6";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -16646,7 +16626,7 @@ createNode transform -n "pCube4" -p "BookShelf9";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape4" -p "|BookShelf9|pCube4";
+createNode mesh -n "pCubeShape4" -p "|Shelves|BookShelf9|pCube4";
 	rename -uid "1152196C-4F3B-A81E-5460-8FA67568EBC6";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -16813,7 +16793,7 @@ createNode transform -n "pCube10" -p "BookShelf9";
 	setAttr ".rp" -type "double3" 0.86868900060653664 -1.1685971619569056 -0.20682014524936676 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape10" -p "|BookShelf9|pCube10";
+createNode mesh -n "pCubeShape10" -p "|Shelves|BookShelf9|pCube10";
 	rename -uid "9C2A1ADA-4593-4012-2E97-03B43E4AEAAF";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -16972,7 +16952,7 @@ createNode mesh -n "pCubeShape10" -p "|BookShelf9|pCube10";
 		21 0 
 		29 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-createNode transform -n "BookShelf10";
+createNode transform -n "BookShelf10" -p "Shelves";
 	rename -uid "56D276CB-44F6-46B9-A877-1FBD53E592D5";
 	setAttr ".t" -type "double3" -11.704151153564453 7.9124741554260254 6.6029706001281738 ;
 	setAttr ".r" -type "double3" 0 180 0 ;
@@ -17173,7 +17153,7 @@ createNode transform -n "pCube6" -p "BookShelf10";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape6" -p "|BookShelf10|pCube6";
+createNode mesh -n "pCubeShape6" -p "|Shelves|BookShelf10|pCube6";
 	rename -uid "192B9E07-4CD3-0DA5-665F-709C6456269B";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -17341,7 +17321,7 @@ createNode transform -n "pCube2" -p "BookShelf10";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape2" -p "|BookShelf10|pCube2";
+createNode mesh -n "pCubeShape2" -p "|Shelves|BookShelf10|pCube2";
 	rename -uid "3262B448-4A41-9A19-BC0F-D2979A6F1397";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -17509,7 +17489,7 @@ createNode transform -n "pCube5" -p "BookShelf10";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape5" -p "|BookShelf10|pCube5";
+createNode mesh -n "pCubeShape5" -p "|Shelves|BookShelf10|pCube5";
 	rename -uid "A29F0810-4560-31F3-0839-BEAD786C785E";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -17677,7 +17657,7 @@ createNode transform -n "pCube3" -p "BookShelf10";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape3" -p "|BookShelf10|pCube3";
+createNode mesh -n "pCubeShape3" -p "|Shelves|BookShelf10|pCube3";
 	rename -uid "37786C93-40ED-2620-B849-6699D40F9890";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -17845,7 +17825,7 @@ createNode transform -n "pCube9" -p "BookShelf10";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 -1.3877787807814457e-17 4.2188474935755949e-15 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape9" -p "|BookShelf10|pCube9";
+createNode mesh -n "pCubeShape9" -p "|Shelves|BookShelf10|pCube9";
 	rename -uid "2013F427-4037-EF40-B0E9-2CAC242082CA";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -18013,7 +17993,7 @@ createNode transform -n "pCube7" -p "BookShelf10";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape7" -p "|BookShelf10|pCube7";
+createNode mesh -n "pCubeShape7" -p "|Shelves|BookShelf10|pCube7";
 	rename -uid "334F39C1-4234-67EF-AF77-BCA1DF2F9F25";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -18181,7 +18161,7 @@ createNode transform -n "pCube1" -p "BookShelf10";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape1" -p "|BookShelf10|pCube1";
+createNode mesh -n "pCubeShape1" -p "|Shelves|BookShelf10|pCube1";
 	rename -uid "AA7267E3-4CA2-AC44-45E3-2E97221B3845";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -18349,7 +18329,7 @@ createNode transform -n "pCube8" -p "BookShelf10";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape8" -p "|BookShelf10|pCube8";
+createNode mesh -n "pCubeShape8" -p "|Shelves|BookShelf10|pCube8";
 	rename -uid "41875028-4E98-D181-32D0-28975749EF3E";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -18517,7 +18497,7 @@ createNode transform -n "pCube4" -p "BookShelf10";
 	setAttr ".rpt" -type "double3" -1.2212453270876722e-14 0 -1.1102230246251565e-16 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape4" -p "|BookShelf10|pCube4";
+createNode mesh -n "pCubeShape4" -p "|Shelves|BookShelf10|pCube4";
 	rename -uid "43BB9AA7-4969-324B-C973-D29BC44D3B6B";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -18684,7 +18664,7 @@ createNode transform -n "pCube10" -p "BookShelf10";
 	setAttr ".rp" -type "double3" 0.86868900060653664 -1.1685971619569056 -0.20682014524936676 ;
 	setAttr ".sp" -type "double3" 0.53531499274226069 -0.50000006899852356 -0.67430626579191766 ;
 	setAttr ".spt" -type "double3" 0.33337400786427446 -0.66859709295838199 0.4674861205425509 ;
-createNode mesh -n "pCubeShape10" -p "|BookShelf10|pCube10";
+createNode mesh -n "pCubeShape10" -p "|Shelves|BookShelf10|pCube10";
 	rename -uid "AAE3D1B9-43BA-7FF2-DC85-419DE4D1314E";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
@@ -18844,78 +18824,39 @@ createNode mesh -n "pCubeShape10" -p "|BookShelf10|pCube10";
 		29 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "B3218DEB-400C-D621-42F2-E0AF97FEB2E5";
+	rename -uid "6ECBE757-40E0-185C-76F0-86A7EB65D803";
 	setAttr -s 26 ".lnk";
 	setAttr -s 26 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "0837CA22-45BA-E3E4-C2D6-37BADD57A28B";
+	rename -uid "79E38F08-4E81-B67F-7657-A4B4CF3ACEFA";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "95DDE39A-43ED-34DF-F8E2-F0983C709317";
+	rename -uid "293509F4-4A42-04EA-E131-418AEC3C942C";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "FDC551BD-4295-A268-AAEE-D6B1D61137C2";
+	rename -uid "3D81B32D-4E2C-7443-A3C2-6695792085C2";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "2B219338-47E5-9EC1-8590-5B856A915CAD";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "824CF3A8-41B9-98E2-4946-73BD4E91D32C";
+	rename -uid "6186B3C1-4E7B-B438-4F3E-01807C0F4D10";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "80E90F62-4AC4-EF0D-B2D5-7380AF9073F3";
 	setAttr ".g" yes;
-createNode reference -n "FloorRN";
-	rename -uid "2E514D33-43CB-C5C3-8791-3A9E86D570EE";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"FloorRN"
-		"FloorRN" 35
-		2 "|Floor:Floor" "translate" " -type \"double3\" 0 0 0"
-		2 "|Floor:Floor" "scale" " -type \"double3\" 1 1 1"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts" " -s 16"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[0]" " -type \"float3\" 0 0 0"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[0].pntx" " -av"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[0].pnty" " -av"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[0].pntz" " -av"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[1]" " -type \"float3\" 0 0 0"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[1].pntx" " -av"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[1].pnty" " -av"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[1].pntz" " -av"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[2]" " -type \"float3\" 0 0 0"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[2].pntx" " -av"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[2].pnty" " -av"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[2].pntz" " -av"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[3]" " -type \"float3\" 0 0 0"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[3].pntx" " -av"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[3].pnty" " -av"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[3].pntz" " -av"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[4]" " -type \"float3\" 0 0 0"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[4].pntx" " -av"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[4].pnty" " -av"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[4].pntz" " -av"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[5]" " -type \"float3\" 0 0 0"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[5].pntx" " -av"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[5].pnty" " -av"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[5].pntz" " -av"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[6]" " -type \"float3\" 0 0 0"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[6].pntx" " -av"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[6].pnty" " -av"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[6].pntz" " -av"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[7]" " -type \"float3\" 0 0 0"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[7].pntx" " -av"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[7].pnty" " -av"
-		2 "|Floor:Floor|Floor:FloorShape" "pnts[7].pntz" " -av";
-	setAttr ".ptag" -type "string" "";
-lockNode -l 1 ;
 createNode reference -n "BlankWallRN";
 	rename -uid "30168487-4BDC-F311-BF45-E9BFE8899246";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"BlankWallRN"
 		"BlankWallRN" 0
-		"BlankWallRN" 6
+		"BlankWallRN" 7
 		2 "|BlankWall:Wall" "translate" " -type \"double3\" 23.9999999999995417 0 -23.99999999999868194"
 		
 		2 "|BlankWall:Wall" "rotate" " -type \"double3\" 0 180 0"
 		2 "|BlankWall:Wall" "rotateX" " -av"
 		2 "|BlankWall:Wall" "rotateY" " -av"
 		2 "|BlankWall:Wall" "rotateZ" " -av"
-		2 "|BlankWall:Wall" "rotatePivotTranslate" " -type \"double3\" 0 0 0";
+		2 "|BlankWall:Wall" "rotatePivotTranslate" " -type \"double3\" 0 0 0"
+		2 "|BlankWall:Wall|BlankWall:WallShape" "uvst[0].uvsp[0:33]" (" -s 34 -type \"float2\" 0.93172418999999995 9.0151888999999996e-06 0.89762514999999998 0.50305277000000004 0.00057564286000000005 0.52066106000000001 0.90106642000000003 0.018700238000000001 0.91685908999999999 0.018687952000000001 0.89766562000000005 0.46951067000000002 0.00061602779999999995 0.48711907999999998 0.91590494 2.7166909000000002e-08 0.0005693165 0.52590775000000001 0.90107077000000002 0.023947171999999999 0.89767348999999996 0.46303456999999998 0.92065227000000005 0.023937065 1.3307138999999998e-05 0.98786282999999997 0.90145463000000003 0.48590058000000003 0.89822930000000001 0.0010796235 0.92037528999999996 0.48589131000000002 0.91212857000000003 0.023937791999999999 0.91592055999999999 0.018688023000000002 0.00064632337000000001 0.46195486000000002 0.00063847000000000003 0.468431 0.0012023054 0 0.91251230000000005 0.48589139999999997 0 0.99892038000000005 0.89702707999999998 1 0.89759648000000003 0.52698736999999996 0.89704043 0.98894243999999998 0.89760280000000003 0.52174078999999995 0.93171 "
+		+ "0.023943609000000001 0.93143295999999998 0.48589808000000001 0.93171298999999996 0.018696897000000001 0.89764303000000001 0.48819860999999998 0.90105115999999996 1.2243539000000001e-05 0.91687065000000001 7.1061471000000005e-08 0.00059808500000000004 0.50197303000000004"
+		);
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "WindowWallRN";
@@ -18939,29 +18880,47 @@ createNode reference -n "WindowWallRN";
 		2 "|WindowWall:polySurface2" "rotatePivotTranslate" " -type \"double3\" 0 0 0";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
-createNode reference -n "BookShelvesRN";
-	rename -uid "43492725-409B-FDF9-F320-9BA0CA1D999C";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"BookShelvesRN"
-		"BookShelvesRN" 5
-		2 "|BookShelves:BookShelf" "translate" " -type \"double3\" -24.92325824955685931 0 1.976470947265625"
-		
-		2 "|BookShelves:BookShelf" "rotate" " -type \"double3\" 0 180 0"
-		2 "|BookShelves:BookShelf" "rotatePivot" " -type \"double3\" 11.70415157536226047 2.88926291465759277 -11.69177441036464415"
-		
-		2 "|BookShelves:BookShelf" "rotatePivotTranslate" " -type \"double3\" 1.51495552063014571 0 21.43060688411952697"
-		
-		2 "|BookShelves:BookShelf" "scalePivot" " -type \"double3\" 11.70415157536226047 2.88926291465759277 -11.69177441036464415";
-	setAttr ".ptag" -type "string" "";
-lockNode -l 1 ;
 createNode reference -n "TableRN";
 	rename -uid "62F4D474-45E7-9A2D-90CA-DC9B57C11958";
 	setAttr ".fn[0]" -type "string" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/assets/Table.ma";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"TableRN"
 		"TableRN" 0
-		"TableRN" 1
-		2 "|Table:Table" "translate" " -type \"double3\" 13.29116838567350811 0 13.7812084658163414";
+		"TableRN" 6
+		2 "|Table:Table" "translate" " -type \"double3\" 13.29116838567350811 0 13.7812084658163414"
+		
+		2 "|Table:Table|Table:TableShape" "uvSet[0].uvSetPoints" " -s 774"
+		2 "|Table:Table|Table:TableShape" "uvst[0].uvsp[0:249]" (" -type \"float2\" 0.20473346000000001 0.50413423999999996 0.20686795999999999 0.49709076000000002 0.26540249999999999 0.49317631000000001 0.26541033000000003 0.50018017999999997 0.20486628000000001 0.48931730000000001 0.26539329 0.48489653999999999 0.20523385999999999 0.51776308000000004 0.26542582999999997 0.51401854000000002 0.14184890999999999 0.50483142999999997 0.15052919000000001 0.50092148999999997 0.14472083999999999 0.49443450999999999 0.26533689999999999 0.43454008999999999 0.20675426999999999 0.43687892 0.20674527000000001 0.38411820000000002 0.26528147000000002 0.38472882000000003 0.26543343000000003 0.52087653 0.52252918000000004 0.70784557000000004 0.14516142000000001 0.52091432000000004 0.14835353000000001 0.43849343000000002 0.14804333 0.38274207999999998 0.20611257999999999 0.32453307999999997 0.26521495 0.32474983000000002 0.51512360999999995 0.70542782999999998 0.50821084000000005 0.76449995999999998 0.52911812000000003 0.65116578000000003 0.063281669999999998 0.46715667999999999 0.0724204559"
+		+ "99999994 0.45842820000000001 0.10552032 0.48166785000000001 0.097130968999999998 0.49281683999999998 0.078775286999999999 0.45206364999999998 0.11059355 0.47327825000000001 0.036438379 0.38601862999999997 0.092349179000000003 0.38241625000000001 0.10394596 0.42688426000000002 0.057581183000000001 0.42007591999999999 0.14658402000000001 0.32399979000000001 0.20577239 0.26537502000000002 0.26514908999999998 0.26530975000000001 0.41129166 0.70508574999999996 0.46320736000000001 0.70525694000000005 0.45965359 0.76433998000000003 0.41109618999999997 0.76417983 0.58476466000000005 0.24121862999999999 0.59333681999999999 0.2385091 0.52203577999999995 0.64635617000000001 0.50355684999999994 0.60962002999999998 0.056724789999999997 0.47367153000000001 0.01447128 0.3969548 0.023434917 0.38601285000000002 0.049173251000000001 0.42509451999999998 0.038161866000000003 0.43345233999999999 0.041324776000000001 0.32599133000000002 0.093808189 0.32404664 0.14585525999999999 0.26543855999999999 0.41148588000000003 0.6459918 0."
+		+ "46676068999999998 0.64617378000000003 0.60189605000000002 0.23656555000000001 0.44846413000000002 0.55416262000000005 0.41185057000000003 0.53544128000000002 0.45761254000000001 0.60016817 0.41166850999999999 0.59071666 0.012990033999999999 0.32567142999999998 0.026619513000000001 0.32614481000000001 0.029937359 0.38024265000000002 0.033659182000000003 0.32400095000000001 0.045504904999999998 0.26554185000000002 0.095966883000000003 0.26549034999999999 0.35200268000000001 0.76398491999999996 0.57567179000000002 0.24360103999999999 0.35256299000000002 0.59385204000000003 0.35273388 0.54190802999999999 0.0033798811 0.38064361000000002 0.35036530999999999 0.53454256 0.016609736 0.26557102999999999 0.030447746000000001 0.26555708 0.037451562000000001 0.26554999000000001 0.56609988 0.24463755000000001 0.29290891000000002 0.76379012999999996 0.29345768999999999 0.59698772 0.29361810999999999 0.54837418000000004 0.29364327000000001 0.54075717999999995 0.55654693 0.24337173000000001 0.29310256000000001 0.704696659999"
+		+ "99997 0.29329812999999999 0.64560216999999998 0.54750120999999996 0.24071616000000001 0.35239126999999998 0.64579724999999999 0.53901427999999996 0.23764125 0.59523559000000004 0.022171206999999998 0.58666598999999997 0.023991744999999998 0.59441226999999996 0.013314187 0.59720152999999998 0.015592379 0.53619784000000004 0.020052561999999999 0.60078144 0.015226483000000001 0.57828694999999997 0.025789614999999998 0.59404999000000003 0.0097301182999999999 0.54494010999999998 0.021245804 0.60305964999999995 0.012437304 0.56999266000000004 0.026511627999999999 0.59632753999999999 0.0069396021 0.55343896000000004 0.023351282000000001 0.60269874000000001 0.0088546471999999994 0.56173824999999999 0.025459681000000001 0.59991008000000001 0.0065771848999999997 0.58352767999999999 0.23604105 0.58294140999999999 0.22568716 0.59107940999999997 0.22290033000000001 0.59212321000000001 0.23341513999999999 0.57496661000000004 0.23864697000000001 0.57488286 0.22885844 0.59983653000000003 0.22154169000000001 0.531882879999999"
+		+ "95 0.23027127999999999 0.54188751999999996 0.22212651 0.54044610000000004 0.23260475999999999 0.56616759000000005 0.23944626999999999 0.56634401999999995 0.23003834000000001 0.54986721000000005 0.22529205999999999 0.54892308000000001 0.23558749000000001 0.55739360999999998 0.23845045000000001 0.55782664000000004 0.22870360000000001 0.58400244000000001 0.18235934000000001 0.58416957000000003 0.17138971 0.59218298999999996 0.16793865999999999 0.59206128000000002 0.17853575999999999 0.57594292999999996 0.18575267000000001 0.57611685999999995 0.17532274 0.60089283999999998 0.1667304 0.53385901000000002 0.17574085 0.54277158000000003 0.16714039 0.54251170000000004 0.17778778000000001 0.56715578 0.18691540000000001 0.56732302999999995 0.17700940000000001 0.55064183 0.17093675999999999 0.55039704 0.18195364 0.558375 0.18555753999999999 0.5585717 0.17512944 0.58436966000000001 0.12132791 0.58434253999999997 0.10985634 0.59192990999999995 0.10630333 0.59212028999999999 0.11719204 0.57666278000000004 0.12517628 0.57685"
+		+ "565999999999 0.11455578 0.60065495999999996 0.10537124 0.53611123999999999 0.11420741 0.54523993000000004 0.10549752 0.54465764999999999 0.11640211 0.56821763999999997 0.12643335999999999 0.56839556000000002 0.11654447 0.55267864 0.10935507999999999 0.55223756999999996 0.12083598 0.55981219000000004 0.12492834 0.56000130999999997 0.11431234999999999 0.58662468000000001 0.070711478999999994 0.58711457 0.060108107000000001 0.59568929999999998 0.057378645999999998 0.59478014999999995 0.066822402000000003 0.57846129000000002 0.073725566000000006 0.57842505 0.062575049999999993 0.60447298999999999 0.056511528999999998 0.53497344000000002 0.064510599000000002 0.54322672000000005 0.056433617999999998 0.54380125000000001 0.065915495000000004 0.56914615999999996 0.074901125999999998 0.56934017000000003 0.063757597999999999 0.55170399000000003 0.059457867999999997 0.55180602999999995 0.070107325999999998 0.55986983000000001 0.073404536000000006 0.56030208000000004 0.062235712999999998 0.32609602999999998 0.503999650000"
+		+ "00002 0.32394555000000003 0.49696034 0.32592960999999998 0.48918223 0.32562664000000002 0.51762933 0.38897839000000001 0.50455320000000003 0.38029212000000001 0.50066297999999998 0.38608493999999999 0.49416280000000001 0.32381623999999998 0.38398778 0.32392444999999997 0.43674805999999999 0.32299106999999999 0.524306 0.39711069999999998 0.51621085 0.38251503999999997 0.38248094999999999 0.38232835999999998 0.438232 0.32431676999999998 0.32440150000000001 0.51473402999999995 0.82361572999999999 0.38068788999999997 0.52721941000000005 0.46746331000000002 0.46670868999999998 0.4336701 0.49244311000000002 0.42525694000000003 0.48131213 0.45830547999999999 0.45800009000000003 0.42016539000000003 0.47293326000000002 0.45193665999999999 0.45164946 0.49412720999999998 0.38551119 0.47305992000000002 0.41961503 0.42671039999999999 0.42652520999999999 0.43820851999999999 0.38203209999999999 0.38384411000000002 0.32373606999999999 0.32452579999999998 0.26524302 0.41090208 0.82327366000000002 0.76582872999999996 0.2365430"
+		+ "1 0.77431225999999997 0.23951845999999999 0.46281763999999997 0.82344508000000005 0.40571131999999999 0.52228582000000001 0.47403436999999998 0.47320931999999999 0.50253612000000003 0.91934526000000005 0.52060967999999996 0.38509324 0.49250871000000002 0.43294864999999999 0.48147889999999999 0.42461505999999999 0.50713056000000001 0.3854765 0.43662014999999998 0.32366598000000002 0.48910776 0.32549476999999999 0.38444307 0.26517366999999997 0.41070676 0.88236778999999999 0.82869696999999998 0.23527234999999999 0.46598154000000003 0.88255041999999995 0.53031039000000002 0.38806951000000001 0.44707897000000002 0.97443831000000003 0.41052424999999998 0.93764281000000005 0.45653032999999998 0.92849426999999995 0.50381332999999995 0.32561558000000002 0.51744168999999995 0.32511219000000002 0.50061542000000003 0.37972069000000003 0.49676894999999999 0.32348725 0.43433157 0.26511489999999999 0.48479354000000002 0.26505455 0.78332639000000004 0.24218342000000001 0.35127049999999999 0.98606223000000004 0.3514418000000"
+		+ "0003 0.93411756000000001 0.52411216000000005 0.32246348000000002 0.40553322000000003 1 0.49985075000000001 0.26503642999999999 0.51368879999999995 0.26501988999999998 0.49284697 0.26504498999999998 0.79286146000000002 0.24351788999999999 0.29219893000000002 0.97920686000000001 0.29235864 0.93059265999999996 0.52054685000000001 0.26501149000000002 0.80244934999999995 0.24255066 0.29271412000000002 0.82288413999999999 0.29251878999999997 0.88197833000000003 0.81157338999999995 0.24017841000000001 0.35161310000000001 0.88217288000000005 0.82015210000000005 0.23736957 0.77067399000000003 0.020249737 0.81854212000000004 0.0087274563999999999 0.81555283000000001 0.0067264856999999997 0.77918273000000005 0.022336143999999999 0.76193082000000001 0.019051548000000001 0.81923860000000004 0.012258007 0.81202275000000002 0.0074283238999999996 0.78750134000000005 0.024393841999999999 0.82099962000000004 0.020917593000000002 0.81723403999999999 0.015249922000000001"
+		)
+		2 "|Table:Table|Table:TableShape" "uvst[0].uvsp[250:499]" (" 0.81002158000000002 0.010423827 0.79576849999999999 0.025373327000000001 0.81240964000000004 0.022727418999999999 0.81371605000000002 0.015963887999999999 0.81072306999999999 0.013959502 0.80405044999999997 0.024578009000000001 0.77571011000000001 0.23438207999999999 0.76720065000000004 0.23148928999999999 0.76857191000000002 0.22101223 0.7766189 0.22405154999999999 0.78457474999999999 0.2274726 0.78418582999999997 0.23725378999999999 0.75859904 0.22931634000000001 0.82647526000000004 0.22021973 0.81887805000000002 0.23229089 0.81776409999999999 0.22177279999999999 0.79307264 0.22891821000000001 0.79295557999999999 0.23832706000000001 0.81031226999999995 0.23500790999999999 0.80968952000000005 0.22468801999999999 0.80162752000000004 0.22784968999999999 0.80175638000000005 0.23760533 0.77690965000000001 0.18071164000000001 0.76897406999999995 0.17663860000000001 0.76918268000000001 0.16604282000000001 0.77708465000000004 0.16974211 0.78501069999999995 0.17392440000000001 0.78485936000000001 0.18435471 0.76027"
+		+ "893999999996 0.17482454 0.82728522999999998 0.16544336000000001 0.81852281000000005 0.17743610000000001 0.81859510999999996 0.16678578999999999 0.79374783999999998 0.17588446999999999 0.79360615999999995 0.18579081 0.81051141000000004 0.18135411000000001 0.81061035000000004 0.17033492 0.80255346999999999 0.1742783 0.80242497000000002 0.18470750999999999 0.77844577999999998 0.1196984 0.77082777000000002 0.11532278 0.77135759999999998 0.10444523 0.77883064999999996 0.10823319000000001 0.78616732 0.1131639 0.78602886000000005 0.12378517999999999 0.76225578999999999 0.11324333 0.82675916000000005 0.10408166000000001 0.81829213999999995 0.11601338 0.81805021 0.10509594 0.79456121000000002 0.11541547000000001 0.79443072999999997 0.12530509000000001 0.81057756999999997 0.12020873999999999 0.81049477999999997 0.10871965 0.80302107 0.1134462 0.80287909999999996 0.12406293 0.77776979999999996 0.069035754000000005 0.76973944999999999 0.064894094999999999 0.76912486999999996 0.055426220999999998 0.77761042000000002 0.058"
+		+ "421951 0.78621894000000003 0.061158914000000002 0.78583539000000002 0.072303182999999993 0.76090097000000001 0.063550480000000006 0.83037822999999999 0.055233888000000002 0.82072341000000004 0.065578929999999994 0.82159424000000003 0.056120586 0.79526275000000002 0.062624462000000006 0.79510950999999996 0.073768862000000004 0.81259113999999999 0.069518730000000001 0.81302547000000003 0.058877843999999999 0.80434430000000001 0.061385523999999997 0.80442828 0.072562546000000006 0.20421353 0.026621245000000002 0.26488903000000003 0.030443575 0.26489678 0.037447455999999997 0.20636280000000001 0.033660377999999998 0.20437811 0.041438284999999998 0.26490596 0.045727088999999999 0.20468469 0.012991684 0.26487370999999998 0.016605255999999999 0.14133970000000001 0.026057355000000001 0.15002355000000001 0.029948447 0.14423001999999999 0.036447479999999997 0.26496169000000003 0.096082307000000006 0.26501685000000003 0.14589256 0.20648490999999999 0.14663097 0.20637912 0.093871571000000001 0.20732055999999999 0.0063150"
+		+ "836999999998 0.069875254999999997 0.76305515000000002 0.13321088 0.014397929 0.14778854999999999 0.14813129999999999 0.14797957 0.092380241000000002 0.26508331000000002 0.20587040000000001 0.20598271000000001 0.20621669000000001 0.071082950000000006 0.70396471000000005 0.077605769000000005 0.76308125000000004 0.14963439000000001 0.0033910335000000001 0.062854059000000004 0.063887722999999993 0.096649057999999996 0.038159102 0.10505991000000001 0.049291845000000001 0.072010009999999999 0.072598219000000005 0.11014982 0.057672158000000001 0.078377536999999997 0.078950293000000005 0.036180894999999998 0.14508191000000001 0.057251107000000002 0.11098109 0.1035991 0.10407948 0.09209726 0.14857129999999999 0.14645647000000001 0.20687618999999999 0.17491454000000001 0.70430689999999996 0.61598003000000001 0.23776224000000001 0.62446104999999996 0.24074474000000001 0.17472008999999999 0.76340067 0.12616289999999999 0.76324069000000005 0.12299912 0.70413577999999999 0.12461147 0.0083209797999999995 0.05628431999999999"
+		+ "9 0.057385500999999998 0.083280429000000003 0.60823517999999999 0.0096998606000000005 0.14549507 0.037805027999999997 0.097643702999999998 0.048833158000000002 0.10597948 0.023178602 0.14511410999999999 0.093681544000000005 0.20693842000000001 0.041194874999999999 0.20510037 0.17510967 0.64521258999999997 0.67884946000000002 0.23654367000000001 0.11983486 0.64503049999999995 0 0.14251705000000001 0.13873772000000001 0.55314200999999996 0.17529215000000001 0.58993739000000001 0.12928616000000001 0.59908623000000005 0.026489476000000001 0.20497662 0.012861066000000001 0.20547770000000001 0.029692579 0.15087125000000001 0.033533659 0.20710640999999999 0.63347291999999999 0.24341713000000001 0.2338143 0.76359546 0.23454564999999999 0.54151815000000003 0.23437474999999999 0.59346264999999998 0.0061904495000000004 0.2081248 0.18028401999999999 0.52758073999999999 0.64300679999999999 0.24475959 0.65259551999999998 0.24380045 0.66172176999999999 0.24143588999999999 0.23420379 0.64540737999999997 0.67030287 0.23863401"
+		+ "000000001 0.62100690999999997 0.021475377 0.67914437999999999 0.012436206 0.67878914000000001 0.0088533107000000003 0.62951404 0.023569003000000002 0.61226462999999998 0.020269883999999998 0.67686175999999998 0.015222171 0.67600411000000005 0.0065717138000000001 0.63783126999999995 0.025633943999999999 0.67130606999999998 0.022158980000000002 0.67328178999999999 0.015582745 0.67242080000000004 0.0069284765 0.64609832 0.026620924000000001 0.66274440000000001 0.023991648000000001 0.67049574999999995 0.01329996 0.67013900999999998 0.0097151835999999998 0.65438193 0.025833523000000001 0.62586324999999998 0.23560949 0.61735611999999995 0.23270969 0.61873615000000004 0.22223372999999999 0.62678062999999995 0.22527969 0.63473362 0.22870741999999999 0.63433647000000004 0.23848828999999999 0.60875641999999996 0.23052951999999999 0.67664002999999995 0.22148935 0.66903292999999997 0.23355429 0.66792762000000006 0.22303522000000001 0.64323037999999999 0.23016012 0.64310539 0.23956889000000001 0.66046481999999995 0.236264"
+		+ "26 0.65985072 0.22594375999999999 0.65178608999999998 0.22909881000000001 0.65190678999999996 0.23885456999999999 0.62710737999999999 0.18194020999999999 0.61917513999999996 0.17786052999999999 0.61939263 0.16726498000000001 0.6272915 0.17097084000000001 0.63521402999999999 0.17515971999999999 0.63505398999999996 0.18558986 0.61048155999999998 0.17603926 0.67749554000000001 0.16671377000000001 0.66872317000000003 0.17869924000000001 0.66880428999999997 0.16804895 0.64394956999999997 0.177127 0.64379966 0.18703325000000001 0.66070854999999995 0.18261057 0.66081654999999995 0.17159151 0.65275656999999998 0.1755282 0.65261930000000001 0.18595729999999999 0.62869412000000002 0.12092836 0.62107979999999996 0.11654646 0.62161869000000003 0.10566942 0.62908852000000004 0.10946355000000001 0.63642107999999997 0.11440031000000001 0.63627385999999997 0.12502144000000001 0.61250954999999996 0.11445993 0.67702024999999999 0.10535153999999999 0.66854345999999998 0.11727632 0.66831052000000002 0.10635864 0.6448130600000000"
+		+ "5 0.11665879 0.64467441999999997 0.12654828000000001 0.66082536999999997 0.12146535 0.66075205999999997 0.10997616 0.65327453999999996 0.11469654 0.65312373999999995 0.12531308999999999 0.62806057999999998 0.070265613000000005 0.62003379999999997 0.066117465 0.61942744000000005 0.056649361000000002 0.62791026000000005 0.059652007999999999 0.63651639000000004 0.062395922999999999 0.63612329999999995 0.073539563000000002 0.61119646000000005 0.064766540999999997 0.68067734999999996 0.056504428000000002 0.67101562000000003 0.066843084999999997 0.67189330000000003 0.057384517000000003 0.64555870999999998 0.063868686999999993 0.64539599000000003 0.075012743000000007 0.66288053999999996 0.070776514999999998 0.66332352000000006 0.060135807999999999 0.65464091000000002 0.062636934000000005 0.65471542000000005 0.073813884999999996 0.32555589000000001 0.026486763999999999 0.32342221999999998 0.033530685999999997 0.32542405000000002 0.041304022000000003 0.32505446999999998 0.012858219000000001 0.3884283 0.025783461000000"
+		+ "001 0.37975304999999998 0.029693847999999998 0.38556096000000001 0.036179970999999998 0.32353914 0.093741513999999998 0.32355022 0.14650114 0.063287391999999998 0.81973499000000005 0.39653131000000003 0.014105974 0.38193529999999998 0.092120781999999998 0.38224986 0.14787133 0.32418441999999997 0.2060854 0.070693381 0.82215260999999995 0.056698825000000001 0.87641460000000004 0.46699771000000001 0.063439675000000001 0.45786097999999997 0.072170623000000003 0.42475951000000001 0.048937364999999997 0.43314566999999998 0.037786052000000001 0.45150753999999999 0.078536629999999996 0.41968817000000003 0.057328850000000001 0.49385062000000002 0.14457452000000001 0.43794209000000001 0.14818787999999999 0.42634170999999998 0.10372167 0.47270495000000001 0.11052056 0.38371211 0.20661288"
+		)
+		2 "|Table:Table|Table:TableShape" "uvst[0].uvsp[500:749]" (" 0.17452482999999999 0.82249492000000002 0.12260935000000001 0.82232391999999999 0.73961222000000004 0.24158457999999999 0.74811 0.23865004000000001 0.063780919000000005 0.88122480999999997 0.43966719999999998 0.030651897000000001 0.10073931999999999 0.95469694999999999 0.52033256999999999 0.14492906999999999 0.50685298000000001 0.14457798999999999 0.48111174000000001 0.10550039 0.49212137 0.097140088999999999 0.48896964999999998 0.20460394000000001 0.43648711000000001 0.20655818000000001 0.17433066999999999 0.88158910999999995 0.11905586999999999 0.88140671999999998 0.75661498000000005 0.23648135000000001 0.49930921 0.090674713000000004 0.17396681 0.99213874000000002 0.12820408 0.92741220999999996 0.17414874 0.93686396000000005 0.51730418 0.20491844000000001 0.50367474999999995 0.20444770000000001 0.50035178999999996 0.1503495 0.49663534999999998 0.20659285999999999 0.73058546000000002 0.24420608999999999 0.23325341999999999 0.93372803999999998 0.23308266999999999 0.98567247000000002 0.52690815999999996 0.14"
+		+ "994346 0.23545109 0.99303781999999996 0.72104418000000003 0.24549467999999999 0.71146113 0.24448133999999999 0.70234847 0.24206527 0.23342514 0.88178336999999996 0.69378346000000002 0.23921530999999999 0.74430167999999997 0.022337360000000001 0.73578304000000005 0.024383315999999999 0.74324495000000002 0.013505153000000001 0.74609345000000005 0.015708972000000002 0.68522852999999995 0.021776713 0.74966246000000003 0.015248783 0.72745435999999997 0.026401577999999998 0.74278836999999998 0.0099318893999999994 0.69399929000000005 0.022738943000000001 0.75186633999999997 0.01240049 0.71918194999999996 0.027342103 0.74499148000000004 0.0070822597000000003 0.70255065000000005 0.024619499 0.75141102000000004 0.0088285748000000008 0.71090281 0.026508246999999999 0.74856317000000006 0.0066254851 0.73823905000000001 0.23644155 0.73738002999999996 0.22610667000000001 0.74544162000000003 0.22310621 0.74676239 0.23358978 0.72974967999999996 0.23927245 0.72940791000000005 0.22948946000000001 0.75415993000000003 0.221517 0."
+		+ "68646014 0.23203602000000001 0.69624644999999996 0.22363015 0.69508188999999998 0.23414280000000001 0.72097498000000004 0.2403035 0.72090310000000002 0.23089413 0.70430678000000002 0.22658413999999999 0.70363456000000002 0.23690090999999999 0.71217768999999997 0.23953943999999999 0.71235347000000004 0.22978457999999999 0.73729771 0.18276598999999999 0.73717546 0.17179574 0.74509519000000002 0.16813450999999999 0.74525284999999997 0.17873114000000001 0.72933053999999997 0.18637073000000001 0.72922938999999998 0.17593987 0.75377011000000005 0.16669688999999999 0.68699723000000001 0.17747244000000001 0.69567977999999997 0.16863990000000001 0.69570087999999997 0.17929043 0.720577 0.18776476 0.72048294999999996 0.17785785000000001 0.70364742999999996 0.17222736999999999 0.70369327000000004 0.18324687000000001 0.71176362000000004 0.18663911999999999 0.71168518000000003 0.17620938999999999 0.73605496000000004 0.12174612999999999 0.73572515999999999 0.11027927999999999 0.74321627999999995 0.10652737 0.74369383 0.1174"
+		+ "0725 0.72845227000000001 0.12579641999999999 0.72836487999999999 0.11517458 0.75191366999999998 0.10536547 0.68762559000000001 0.11590108 0.69652128000000002 0.10695336 0.69622684000000001 0.11786953999999999 0.72004323999999997 0.12727588000000001 0.71996033000000004 0.11738572 0.70405918000000001 0.11061338 0.70392113999999995 0.12210198 0.71160102000000003 0.12599307000000001 0.71151006000000006 0.11537579000000001 0.73697405999999999 0.071087821999999995 0.73718417000000003 0.060475266999999999 0.74568391000000001 0.057520565000000003 0.74502420000000003 0.066985040999999995 0.72889298000000002 0.074316225999999999 0.72856270999999995 0.063170544999999995 0.75444168 0.056422088000000002 0.68517720999999998 0.066251567999999997 0.69321465000000004 0.057959665 0.69403899000000002 0.067423098000000001 0.71961218000000005 0.075737058999999995 0.71951215999999996 0.064592302000000004 0.70176870000000002 0.060759291 0.70215165999999996 0.071402333999999998 0.71029960999999997 0.074485681999999998 0.710437059999"
+		+ "99995 0.063309342000000005 0.38809237000000002 0 0.082260116999999994 0.91796087999999998 0.47355293999999998 0.056923083999999999 0.13735299000000001 0.97341758 0.52398067999999998 0.20755076 0.29217324 0.98682314000000004 0.17872952 0.99925244000000002 0.52191317000000004 0.12507973999999999 0.38008338000000003 0.0031357085999999998 0.32240382000000001 0.0061874212999999999 0.26486610999999999 0.0097473170999999997 0.064559913999999996 0.64484817000000005 0.090111761999999998 0.031039454000000001 0.10200157 0.57162124000000003 0.030602951999999999 0.091194137999999994 0.23696354 0.53416859999999999 0.0097515964999999993 0.26557797 0.0031353098 0.15052409 0.17547366 0.53466283999999997 0.057446103999999998 0.64961170999999995 0.063660614000000004 0.70633345999999997 0.52125663 0.88273226999999999 0.44020933000000001 0.49956160999999999 0.48381491999999998 0.95595907999999996 0.49971198999999999 0.43939646999999998 0.34885274999999999 0.99341172 0.52717364 0.38006290999999998 0.41034302 0.99291806999999999 0."
+		+ "52837062000000001 0.87796943999999999 0.090606837999999995 0.49994895 0.48507752999999998 0.57288395999999997 0.030972848000000001 0.43991613000000002 0.0083735678000000004 0.40550702999999999 0.0063137054000000003 0.32303767999999999 0.40708691000000002 0.528328 0.14218743 0.53061378000000003 0.15019705999999999 0.52747964999999997 0.20788437000000001 0.52443373000000004 0.23358177999999999 0.83423543 0.24175684 0.83088052000000001 0.22542796000000001 0.830827 0.24516550000000001 0.82272761999999999 0.24181092000000001 0.81455237000000003 0.23365779 0.81114381999999996 0.22548260000000001 0.81449824999999998 0.22207331999999999 0.82265180000000004 0.23404695 0.69295578999999996 0.24219963999999999 0.69636410000000004 0.22587202000000001 0.69631034000000003 0.24555505999999999 0.70453971999999998 0.24214593000000001 0.71269285999999998 0.23397135999999999 0.71604763999999999 0.22581808 0.71263891000000001 0.22246294999999999 0.70446383999999995 0.35176974999999999 0.83462517999999997 0.3436169 0.8312162199999"
+		+ "9995 0.3599444 0.83127021999999995 0.34026142999999998 0.82304138000000004 0.34367027999999999 0.814888 0.35184520000000002 0.81153350999999996 0.35999875999999997 0.81494146999999995 0.36335367000000002 0.82311719999999999 0.34406 0.69669974000000001 0.34065097999999999 0.704853 0.34400575999999999 0.71302860999999995 0.35223490000000002 0.69334549000000001 0.35215917000000002 0.71643721999999999 0.36038830999999999 0.69675350000000003 0.36033383000000002 0.71308225000000003 0.36374339 0.70492929000000004 0.00026083758 0.38865706 0.0099548772000000001 0.38565946000000001 0.026045023 0.38884809999999997 0.13374063 0.51650678999999999 0.12515208 0.52259915999999995 0.14477322000000001 0.50743550000000004 0.0080751749000000008 0.12564935999999999 0.014190532 0.13418939999999999 0.025781285000000001 0.14227303999999999 0.14461309 0.0099670999 0.14161851 0.00027316861000000001 0.14425389 0.023446874999999999 0.38511922999999998 0.0097004594 0.40511718000000002 0.0080100922000000008 0.38550830000000003 0.023179436"
+		+ "000000001 0.53002572000000003 0.14192951000000001 0.51581675000000005 0.13363348 0.50424396999999999 0.14174259 0.52223503999999998 0.40493751 0.51611852999999996 0.39639875000000002 0.50452673000000003 0.38831773000000003 0.38570749999999998 0.52064246000000003 0.38870639000000001 0.53033262000000003 0.38606369000000001 0.50716304999999995 0.82595766000000004 0.013597346 0.76037270000000001 0.054285392000000002 0.82959092000000001 0.064450203999999997 0.76266593000000005 0.10324144 0.82690275000000002 0.11408619 0.76051480000000005 0.16456345 0.8272351 0.17565991 0.75986134999999999 0.21938110999999999 0.75733435000000005 0.23433338000000001 0.82750994 0.23022555 0.60401928000000005 0.021255429999999999 0.53447551000000004 0.055272623999999999 0.60365610999999997 0.065755158999999994 0.53656691000000001 0.10421213 0.60075294999999995 0.11538097999999999 0.53412747000000005 0.16552773000000001 0.60080856000000005 0.17699386 0.53322899000000001 0.22030258 0.53053903999999996 0.23527861999999999 0.6007883499999"
+		+ "9997 0.23151152 0.68008988999999997 0.021255651 0.61067616999999996 0.055501285999999997 0.67988389999999999 0.065721475000000001 0.61292809000000004 0.10445843 0.67715572999999996 0.11535628000000001 0.61072594000000002 0.16577844 0.67743695000000004 0.17693020000000001 0.61002696000000001 0.22059532000000001 0.60748743999999999 0.23554549 0.67766649000000001 0.23149599000000001 0.68443584000000002 0.057029932999999998 0.75386894000000004 0.065684035000000002 0.68781745000000005 0.10589722999999999 0.75227575999999996 0.11536913 0.68699622000000005 0.16725580000000001 0.75395656 0.17695899000000001 0.68754285999999998 0.22203529999999999 0.68524879000000005 0.23707707 0.75537436999999996 0.23145827999999999 0.75736380000000003 0.0054230127000000003 0.75036466000000002 8.1113367000000012e-06 0.74158603000000001 0.0011293442000000001"
+		)
+		2 "|Table:Table|Table:TableShape" "uvst[0].uvsp[750:773]" " 0.75848216000000002 0.014200177 0.73617113000000001 0.0081306183999999993 0.75305820000000001 0.021190214999999998 0.73729336000000001 0.016912039 0.66445147999999998 0.016539557 0.66357469999999996 0.0077300598000000003 0.66918295999999999 0.00088276900000000004 0.67798941999999995 7.0612381999999999e-06 0.68483453999999999 0.0056150756 0.68570721000000001 0.01441987 0.60873926 0.0056072943999999998 0.60188549999999996 9.6422646000000003e-06 0.59308033999999998 0.00089892431000000001 0.60962570000000005 0.014410892999999999 0.58748263000000001 0.0077549209999999997 0.58837282999999996 0.016562875000000001 0.80502236000000005 0.017769332999999998 0.80329740000000005 0.0090795754999999992 0.80821860000000001 0.0017220422999999999 0.82977407999999997 0.019996617000000001 0.81689756999999996 1.4160318e-06 0.82424741999999995 0.0049226126 0.51594161999999999 0.76452553000000001 0.52215582000000005 0.82124697999999996";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "PillarRN";
@@ -18972,42 +18931,81 @@ createNode reference -n "PillarRN";
 		"PillarRN" 1
 		2 "|Pillar:Pillar" "translate" " -type \"double3\" -22 0 -22";
 lockNode -l 1 ;
-createNode reference -n "LadderRN";
-	rename -uid "DE60CB0B-49CC-B162-8FB4-D3B5682DDE77";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"LadderRN"
-		"LadderRN" 11
-		2 "|Ladder:Ladder" "translate" " -type \"double3\" 3.80399820377154274 -0.45040839910507202 -17.41022681682653683"
-		
-		2 "|Ladder:Ladder" "rotate" " -type \"double3\" 0 180 0"
-		2 "|Ladder:Ladder" "rotateX" " -av"
-		2 "|Ladder:Ladder" "rotateY" " -av"
-		2 "|Ladder:Ladder" "rotateZ" " -av"
-		2 "|Ladder:Ladder" "rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		3 "Ladder:groupId1.groupId" "|Ladder:Ladder|Ladder:LadderShape.instObjGroups.objectGroups[0].objectGroupId" 
-		""
-		3 ":initialShadingGroup.memberWireframeColor" "|Ladder:Ladder|Ladder:LadderShape.instObjGroups.objectGroups[0].objectGrpColor" 
-		""
-		3 "|Ladder:Ladder|Ladder:LadderShape.instObjGroups.objectGroups[0]" ":initialShadingGroup.dagSetMembers" 
-		"-na"
-		3 "Ladder:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
-		5 1 "LadderRN" "|Ladder:Ladder|Ladder:LadderShape.instObjGroups" "LadderRN.placeHolderList[1]" 
-		"";
-	setAttr ".ptag" -type "string" "";
-lockNode -l 1 ;
 createNode reference -n "ChairRN";
 	rename -uid "003BEAB5-4018-460A-6E73-D18F6193040E";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"ChairRN"
 		"ChairRN" 0
-		"ChairRN" 6
+		"ChairRN" 13
 		2 "|Chair:Chair2" "translate" " -type \"double3\" 8.84551290040210958 0 9.70782451774327626"
 		
 		2 "|Chair:Chair2" "rotate" " -type \"double3\" 0 90 0"
 		2 "|Chair:Chair2" "rotateX" " -av"
 		2 "|Chair:Chair2" "rotateY" " -av"
 		2 "|Chair:Chair2" "rotateZ" " -av"
-		2 "|Chair:Chair2" "rotatePivotTranslate" " -type \"double3\" 0 0 0";
+		2 "|Chair:Chair2" "rotatePivotTranslate" " -type \"double3\" 0 0 0"
+		2 "|Chair:Chair2|Chair:ChairShape2" "uvSet[0].uvSetPoints" " -s 1427"
+		2 "|Chair:Chair2|Chair:ChairShape2" "uvst[0].uvsp[0:249]" (" -type \"float2\" 0.11867281 0.49128224999999998 0.96129555 0.97558248000000003 0.31915306999999998 0.88862014 0.019668630999999999 0.92311149999999997 0.14244770000000001 0.49146718 0.10399448 0.49099927999999998 0.34666911 0.88672017999999997 0.099133580999999998 0.49199978 0.46447792999999998 0.88673245999999994 0.94065445999999997 0.97426420000000002 0.37117370999999999 0.57456200999999996 0.96168666999999997 0.95182734999999996 0.94610417000000002 0.95176804000000004 0.94087005000000001 0.95234489 0.94007403 0.94724560000000002 0.69181382999999996 0.81266081000000001 0.68508553999999999 0.79957562999999998 0.31524753999999999 0.90118814000000003 0.35696781 0.60012454000000004 0.70493972000000005 0.82241702000000005 0.71347094 0.82937711000000003 0.34439892 0.90186 0.36213949000000001 0.60098415999999999 0.31466684 0.92730290000000004 0.38008618 0.58108908000000004 0.34384289000000001 0.92803150000000001 0.39008885999999998 0.57354212000000004 0.65418153999999995 0.55674135999999996 0.39827680999999998 0.54"
+		+ "942988999999998 0.045505512999999997 0.89787148999999999 0.039272006999999998 0.92289889000000003 0.28584498000000003 0.90041088999999996 0.35526185999999998 0.61392515999999997 0.36993935999999999 0.60327481999999999 0.34270915000000002 0.62654197 0.34863418000000002 0.62511908999999999 0.33207223000000002 0.65401339999999997 0.80061435999999997 0.97241186999999996 0.48888278000000002 0.88673371000000001 0.46952450000000001 0.88673341000000006 0.48383921000000002 0.88673389000000002 0.48889458000000002 0.86686282999999997 0.19941908 0.57553624999999997 0.80042261000000003 0.94997960000000004 0.45569189999999998 0.90380985000000003 0.45078047999999998 0.90377932999999999 0.81290132000000004 0.86487793999999996 0.81799096000000004 0.84098333000000003 0.49109530000000001 0.54280645000000005 0.45567395999999999 0.93011527999999999 0.48555060999999999 0.54326229999999998 0.49205001999999998 0.56787538999999998 0.83114122999999995 0.31398039999999999 0.49164963 0.56326169000000004 0.65644758999999997 0.70017063999"
+		+ "999996 0.65593356000000003 0.69522357000000001 0.19066522999999999 0.89827299000000005 0.66894953999999995 0.76244652000000002 0.66647213999999999 0.75606024000000005 0.67877339999999997 0.78869157999999995 0.28074761999999998 0.90041112999999995 0.25171259000000001 0.89959389000000001 0.19015594 0.92456769999999999 0.33064333000000001 0.65905051999999997 0.32510098999999998 0.71988355999999998 0.32562351 0.71486037999999996 0.32479008999999998 0.86056811 0.044496879000000003 0.92205833999999998 0.48900396000000002 0.72038053999999996 0.48394784000000002 0.72041487999999998 0.48908252000000002 0.71539712 0.48396376000000002 0.71545415999999995 0.48862739999999999 0.63728576999999997 0.48890056999999998 0.86182289999999995 0.48385102000000002 0.86686282999999997 0.81861930999999999 0.69908004999999995 0.81361550000000005 0.69905782000000005 0.81363808999999998 0.69402962999999995 0.81930333 0.55562078999999998 0.81823385000000004 0.78529 0.81825696999999997 0.78026163999999998 0.81801318999999995 0.83596389999"
+		+ "999998 0.81324713999999998 0.78526783 0.34117687000000002 0.71487730999999999 0.34625043999999999 0.71488779999999996 0.34592938000000001 0.71993744000000004 0.34073582000000002 0.86064726000000003 0.79909437999999999 0.69899993999999999 0.78769553000000003 0.780186 0.79404545000000004 0.69899224999999998 0.79441117999999999 0.69394827000000003 0.81421595999999996 0.55560105999999998 0.79971868000000002 0.55522472 0.56533723999999996 0.54906427999999996 0.56513082999999997 0.46687010000000001 0.080276429999999996 0.49166575000000001 0.34588814000000001 0.86143386 0.79450971000000004 0.55443244999999997 0.94029498 0.92710972000000003 0.82405514000000002 0.92574250999999996 0.82350045000000005 0.94570940999999997 0.46449304000000002 0.86686271000000004 0.46953779000000001 0.86686355000000004 0.81738584999999997 0.97239321000000001 0.81730234999999996 0.95003963000000002 0.82251697999999995 0.95062964999999999 0.21132935999999999 0.57642543000000002 0.41322318000000002 0.55022537999999999 0.67535561 0.5549544100"
+		+ "0000001 0.67662674 0.69500172000000005 0.67162246000000003 0.69509476000000003 0.67694312000000001 0.70000379999999995 0.67904173999999995 0.76113027 0.77066438999999998 0.85909736000000003 0.41116818999999999 0.90323107999999996 0.44481227000000001 0.54802238999999997 0.40568641 0.92941432999999996 0.44945443000000002 0.55216443999999998 0.46906882999999999 0.56983536000000001 0.46452012999999998 0.71545707999999997 0.46959937000000002 0.72046827999999996 0.46954125000000002 0.86182439 0.46449581000000001 0.86182373999999995 0.68428493000000001 0.76286697000000003 0.78271544000000004 0.77977437000000005 0.68622214000000004 0.76828605000000005 0.37657899 0.60080129000000004 0.46359545000000002 0.57319951000000002 0.37374067 0.60696804999999998 0.75507152 0.32451969000000003 0.48351863 0.63795835000000001 0.46413678000000003 0.63504338000000005 0.35383292999999999 0.65131848999999997 0.35581743999999998 0.64589428999999998 0.46384745999999999 0.62941068 0.46518111000000001 0.57834768000000003 0.81302953 0.8359"
+		+ "4184999999999 0.81300830999999996 0.84096128000000003 0.78104872000000003 0.83974629999999995 0.70630698999999997 0.81307715000000003 0.70347433999999998 0.80674087999999999 0.78213756999999995 0.83480339999999997 0.78232603999999994 0.78480780000000006 0.78731119999999999 0.78521341 0.77354484999999995 0.32509261 0.76845872000000004 0.32497609 0.77476579000000001 0.27684954000000001 0.84394157000000003 0.31426304999999999 0.34855160000000002 0.65305959999999996 0.33590387999999999 0.65816998000000004 0.338415 0.65169268999999996 0.69538343000000002 0.80095004999999997 0.69961315000000002 0.81037652000000004 0.36775901999999999 0.48627365 0.38678544999999998 0.49036235 0.36296447999999998 0.49154603000000002 0.34836616999999998 0.49211988000000001 0.34174711000000002 0.48584294 0.16654572000000001 0.69924401999999997 0.42200368999999999 0.46912872999999999 0.41728383000000002 0.46771580000000001 0.40252218000000001 0.46717 0.41848758000000003 0.46233018999999997 0.38661923999999998 0.48545094999999999 0.54261"
+		+ "826999999996 0.46145749000000003 0.54786586999999998 0.46224200999999998 0.14823244999999999 0.57311939999999995 0.22108978000000001 0.49434716000000001 0.16708239999999999 0.57816076000000005 0.21636986999999999 0.49303466000000001 0.19888705000000001 0.49251308999999999 0.21758719000000001 0.48762631000000001 0.19888607999999999 0.48773455999999998 0.56537420000000005 0.46199616999999998 0.56521337999999999 0.40334457000000001 0.36742880999999999 0.42246607000000003 0.38615376000000001 0.42701802 0.36218765000000003 0.42768856999999999 0.34640673 0.4282009 0.34109413999999999 0.42938524 0.22250012999999999 0.43023419000000002 0.98883456000000003 0.31095219000000002 0.98886216000000005 0.30608596999999999 0.96987014999999999 0.31078938 0.54243511 0.40491322000000002 0.41852081000000002 0.40386704000000001 0.40276039000000002 0.40355372 0.41683796000000001 0.39815232 0.38623269999999998 0.42196720999999998 0.96868014000000002 0.42693299000000001 0.22369855999999999 0.42542764999999999 0.97267234000000002 0.00"
+		+ "49015678999999998 0.54923504999999995 0.39805740000000001 0.21718467999999999 0.42917219000000001 0.19917238000000001 0.42928725000000001 0.21545375999999999 0.42349017 0.19919880000000001 0.42411479000000002 0.56520139999999996 0.39816263000000002 0.56491530000000001 0.30772179 0.36671847000000002 0.32716142999999998 0.38570932000000002 0.33172595999999999 0.36190953999999997 0.33241335 0.34740418000000001 0.33276421 0.34037325000000002 0.32595195999999999 0.98778069000000002 0.21858522 0.42152232000000001 0.30946919000000001 0.41680601 0.30811417000000002 0.40208310000000003 0.30798596 0.41822409999999999 0.30253460999999998 0.38560906 0.32664979 0.54232174 0.30119041000000002 0.54773748 0.30233535 0.97010881000000004 0.092369191000000003 0.21965009999999999 0.33461204 0.98893284999999997 0.097506179999999998 0.21491447 0.33341422999999998 0.19968103000000001 0.33358665999999998 0.21635059000000001 0.32779488000000001 0.19972427000000001 0.32833912999999998 0.56490386000000004 0.30249858000000002 0.56479089"
+		+ "999999998 0.26549729999999999 0.36673197000000002 0.28524217000000002 0.38549583999999998 0.28994228999999999 0.36152053000000001 0.29044351000000002 0.34566665000000002 0.29071840999999998 0.34025561999999998 0.29190016000000002 0.22151366 0.29225405999999998 0.26629125999999997 0.76783192 0.26628402000000001 0.76296567999999998 0.24732605999999999 0.76780546000000005 0.54228288000000002 0.26695417999999999 0.41820025 0.26594826999999999 0.40239554999999999 0.26573780000000002 0.41658497 0.26025831999999999 0.38555324000000002 0.28484777 0.24697118000000001 0.88395447000000005 0.22271203000000001 0.28744577999999998 0.24785888 0.49628597000000002 0.54911297999999997 0.26019469000000001 0.21610355000000001 0.29115849999999999 0.19990200999999999 0.29121712 0.21448228999999999 0.28551713000000001 0.19992766000000001 0.28599228999999998 0.56478351000000004 0.26029082999999997 0.56449020000000005 0.18697041 0.36645552999999997 0.20701689000000001 0.38542040999999999 0.21165985000000001 0.36159584 0.2122595499999"
+		+ "9999 0.34707996000000002 0.21255945000000001 0.34008163000000002 0.20578552999999999"
+		)
+		2 "|Chair:Chair2|Chair:ChairShape2" "uvst[0].uvsp[250:499]" (" 0.26489647999999999 0.69266611 0.42133125999999999 0.18875471999999999 0.41664508 0.18738334000000001 0.40194288 0.18727315999999999 0.41807538 0.18185314999999999 0.38538834 0.20656179 0.54210084999999997 0.180437 0.54749148999999997 0.18158637999999999 0.24631723999999999 0.56658012000000002 0.21917370999999999 0.21381395 0.26517766999999998 0.57158165999999999 0.21446567999999999 0.21254677999999999 0.20028012000000001 0.21250928999999999 0.21592333999999999 0.20694423000000001 0.20032823 0.20727298999999999 0.56448025000000002 0.18176224999999999 0.56433498999999998 0.14243898999999999 0.36672807000000002 0.16262509999999999 0.38557829999999998 0.16707763 0.36146583999999998 0.16789452999999999 0.34546798000000001 0.16832158999999999 0.34004267999999999 0.16943140000000001 0.22119417999999999 0.16905786 0.29570273000000002 0.607256 0.29575309 0.61212182000000004 0.31466734000000002 0.60711497000000003 0.54200064999999997 0.14381626 0.41805238 0.14297417000000001 0.40227509 0.14284915000000001 0.416474430"
+		+ "00000001 0.13735222999999999 0.38575630999999999 0.16181508999999999 0.31399447000000003 0.49096686 0.22240709 0.16425870000000001 0.31676689000000002 0.87262803 0.54875755000000004 0.13710691 0.21581023999999999 0.16790941000000001 0.20051189 0.16767634000000001 0.21422014 0.16222748000000001 0.20053389999999999 0.16241001999999999 0.564318 0.13726527999999999 0.56398934000000001 0.080034010000000003 0.36503637 0.10073093 0.38421445999999998 0.10204439999999999 0.36095675999999999 0.11075266 0.34657955000000001 0.12664038 0.29681205999999999 0.644602 0.42113587000000002 0.1036459 0.41620550000000001 0.10080759 0.40136834999999998 0.085323639000000007 0.38323635 0.095809839999999993 0.54271625999999995 0.070295318999999995 0.54780667999999999 0.074614397999999998 0.31736678000000001 0.81751960999999995 0.21952922999999999 0.1055446 0.21468984999999999 0.10495747 0.2004891 0.10449644 0.21565983 0.099530265000000007 0.20050825 0.099177620999999994 0.56397533 0.074854761000000006 0.19434793 1.4850488e-05 0.34507"
+		+ "885999999999 0.049910786999999998 0.36242384 0.043442043999999999 0.34569597000000002 0.061241089999999998 0.33579608999999999 0.092783860999999995 0.29775428999999998 0.67866850000000001 0.43037352000000001 0.071075551000000001 0.42675605 0.066307902000000002 0.41618389 0.034131531 0.35790234999999998 0.038223695000000002 0.32091057000000001 0.037094823999999998 0.33245412000000002 0.021278258000000001 0.32415426000000003 0.043456830000000002 0.31950425999999998 0.072208731999999998 0.29831933999999999 0.70384407000000004 0.44490184999999999 0.050792589999999999 0.44326910000000003 0.045251511000000001 0.43966495999999999 0.015346444000000001 0.32599254999999999 0.019061292000000001 0.22266853 0.033744585000000001 0.25111865999999999 0.030626898999999999 0.25797752000000002 0.012265486000000001 0.25581735 0.035941817000000001 0.25446180000000002 0.068097159000000004 0.24919556000000001 0.069173433000000006 0.29879934000000002 0.76842158999999999 0.50881069999999995 0.047688115000000003 0.31760553000000002 0."
+		+ "77329676999999997 0.50917661000000003 0.042671196000000002 0.50911426999999998 0.010735448 0.25271906999999999 0.011958758999999999 0.54295026999999996 0.010105724 0.22433595000000001 0.0094575696000000001 0.22287224 0.028510381000000001 0.21959667999999999 0.0086442754 0.21760154000000001 0.03301904 0.20025394999999999 0.028375085000000001 0.20019987 0.023522168 0.19992422000000001 0.0051918918999999996 0.87530470000000005 0.00022276880999999999 0.88664626999999996 0.92643178000000004 0.64026850000000002 0.97860466999999995 0.89496350000000002 1.5685196999999999e-05 0.65578210000000003 0.97786295000000001 0.62588208999999995 0.88695157000000002 0.66098838999999998 0.97673219 0.50822961 0.88673711 0.22127210999999999 0.78269314999999995 0.66090446999999997 0.94989102999999997 0.65500307000000002 0.95452011000000003 0.639431 0.95486152000000002 0.88609254000000004 0.89742714000000001 0.88585734000000005 0.90244150000000001 0.0047850423000000003 0.57190012999999995 0.59634279999999995 0.90213405999999996 0.5930"
+		+ "6102999999999 0.89727873000000002 0.59120618999999996 0.90227813000000001 0.91763037000000003 0.83027720000000005 0.56712514000000003 0.90254277000000005 0.56751907000000001 0.92885035000000005 0.61456995999999997 0.59688746999999998 0.60006325999999999 0.59168321000000001 0.61278242000000005 0.60181403 0.59676993 0.92830491000000004 0.61940295000000001 0.61497884999999997 0.85650808 0.00021849472000000001 0.64793294999999995 0.86099630999999999 0.93839240000000002 0.00078300915999999999 0.8619386 0.92532742000000001 0.86623751999999998 0.90048569000000001 0.92350297999999997 0.00079775893000000005 0.62597369999999997 0.86689561999999998 0.62676602999999997 0.86174386999999997 0.97919464000000001 0.55825037 0.86090725999999995 0.90113264000000004 0.97636383999999998 0.69683229999999996 0.62613498999999995 0.92781395 0.65519415999999997 0.92740732000000003 0.62554370999999998 0.62603569000000003 0.6049329 0.60390538000000005 0.62108474999999996 0.92796354999999997 0.62065857999999996 0.90165733999999997 0.9526"
+		+ "8470000000005 0.78989368999999998 0.96270679999999997 0.76375859999999995 0.946109 0.80089467999999997 0.93165284000000004 0.81139296000000005 0.60904658 0.61343592000000002 0.60100268999999995 0.60750221999999998 0.92493546000000004 0.81403524000000005 0.97577143 0.70174961999999996 0.96525132999999996 0.75737988999999994 0.72087741000000005 0.90024185000000001 0.65298009000000001 0.72043455000000001 0.65252995000000003 0.71526151999999998 0.66021823999999996 0.92729402000000005 0.64794527999999996 0.72043436999999999 0.63215089000000002 0.72042375999999997 0.62711154999999996 0.72041708000000004 0.24029985000000001 0.78281849999999997 0.96328789000000004 0.55723016999999997 0.96064961000000004 0.69637298999999997 0.95814347 0.55626023000000002 0.96032161000000005 0.70134949999999996 0.95528763999999999 0.70123517999999996 0.1808082 0.49360934000000001 0.78373813999999997 0.95034479999999999 0.50318806999999999 0.89177470999999997 0.77912508999999996 0.97283030000000004 0.77741534000000001 0.9461273 0.840143"
+		+ "74000000003 0.54949563999999995 0.50318879000000005 0.88673526000000003 0.50320142999999995 0.86686282999999997 0.50824267000000001 0.86686337000000002 0.58422940999999995 0.010102498 0.58015656000000004 0.074600868000000001 0.18003765999999999 0.0076422816999999997 0.18194664999999999 0.026725516000000001 0.18217738 0.032133560999999998 0.18463840000000001 0.099108539999999995 0.83818150000000002 0.69918972000000001 0.84382880000000005 0.78043419000000003 0.83285248000000001 0.69411701000000003 0.83372497999999995 0.55548602000000002 0.83903645999999998 0.55459946000000004 0.577434 0.54993491999999999 0.58166826000000005 0.46743100999999998 0.50030178000000003 0.90346919999999997 0.53744751000000002 0.547912 0.49556199000000001 0.92982178999999998 0.85515951999999995 0.86067981000000005 0.84490054999999997 0.84113687000000004 0.84996044999999998 0.84004933000000004 0.84392469999999997 0.83610927999999995 0.84416979999999997 0.78546464000000005 0.53406131000000001 0.55176466999999996 0.51347708999999997 0.571"
+		+ "33745999999996 0.50895040999999996 0.56743288000000003 0.51175844999999998 0.57669395000000001 0.50320624999999997 0.86182219000000004 0.50333422000000005 0.72024410999999999 0.50837880000000002 0.72020083999999995 0.50337248999999995 0.71518194999999996 0.50315690000000002 0.63405180000000005 0.78693073999999996 0.32535418999999999 0.50987660999999995 0.62807924000000004 0.61781560999999996 0.64654034000000005 0.61967545999999996 0.6519587 0.62389958000000001 0.64787167000000001 0.63510953999999997 0.65251678000000002 0.63755183999999998 0.65895848999999995 0.65479219 0.90110809000000003 0.65981906999999995 0.90105075000000001 0.95150846 0.76816987999999997 0.95265204000000003 0.76233298000000005 0.94540893999999998 0.76942527000000005 0.84915834999999995 0.78510314000000003 0.84881245999999999 0.78006660999999999 0.22328729999999999 0.69648748999999999 0.24214461000000001 0.70150100999999998 0.048498593 0.49115866000000002 0.033734139000000003 0.49041342999999998 0.049816482000000002 0.48578641 0.0287258360"
+		+ "00000001 0.49008507000000001 0.0099054649000000008 0.48879126000000001 0.24225225 0.69658880999999995 0.70698791999999999 0.46069574000000002 0.71223694000000004 0.46146261999999999 0.72827613000000002 0.46606808999999999 0.72784859000000002 0.46121677999999999 0.17423427 0.48713141999999998 0.18039485999999999 0.42953849 0.22364569000000001 0.57540332999999999 0.58638734000000003 0.46885154000000001 0.242681 0.58037698000000004 0.58288675999999995 0.46205153999999998 0.58270180000000005 0.40353834999999999 0.17506648999999999 0.43056485 0.051137552000000003 0.42724103000000002 0.035367022999999997 0.42652705000000002 0.049657687999999998 0.42148050999999997 0.00015837695 0.87887501999999995 0.030301460999999998 0.42632297000000002 0.011378773999999999 0.42553609999999997 0.72759496999999995 0.40259623999999999 0.71188426000000005 0.40297252 0.70659947000000001 0.40419346 0.58800399000000003 0.40467366999999999 0.019187003000000001 0.87894130000000004 0 1 0.58926851000000002 0.39990890000000001 8.268028599999"
+		+ "9997e-05 0.57792801000000005")
+		2 "|Chair:Chair2|Chair:ChairShape2" "uvst[0].uvsp[500:749]" (" 0.18388745000000001 0.33376213999999998 0.58098393999999998 0.39782890999999998 0.58065670999999996 0.30776542000000001 0.0020305751999999998 0.78649879 0.020903412 0.79145335999999999 0.051249474000000003 0.33165407000000002 0.036565654000000003 0.33125278000000002 0.052781927999999999 0.32613208999999999 0.031573645999999997 0.33105942999999999 0.012757299999999999 0.33032667999999998 0.020995713999999999 0.78654080999999998 0.70615654999999999 0.30042157000000003 0.71157366 0.30154421999999997 0.72778522999999995 0.30692365999999999 0.72734432999999998 0.30168255999999999 0.17699613 0.32666808000000003 0.18293111000000001 0.29131668999999999 0.0020109428999999998 0.66541404000000004 0.5853796 0.30910325 0.021061740999999998 0.67032855999999996 0.58207237999999994 0.30218192999999999 0.58192217000000002 0.26558535999999999 0.17750100999999999 0.29237353999999999 0.053234748999999998 0.28972821999999998 0.037375278999999997 0.28930264999999999 0.051745146999999998 0.28406119000000002 0.94168156000000003 0.2"
+		+ "7139854000000002 0.032296862000000003 0.28916752000000001 0.013367878999999999 0.28858467999999998 0.72712421000000005 0.26460465999999999 0.71136224000000003 0.26490672999999998 0.70600598999999997 0.26617664000000002 0.58729427999999995 0.26674819 0.96070527999999999 0.27183285000000001 0.93917715999999996 0.39249748000000001 0.58854282000000002 0.26197872 0.94678319 0.0048808241000000002 0.18554105000000001 0.21267808999999999 0.58026332000000003 0.25994076999999999 0.58006471000000004 0.18704607000000001 0.94465958999999999 0.19625582 0.96343303000000002 0.20157525000000001 0.052559249000000002 0.21147460000000001 0.037827711999999999 0.21111969999999999 0.054045997999999998 0.20597783 0.032823301999999999 0.21094330999999999 0.013969888 0.21028498000000001 0.96362042000000003 0.19666549999999999 0.70547736000000005 0.17959657000000001 0.71086590999999999 0.18068944000000001 0.72706419 0.18600607 0.72660749999999996 0.18079915999999999 0.17862512 0.20566603999999999 0.18443920999999999 0.16780801000000001"
+		+ " 0.94698404999999997 0.075193583999999994 0.58475882000000001 0.18842591 0.96593618000000003 0.080475858999999997 0.58147859999999996 0.181477 0.58131253999999999 0.14252818 0.17903055000000001 0.16895178 0.054363396000000001 0.16745241 0.038296439000000002 0.1667766 0.052914496999999998 0.16191908999999999 0.27236247000000002 0.75669175 0.033165630000000001 0.16653261 0.014110507 0.16548768999999999 0.72630011999999999 0.14154929999999999 0.71057402999999997 0.14177904 0.70526272000000001 0.14291508 0.58665370999999999 0.14369161 0.29139099000000002 0.75662684000000002 0.27303830000000001 0.87781483000000005 0.58788931 0.13892365000000001 0.27049234999999999 0.49611259000000002 0.18570401 0.10463466 0.57968158000000003 0.13686708 0.57929008999999998 0.079978227999999998 0.27293624999999999 0.71923345000000005 0.29166955 0.72413653 0.053678676000000002 0.12596224 0.039559018000000001 0.10986976 0.034784100999999998 0.10439998 0.016486797000000001 0.10035308 0.29178008 0.71910297999999995 0.71057742999999995 0"
+		+ ".093605257999999997 0.72674762999999998 0.083848611000000003 0.72658789000000001 0.076500967000000003 0.27212008999999998 0.55119741 0.58413046999999996 0.080577776000000004 0.58519416999999996 0.070223302000000001 0.27336769999999999 0.68514704999999998 0.29209751 0.69005888999999998 0.064945787000000005 0.092560171999999996 0.055288839999999999 0.061338399000000002 0.053172945999999999 0.053439420000000001 0.039204031 0.042987492000000002 0.29221392000000002 0.68501544000000003 0.69744706000000001 0.059874304000000003 0.71143562000000005 0.032645545999999998 0.70847039999999994 0.025157618999999999 0.27351734 0.66000091999999999 0.29236804999999999 0.66489953000000002 0.081191018000000004 0.072222382000000002 0.076219067000000001 0.043850305999999999 0.075079061000000002 0.038960237000000002 0.067591302000000006 0.021919788999999999 0.29238108000000002 0.65988088 0.67929315999999995 0.042477242999999998 0.68763958999999997 0.014114550999999999 0.68273806999999997 0.012447407000000001 0.27304631000000001 0.5"
+		+ "9541643 0.61429471000000002 0.049112778000000003 0.29197070000000003 0.60030925000000002 0.14573041 0.067656219000000004 0.14399662999999999 0.035412713999999998 0.14898105 0.035071548000000001 0.14355113999999999 0.03034481 0.14123303000000001 0.011753716000000001 0.14645277000000001 0.011357732000000001 0.61317730000000004 0.043502849000000003 0.14592132999999999 0.0063587516000000004 0.61807084000000001 0.010323581 0.14103356 0.63494616999999998 0.12236653 0.62785858000000005 0.059166875000000001 0.63096171999999995 0.073909901 0.63123298000000005 0.078969366999999999 0.63058859 0.097311199000000001 0.62779408999999997 0.10240771999999999 0.62722604999999998 0.11728761 0.62725251999999998 0.12223557 0.63342708000000003 0.93896860000000004 0.14508148000000001 0.92408871999999997 0.14044920999999999 0.85739648000000002 0.13964484999999999 0.87564701 0.13674510000000001 0.88072908000000005 0.13617496000000001 0.89560925999999996 0.13624996 0.90070397000000002 0.13685404000000001 0.91902797999999997 0.13977064"
+		+ " 0.92428719999999998 0.14469346 0.12340442 0.78378546000000004 0.061060231 0.77964997000000003 0.075679078999999996 0.77940111999999995 0.080684394000000006 0.77983188999999997 0.098647474999999998 0.78398860000000004 0.10366254 0.78461396999999999 0.1183984 0.78449564999999999 0.061380233999999999 0.80338739999999997 0.92128717999999998 0.28860976999999999 0.85566640000000005 0.28806806000000001 0.87353765999999999 0.29265499 0.87853873000000005 0.29339926999999999 0.89326799000000001 0.29363032999999999 0.89828735999999998 0.29303941 0.91627895999999998 0.28900617000000001 0.92117304 0.29369462000000002 0.77602309000000003 0.027547736 0.774813 0.27184710000000001 0.78415579000000002 0.27705336000000003 0.76982689000000004 0.27661633000000002 0.76033961999999999 0.27661970000000002 0.75529438000000004 0.27662577999999999 0.84643542999999999 0.27708736 0.84139240000000004 0.27704728000000001 0.83156728999999996 0.27697833999999999 0.82655924999999997 0.27194652000000002 0.82658237000000001 0.27692333000000002"
+		+ " 0.81679802999999995 0.27676874000000001 0.81181526000000004 0.27689736999999998 0.78921222999999996 0.27700233000000002 0.78455591000000002 0.27182546000000002 0.78571254000000001 0.027589000999999998 0.77100824999999995 0.027526245000000001 0.76131742999999996 0.027481541000000002 0.77102303999999999 0.022503097 0.82789206999999998 0.022805117 0.75630092999999998 0.027456649 0.84761589999999998 0.027945141999999999 0.84259176000000002 0.027915444000000001 0.83288616000000004 0.027858745000000001 0.77111059000000004 0.00015036851 0.82786274000000004 0.027829125999999999 0.81815749000000004 0.027772153000000001 0.81313413000000001 0.027742220000000001 0.79072737999999998 0.027606624999999999 0.78573340000000003 0.022506104999999998 0.94576687000000004 0.97513627999999997 0.33937103000000002 0.90169226999999996 0.061139327 0.78470320000000005 0.079998516000000006 0.78479772999999997 0.10368637999999999 0.78953737000000002 0.040284418000000002 0.89732635000000005 0.020651600999999999 0.8991285 0.285208520000000"
+		+ "02 0.92671376000000005 0.31015196 0.90106595 0.37541813000000002 0.59105973999999994 0.18563683 0.89822024 0.32006410000000002 0.71987038999999997 0.34089090999999999 0.71992403000000005 0.67011082 0.55602454999999995 0.21777345000000001 0.027639527000000001 0.79941702000000003 0.69396716000000003 0.77567344999999999 0.86032754 0.78609883999999997 0.84087818999999997 0.48506444999999998 0.53824477999999998 0.48672908999999998 0.56382268999999996 0.48385667999999998 0.86182289999999995 0.82236140999999996 0.97242074999999994 0.34682626 0.86669660000000004 0.46454477 0.72047633 0.38416382999999998 0.58407401999999997 0.44333589000000001 0.55336534999999998 0.40617966999999999 0.90313447000000002 0.46955770000000002 0.71547936999999995 0.46896528999999998 0.63615292000000001 0.24667629999999999 0.89951223000000002 0.67191129999999999 0.70007432000000003 0.81326752999999996 0.78023940000000003 0.75632250000000001 0.022438112999999999 0.84262115000000004 0.022891555000000001 0.36551481000000002 0.61276925000000004"
+		+ " 0.34970488999999999 0.64713704999999999 0.68013424 0.76697773000000002 0.78711819999999999 0.83585929999999997 0.96171021000000001 0.94679069999999999 0.35138314999999998 0.57547521999999995 0.94493978999999995 0.94714116999999998 0.41802542999999998 0.55049192999999996 0.36797014 0.49131024000000001 0.81911367000000002 0.92645907000000005 0.2162752 0.57560098000000004 0.55394447000000002 0.55009185999999999 0.54926341999999995 0.46772352 0.36271 0.48647222000000001 0.34699738000000002 0.48665354 0.40283540000000001 0.46219525 0.36725172 0.42755133000000001 0.54772924999999995 0.40370905000000001 0.36244407000000001 0.4225544 0.34780148 0.42257824999999999 0.42169487 0.39696642999999998 0.40233257 0.39840179999999997 0.36690074 0.33226991 0.22029288 0.42213771 0.54935889999999998 0.30799341000000002 0.36163985999999998 0.32726082000000001 0.34576726000000002 0.32712266000000001 0.40240192000000002 0.30279001999999999 0.36659381000000002 0.29035506 0.54765207000000005 0.26574585000000001"
+		)
+		2 "|Chair:Chair2|Chair:ChairShape2" "uvst[0].uvsp[750:999]" (" 0.36173814999999998 0.28529364000000002 0.34705257 0.28517753000000001 0.42144039 0.25901604 0.4020687 0.26054876999999999 0.36659302999999999 0.21213447999999999 0.21932317000000001 0.28415470999999998 0.54910517000000003 0.18725976 0.36136654000000001 0.20710585000000001 0.34547576000000002 0.20693497 0.40227360000000001 0.18210427000000001 0.36657706000000001 0.16773959999999999 0.54733949999999998 0.14264093 0.36167672000000001 0.162784 0.34680962999999998 0.16289756 0.42122376 0.13592459000000001 0.40195438 0.13771088000000001 0.36581852999999998 0.10535691 0.21903057000000001 0.16083053999999999 0.54882549999999997 0.080068208000000002 0.42346644 0.18071432000000001 0.42338571000000003 0.14410936999999999 0.42363790000000001 0.30133875999999998 0.42357042 0.26716678999999999 0.42373495999999999 0.46152507999999998 0.42382333 0.40502703000000001 0.22127585 0.2057023 0.2217112 0.32649651000000002 0.22280738999999999 0.48673390999999999 0.42487434000000002 0.46639669 0.14811772000000001 0.5780314800000000"
+		+ "4 0.16648268999999999 0.69430906000000003 0.42487743 0.30612784999999998 0.96996908999999998 0.097280480000000003 0.98774284000000001 0.21364986999999999 0.42470297000000001 0.18551815999999999 0.24621275000000001 0.57149236999999997 0.26482305 0.68773108999999999 0.36082235000000001 0.10375775 0.34505027999999999 0.12086029 0.29692491999999998 0.64963406000000001 0.42185092000000002 0.098676636999999998 0.41764354999999997 0.094939678999999999 0.40144062000000003 0.078077137000000005 0.34791315 0.053319599000000002 0.3429527 0.054244491999999998 0.33216067999999999 0.087746114 0.29783985000000002 0.68371110999999996 0.43266781999999998 0.066591233 0.43041553999999999 0.061156507999999998 0.41902929999999999 0.026692461000000001 0.32518142 0.038480333999999998 0.31976589999999999 0.041790689999999998 0.31455651000000001 0.070488885000000001 0.29834807000000002 0.70885450000000005 0.44930958999999998 0.048538054999999997 0.44837299000000003 0.043582395000000003 0.44451745999999998 0.013639831 0.256156500000000"
+		+ "01 0.030885121000000001 0.54800397000000001 0.0093765342999999994 0.22084907000000001 0.095091350000000005 0.25081560000000003 0.0356456 0.51443755999999996 0.043863486 0.51417738000000002 0.010609029000000001 0.31745501999999998 0.81252486000000002 0.22152533999999999 0.10107061000000001 0.29880290999999998 0.77343868999999998 0.85487986000000005 0.29303747000000002 0.87844509000000004 0.29832165999999999 0.89879799000000005 0.29811987000000001 0.86704605999999995 0.92606025999999997 0.92622066000000003 0.82338666999999999 0.63202678999999995 0.86082088999999995 0.81865078000000002 0.69405114999999995 0.8178879 0.86489987000000002 0.49531415000000001 0.90352010999999999 0.52803074999999999 0.55035239000000002 0.95564698999999997 0.69623703000000003 0.83785814000000003 0.69414288000000002 0.95709062 0.55103290000000005 0.66016704000000004 0.95487827000000003 0.77845818 0.95115691000000002 0.50824731999999995 0.86182219000000004 0.59158604999999997 0.58431529999999998 0.59843272000000003 0.60126334000000003 0."
+		+ "59145605999999995 0.5785228 0.56209092999999999 0.90267014999999995 0.86017381999999998 0.85949766999999999 0.62681465999999997 0.71537876 0.50839334999999997 0.71512675000000003 0.50872534999999997 0.63342034999999997 0.64744126999999996 0.71543579999999996 0.63188761000000004 0.71539330000000001 0.62494516 0.65375525000000001 0.71584839 0.90025562000000003 0.94739353999999998 0.76402395999999995 0.833134 0.69915252999999999 0.77604717000000001 0.022518923999999999 0.81316250999999995 0.022717938 0.62570906000000004 0.901645 0.93596422999999995 0.80200446000000003 0.84891444000000005 0.83509730999999998 0.92782282999999999 0.80772423999999998 0.028697918999999999 0.57372290000000004 0.65409678000000004 0.94943946999999995 0.22311638 0.70137512999999996 0.71899760000000001 0.54927212000000003 0.71366364000000004 0.46694562000000001 0.97960544000000005 0.55330789000000002 0.58223575000000005 0.55021178999999998 0.78224479999999996 0.94580096000000002 0.18678896 0.57696473999999998 0.034075819 0.485334749999999"
+		+ "98 0.010153397 0.48385990000000001 0.029021419999999999 0.48504519000000001 0.17945161000000001 0.48806006000000002 0.035176352000000001 0.42138766999999999 0.0018748841000000001 0.79138695999999997 0.71338928000000001 0.39730912000000002 0.71322315999999997 0.30721077000000002 0.72810984000000001 0.39738509 0.011379943 0.4205004 0.030188692999999999 0.42123707999999999 0.58584093999999998 0.39662111 0.18202507000000001 0.42398344999999998 0.036889802999999999 0.32610538999999999 0.012892724 0.32525440999999999 0.031805802000000001 0.32595449999999998 0.18235032000000001 0.32801725999999998 0.037215381999999998 0.28415080999999998 0.94440937000000003 0.20114048000000001 0.71280478999999997 0.25929877000000001 0.71252406000000001 0.18633199 0.72753382 0.25936895999999998 0.013369892 0.28350011000000003 0.032212528999999997 0.28405571000000002 0.58511787999999998 0.25870462999999999 0.18443929000000001 0.28579870000000002 0.038101221999999997 0.20596987 0.014014812999999999 0.20516335999999999 0.032996770000000"
+		+ "002 0.20582399000000001 0.18397568 0.20694962 0.038134657000000002 0.16168113000000001 0.27292207000000002 0.72428583999999996 0.71194690000000005 0.13628107 0.71207147999999998 0.099483407999999995 0.72665464999999996 0.13640036 0.014013060000000001 0.16021724000000001 0.033073052999999998 0.16142707000000001 0.58447486000000004 0.13553815 0.18590844000000001 0.16223522000000001 0.58686130999999997 0.18027737999999999 0.58747643000000005 0.30095856999999998 0.58812629999999999 0.46123229999999998 0.70530002999999997 0.39944132999999998 6.6173532000000007e-05 0.88378756999999997 0.70471196999999997 0.26141623000000003 0.94149422999999999 0.27630781999999998 0.70398581000000005 0.1381252 0.27230402999999997 0.76160472999999995 0.059804332000000002 0.16862348999999999 0.059472781000000002 0.20488401000000001 0.058640498999999999 0.29094908000000003 0.058195662000000002 0.32500892999999997 0.056436960000000001 0.42848045000000001 0.055091544999999999 0.48504209999999998 0.22371587000000001 0.58033829999999997 0."
+		+ "0020965532999999998 0.67034906000000005 0.94697427999999995 0.080129570999999997 0.039864793000000003 0.10298889999999999 0.055277607999999999 0.12024215000000001 0.27339727000000003 0.69022106999999999 0.70115077000000003 0.064995265999999996 0.017724444999999998 0.094775899999999996 0.035720191999999998 0.099915847000000002 0.05801278 0.054451987 0.068599521999999996 0.087610542999999999 0.27358386000000001 0.66502779999999995 0.68443370000000003 0.044081598999999999 0.043335582999999997 0.038801483999999997 0.055943303 0.050154865 0.080487922000000003 0.04215965 0.086073241999999994 0.070467084999999999 0.27310482000000003 0.60042614000000005 0.61841595000000005 0.042277086999999998 0.073253624000000003 0.019963696999999999 0.079194449 0.037552747999999997 0.57917671999999998 0.0094309961000000001 0.17942514000000001 0.094667821999999999 0.15099895999999999 0.068727508000000007 0.17712212999999999 0.032891769000000001 0.17684168 0.027618167999999998 0.14857561999999999 0.030040804000000001 0.17507902 0.008"
+		+ "4394346999999998 0.58606177999999998 0.076076827999999999 0.27226967000000002 0.55618995000000004 0.32478025999999999 0.86551809000000002 0.075450741000000002 0.49158531 0.14059487000000001 0.63088005999999996 0.64859182000000004 0.88823651999999997 0.63085049000000004 0.88697809000000005 0.91867666999999997 0.00084519293000000001 0.93881338999999997 0.14028613000000001 0.059005897000000002 0.63576233000000004 0.073669112999999994 0.63547206000000001 0.078667104000000002 0.63515573999999997 0.097444824999999999 0.63345759999999995 0.10247632 0.63320248999999995 0.11720477999999999 0.63318585999999999 0.14130661 0.77932042000000001 0.85693026000000005 0.14370732 0.87573767000000002 0.14231941000000001 0.88076966999999995 0.14211476000000001 0.89550251000000003 0.14221953000000001 0.90053128999999998 0.14251133999999999 0.91929322000000002 0.14434180999999999 0.93588464999999998 0.28893702999999998 0.46810429999999997 0.62479209999999996 0.85118400999999999 0.31408226 0.81364088999999995 0.31364721000000001 0.5"
+		+ "0709289000000002 0.57837832 0.774777 0.32006310999999998 0.76978391000000002 0.27179294999999998 0.76004505 0.27157020999999998 0.75500374999999997 0.27159294 0.84617788000000005 0.27205601000000001 0.84118426000000002 0.27201958999999998 0.83155 0.27197152000000002 0.81692176999999999 0.27189758000000003 0.81192237 0.27190377999999998 0.78960030999999997 0.27192094999999999 0.50401795000000005 0.62557428999999998 0.49961999000000001 0.63504320000000003 0.80869502000000004 0.31407334999999997 0.50469923000000005 0.5704844 0.46994647000000001 0.57742125 0.47522735999999999 0.56816292000000002 0.48657188000000001 0.63415438000000002 0.48262757000000001 0.63518947000000003 0.77033311000000004 0.31950620000000002 0.46852732000000002 0.63281774999999996 0.82612096999999995 0.31393378999999999 0.48754898000000002 0.56897706000000003 0.63040512999999998 0.86860943000000002 0.63289790999999995 0.86579764000000003 0.64500683999999997 0.86493819999999999 0.67235571000000005 0.89065254000000005 0.89981752999999998 0.001"
+		+ "0495947000000001 0.63399875000000006 0.88607508000000001 0.88028359 0.00019754333000000001 0.65347891999999996 0.88883120000000004"
+		)
+		2 "|Chair:Chair2|Chair:ChairShape2" "uvst[0].uvsp[1000:1249]" (" 0.33903861000000002 0.86508666999999995 0.34185188999999999 0.86758226000000005 0.14732116000000001 0.49256018000000001 0.32511540999999999 0.86891054999999995 0.34301910000000002 0.88360643000000005 0.33862889000000002 0.88581752999999996 0.12365147999999999 0.49134189 0.32403910000000002 0.88801271000000004 0.54148852999999997 0.46632844000000001 0.54439848999999996 0.46914806999999997 0.14751768000000001 0.69424235999999995 0.14751475 0.69910859999999997 0.94512951000000001 0.92809105000000003 0.79767102000000001 0.54738414000000002 0.79330802 0.54922687999999997 0.67631739000000002 0.54983013999999997 0.24267675999999999 0.57551056 0.58928203999999995 0.46610080999999998 0.70587844 0.46557229999999999 0.70880854000000004 0.46840401999999998 0.78156358000000004 0.92686455999999995 0.77671593000000005 0.92610990999999998 0.66049749000000002 0.929811 0.96155148999999995 0.54930990999999996 0.54109770000000001 0.30599061 0.54449206999999999 0.30930644000000002 0.96877842999999997 0.21348697 0.968750769999999"
+		+ "98 0.2183532 0.54452281999999996 0.39681745000000002 0.54114616000000004 0.40015890999999998 0.96983218000000004 0.30585393 0.42510842999999998 0.40026823 0.021042205000000001 0.66546207999999996 0.58872723999999999 0.30574795999999999 0.704952 0.30522755000000001 0.70835727000000004 0.30853682999999998 0.019113943000000001 0.57797569000000004 0.018965187000000001 0.99997950000000002 0.70866941999999999 0.39608818000000001 0.019031214000000001 0.88382983000000004 0.54089271999999999 0.18523423 0.54426688000000001 0.18863636 0.24585789 0.68770461999999999 0.24586532999999999 0.69257062999999996 0.54440385000000002 0.25895178000000002 0.54100239000000006 0.26218343 0.24725278000000001 0.76287042999999999 0.42483546999999999 0.26241323 0.96601099000000001 0.075610234999999998 0.58810794 0.18506642000000001 0.70428937999999996 0.18441373 0.70768929000000003 0.18770133 0.96581011999999999 0.0052970150000000004 0.95813912000000001 0.39284432000000002 0.70808917000000005 0.25805303000000002 0.96045493999999998 0.276"
+		+ "71751 0.3176696 0.76828580999999996 0.51338428000000003 0.049491241999999998 0.31721150999999997 0.70870394000000003 0.31712487 0.70368492999999999 0.31668605999999999 0.68357431999999996 0.31645223 0.67850173000000003 0.54192293000000002 0.076166606999999997 0.54390888999999998 0.080652303999999994 0.31576874999999999 0.64949727000000002 0.31555646999999998 0.64444475999999995 0.54410130000000001 0.13581692000000001 0.54072315000000004 0.13904153999999999 0.31478437999999997 0.61204892 0.42463002 0.13933392 0.29184902000000001 0.59529001000000004 0.61887424999999996 0.047286811999999998 0.67843127000000003 0.047451653000000003 0.68285143000000004 0.049642615000000001 0.69524859999999999 0.065334908999999997 0.69757599000000003 0.069762780999999996 0.29113862000000001 0.55606787999999996 0.29098987999999998 0.55108254999999995 0.70641321000000001 0.097387171999999994 0.7071771 0.10233451 0.28952366000000002 0.49604641999999999 0.29200289000000001 0.87766361000000004 0.70732176000000002 0.13492018 0.2912689399"
+		+ "9999998 0.76151632999999996 0.85066830999999998 0.28751269000000002 0.85162716999999999 0.0012777973999999999 0.14629194000000001 0.77881973999999998 0.14605019999999999 0.63505232 0.14561700999999999 0.63174379000000003 0.060557107999999998 0.49146378000000002 0.85237282999999997 0.14047419 0.85191291999999996 0.14377880000000001 0.96479117999999997 0.55248123000000005 0.65556787999999999 0.93076915000000005 0.71420044000000005 0.54961950000000004 0 0.57052522999999999 0.86746937000000002 0.89543611000000001 0.023688576999999999 0.57334547999999996 0.63931274000000005 0.94982612 0.043477304000000001 0.57471411999999999 0.65700453999999997 0.94703799 0.83587986000000003 0.54753112999999998 0.24119803000000001 0.49411814999999998 0.83252828999999995 0.55058872999999997 0.18182804 0.57621001999999999 0.78550797999999999 0.94552433000000002 0.81975942999999996 0.94269007000000005 0.81646757999999997 0.94495671999999997 0.54914479999999999 0.55040144999999996 0.15019752 0.49180457 0.80099242999999998 0.5504440699"
+		+ "9999995 0.81644022000000005 0.55061537000000005 0.80084586000000002 0.94498627999999996 0.67203014999999999 0.54798608999999998 0.14887354999999999 0.78050308999999995 0.66880238000000003 0.55115062000000004 0.043191689999999998 0.89000939999999995 0.039092116000000003 0.89226669000000003 0.34645851999999999 0.57453631999999999 0.94818323999999998 0.94706261000000003 0.36616182000000003 0.57482617999999996 0.96670478999999998 0.94647013999999996 0.64281200999999999 0.65987229000000003 0.64139884999999996 0.65488957999999997 0.50059759999999998 0.92975956000000004 0.53262465999999997 0.54611653000000004 0.78409684000000002 0.97270668000000005 0.50822562000000004 0.89177746000000002 0.71615463000000001 0.92655354999999995 0.72115183000000005 0.92649042999999998 0.63136375 0.62751776000000004 0.62925428000000005 0.62280058999999999 0.65228492000000005 0.86706941999999998 0.65279381999999997 0.86187762000000001 0.61796647000000005 0.60107166000000001 0.59573913000000001 0.58149247999999998 0.59166980000000002 0.9"
+		+ "2838876999999997 0.56247621999999997 0.92887282000000004 0.62688630999999995 0.89193641999999995 0.63234352999999999 0.89103149999999998 0.64793049999999996 0.89325993999999997 0.65304083000000002 0.89384465999999996 0.41071719000000001 0.92952055 0.44006162999999998 0.54940754000000003 0.46447485999999999 0.89177269000000003 0.46952426000000003 0.89177351999999999 0.31977281000000002 0.86139213999999997 0.18515913000000001 0.92446607000000003 0.32053443999999998 0.71466529000000001 0.24609523 0.92575127000000001 0.25110880000000002 0.92589062 0.45061298999999999 0.93010563000000002 0.49131879000000001 0.53776674999999996 0.48648858 0.89177351999999999 0.28012451999999999 0.92645942999999997 0.34500377999999998 0.62179713999999997 0.29994663999999999 0.89569061999999999 0.38453481 0.57823658 0.36052814 0.59592765999999997 0.33876589000000001 0.92799836000000002 0.30952479999999999 0.92723535999999995 0.34029439 0.89076542999999997 0.34561604000000001 0.89154029000000001 0.31960370999999999 0.89363241000000004"
+		+ " 0.32471224999999998 0.89303416000000002 0.63524765000000005 0.97864741 0.96631610000000001 0.97553067999999998 0.56357705999999996 0.0052244713999999998 0.54746097000000005 0.0042968327000000002 0.56311023000000004 0 0.54262376000000001 0.0050907916999999997 0.51401651000000004 0.0055837897000000003 0.50901812000000002 0.0057125845999999999 0.44399601 0.0086477315000000003 0.43883740999999998 0.010086390000000001 0.41718388000000001 0.022010968999999998 0.41351289000000002 0.026354128000000001 0.39717147000000003 0.075062707000000006 0.39628553 0.080427661999999997 0.39694297000000001 0.13786403999999999 0.39723995000000001 0.14295595999999999 0.39723389999999997 0.18215661999999999 0.39692949999999999 0.18732624 0.39705797999999998 0.26066113000000002 0.39735869000000001 0.26583558000000002 0.39736157999999999 0.30284420000000001 0.39706828999999999 0.30804467000000002 0.39732288999999998 0.39851639 0.39772657 0.40364750999999999 0.39780875999999998 0.46221255999999999 0.39750457 0.46700989999999998 0.39337"
+		+ "264999999999 0.55026048000000005 0.61300885999999999 0.010255322000000001 0.14050968 0.0067915939999999998 0.072270654000000004 0.015094517 0.063862264000000002 0.018423744999999998 0.038712970999999999 0.036595932999999997 0.031914025999999998 0.047116383999999997 0.012411857 0.095082730000000004 0.011184921 0.10505252 0.0090061193000000005 0.15996604 0.0090733124000000002 0.16536117 0.0089863184999999998 0.205063 0.0089453533000000002 0.21016779999999999 0.0083458759000000007 0.28338623000000002 0.0083404229999999996 0.28845501000000001 0.0078657222999999991 0.32510653 0.0077349078000000003 0.33017205999999999 0.0063576804999999998 0.42034920999999997 0.0063523570999999999 0.42536332999999998 0.0051285378000000001 0.48363667999999999 0.0048944987000000004 0.48843375 0.17881994000000001 0.0027301977 0.17443669000000001 0.0034045124999999999 0.73392891999999998 0.54821754 0.96672374000000005 0.95148348999999999 0.020454150000000001 0.89411138999999995 0.63431340000000003 0.94959921000000003 0.6343893999999999"
+		+ "9 0.95461130000000005 0.93577105000000005 0.29402187000000002 0.85273767 0.29215809999999998 0.87291342000000005 0.29770446 0.875561 0.29731393 0.91907435999999998 0.29318723000000002 0.91691434000000005 0.29399737999999997 0.92067533999999995 0.31235316000000002 0.93546569000000002 0.31272316 0.89317155000000004 0.29858157000000002 0.89613162999999996 0.29765812000000003 0.12403763 0.78885203999999998 0.12135795000000001 0.78845416999999995 0.11841854 0.78944760999999997 0.10077949999999999 0.78859824000000001 0.098144813999999997 0.78905164999999999 0.076173879 0.80318986999999997 0.077864169999999996 0.78397386999999996 0.075784110000000002 0.78446965999999996 0.14419456 0.78341687000000004 0.14207507999999999 0.78427409999999997 0.78574394999999997 0.022572809999999999 0.78823334 0.023251878 0.79073804999999997 0.022588595999999999 0.81567162000000004 0.023406191 0.81818670000000004 0.022748066000000001 0.78573424000000003 0.00010965093999999999 0.77609169 0.00016431875999999999 0.83291572000000003 0.0228"
+		+ "3466 0.84512942999999996 0.023579571000000001 0.73392670999999998 0.022325613000000001 0.76147275999999997 1.5242476e-05"
+		)
+		2 "|Chair:Chair2|Chair:ChairShape2" "uvst[0].uvsp[1250:1426]" (" 0.75882632000000005 0.023122340000000002 0.76133715999999996 0.022467458999999999 0.76131861999999995 0.022437057999999999 0.76288794999999998 0.31436175 0.76917970000000002 0.32176378 0.81327391000000004 0.31390502999999997 0.73533051999999999 0.31326683999999999 0.84623252999999998 0.31385937000000003 0.77596264999999998 0.32112988999999997 0.78109735000000002 0.31424638999999999 0.73390191999999999 0.027344852999999999 0.73271120000000001 0.27130988 0.73265654000000002 0.27615234 0.19110406999999999 0.89322752000000005 0.18571092 0.89320445000000004 0.046654250000000001 0.89307892 0.65398204000000004 0.55179202999999999 0.72049867999999995 0.89523887999999996 0.71509993000000005 0.89524722000000001 0.86338877999999997 0.89315306999999999 0.85983038000000001 0.89617771000000002 0.65759723999999997 0.89621717000000001 0.65033673999999997 0.89613818999999995 0.49952491999999998 0.89851201000000003 0.49372110000000002 0.89850646000000001 0.62200295999999999 0.89691841999999999 0.60890502000000002 0.8967548600"
+		+ "0000004 0.57628411000000002 0.89676374000000003 0.56500143000000003 0.89768165 0.93943173000000002 0.81374568000000003 0.29714986999999998 0.89507473000000004 0.28435335 0.89553243000000005 0.41218364000000002 0.89807552000000002 0.40636736000000001 0.89812338000000003 0.25582376000000001 0.89437133000000002 0.24861886999999999 0.89455050000000003 0.34126851000000002 0.89700906999999996 0.32991504999999999 0.89642292000000001 0.31216344000000001 0.89618677000000002 0.14555298 0.072719961 0.15011515 0.074421405999999996 0.082767419999999994 0.077433787000000004 0.087065816000000004 0.075182161999999997 0.068428129000000004 0.097198687000000006 0.070781179 0.092861033999999995 0.17876533999999999 0.10068381 0.18076639 0.10518379999999999 0.058517605 0.12881897 0.059355079999999998 0.12397603 0.18125914000000001 0.16078629 0.177846 0.16413324000000001 0.061099302000000001 0.16388105 0.057796076000000002 0.16059846999999999 0.27044368000000002 0.49124657999999999 0.28940827000000002 0.4911122 0.17298156000000001 "
+		+ "0.49195686 0.17593766999999999 0.49494314 0.053217283999999997 0.49249861 0.056182213000000002 0.48990166000000002 0.2221698 0.49414244000000002 0.048427243000000002 0.57389069000000004 0.17564741 0.33141142000000001 0.17898452000000001 0.33487082000000001 0.055946614999999998 0.33295016999999999 0.059413507999999997 0.32977548000000001 0.17735274000000001 0.42254241999999997 0.17390986 0.42573220000000001 0.057790622 0.42371807 0.054520632999999999 0.42025646999999999 6.3243336999999999e-05 0.57306159000000001 0.019028283999999999 0.57304107999999998 0.17729807 0.21042499000000001 0.18066375000000001 0.21386389 0.057265412000000002 0.21278830000000001 0.060711015 0.20962895000000001 0.17976238999999999 0.28434770999999998 0.17633626999999999 0.28754032000000002 0.059931184999999998 0.28619160999999999 0.056607507000000001 0.28275788000000002 0.94685792999999996 1.4970564e-05 0.96581994999999998 0.00036148643000000002 0.16726062999999999 0.57327318000000005 0.22401614 0.49156460000000002 0.34060359000000001 0"
+		+ ".49067857999999998 0.34347372999999998 0.49332416000000001 0.16922514 0.49195820000000001 0.16790181000000001 0.78050702999999999 0.98913598000000003 0.092619509000000003 0.22301668999999999 0.33125225000000003 0.33910847 0.33069852 0.34254277 0.333974 0.99169940000000001 0.0051520647999999999 0.98764390000000002 0.42715868000000001 0.34310889 0.42125552999999999 0.33979678000000002 0.4246105 0.97287542000000005 1.4895244999999999e-05 0.99183916999999999 0.0002405955 0.26534563 0.56669371999999996 0.22256069000000001 0.21046913 0.33880490000000002 0.21052272999999999 0.34222039999999998 0.21378615000000001 0.26688728 0.49639993999999998 0.26593611 0.88404399 0.34236684000000001 0.28379029 0.33901176 0.28712690000000002 0.24802683 0.49139822 0.26699176000000002 0.49148753000000001 0.25013918000000002 0.074820614999999993 0.25469186999999999 0.073144688999999999 0.31357427999999998 0.075264207999999999 0.31789680999999997 0.077499650000000003 0.32998400999999999 0.093015283000000004 0.33225662 0.097371250000000"
+		+ "006 0.29858622000000001 0.81267195999999997 0.29849186999999999 0.81765502999999995 0.34090003000000002 0.12455835 0.34170568000000001 0.1294149 0.29773840000000001 0.87270325000000004 0.29502949000000001 0.49104505999999998 0.34211612000000002 0.16146994000000001 0.33879568999999998 0.16465537 0.31664750000000003 0.87751782 0.29768264 0.87761635000000005 0.78115981999999995 0.94305861000000002 0.65284591999999997 0.94983530000000005 0.65607165999999995 0.94981486000000004 0.81870388999999999 0.94540131000000005 0.81545478000000005 0.94523460000000004 0.78448861999999997 0.94525908999999997 0.94397712 0.94434297 0.946926 0.94668423999999995 0.50725991000000004 0.62176746000000005 0.50784594000000005 0.57371932000000003 0.50154536999999999 0.62975996999999995 0.46612041999999998 0.58242077000000003 0.46390077000000002 0.62947660999999999 0.47257364000000002 0.63659781000000004 0.50275141000000001 0.56682085999999998 0.47325009000000001 0.57430607 0.63363700999999995 0.86535835000000005 0.63083434000000005 0.86"
+		+ "790573999999998 0.33973181000000002 0.86550921000000003 0.34229112 0.868321 0.34175166000000001 0.88665777000000001 0.32767807999999998 0.86459308999999995 0.32039477999999999 0.86671072000000005 0.30028141000000003 0.89048833000000005 0.64785028 0.86589777000000001 0.64756440999999998 0.86925995 0.67270315000000003 0.89585429000000005 0.62961250999999996 0.88386750000000003 0.45595037999999999 0.89878464000000002 0.45055806999999998 0.89877874000000002 0.31281191000000003 0.89650761999999995 0.31347557999999998 0.89621711000000004 0.59369992999999999 0.89756590000000003 0.59436714999999996 0.89724033999999997 0.50014703999999999 0.89845949000000003 0.56525707000000003 0.89784461000000004 0.57662016000000005 0.89734833999999997 0.28452042 0.89565802000000005 0.25618252000000002 0.89467001000000002 0.24894013000000001 0.89468442999999998 0.1914544 0.89326930000000004 0.41279434999999998 0.89822179000000002 0.49434110999999997 0.89836240000000001 0.18605414000000001 0.89322042000000001 0.40699252000000002 0.898"
+		+ "18019000000004 0.34152644999999998 0.89684527999999997 0.33025210999999999 0.89584600999999997 0.29739672 0.89562982000000002 0.65792470999999997 0.89608352999999996 0.71545035000000001 0.89520823999999999 0.65069032000000004 0.89584713999999999 0.62218689999999999 0.89678203999999995 0.72084373000000002 0.89522552 0.60914212000000001 0.89622349000000001"
+		);
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "ChairRN1";
@@ -19015,26 +19013,76 @@ createNode reference -n "ChairRN1";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"ChairRN1"
 		"ChairRN1" 0
-		"ChairRN1" 6
+		"ChairRN1" 13
 		2 "|Chair1:Chair2" "translate" " -type \"double3\" 4.8455129004017099 0 13.70782451774348587"
 		
 		2 "|Chair1:Chair2" "rotate" " -type \"double3\" 0 -180 0"
 		2 "|Chair1:Chair2" "rotateX" " -av"
 		2 "|Chair1:Chair2" "rotateY" " -av"
 		2 "|Chair1:Chair2" "rotateZ" " -av"
-		2 "|Chair1:Chair2" "rotatePivotTranslate" " -type \"double3\" 0 0 0";
-	setAttr ".ptag" -type "string" "";
-lockNode -l 1 ;
-createNode reference -n "BookSetRN";
-	rename -uid "F5B6ED18-4DB0-1519-5058-86A4939D9021";
-	setAttr ".fn[0]" -type "string" "C:/Users/orion/Documents/UVU/DAGV/Essentials/DAGV1100and1200/Maya//scenes/assets/BookSet.ma";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"BookSetRN"
-		"BookSetRN" 3
-		2 "|BookSet:BookSet2" "translate" " -type \"double3\" -23.79425055376717069 0.0502777099609375 -1.46300888061515089"
-		
-		2 "|BookSet:BookSet2" "rotate" " -type \"double3\" 0 180 0"
-		2 "|BookSet:BookSet2" "rotatePivotTranslate" " -type \"double3\" 0 0 0";
+		2 "|Chair1:Chair2" "rotatePivotTranslate" " -type \"double3\" 0 0 0"
+		2 "|Chair1:Chair2|Chair1:ChairShape2" "uvSet[0].uvSetPoints" " -s 1427"
+		2 "|Chair1:Chair2|Chair1:ChairShape2" "uvst[0].uvsp[0:249]" (" -type \"float2\" 0.11867281 0.49128224999999998 0.96129555 0.97558248000000003 0.31915306999999998 0.88862014 0.019668630999999999 0.92311149999999997 0.14244770000000001 0.49146718 0.10399448 0.49099927999999998 0.34666911 0.88672017999999997 0.099133580999999998 0.49199978 0.46447792999999998 0.88673245999999994 0.94065445999999997 0.97426420000000002 0.37117370999999999 0.57456200999999996 0.96168666999999997 0.95182734999999996 0.94610417000000002 0.95176804000000004 0.94087005000000001 0.95234489 0.94007403 0.94724560000000002 0.69181382999999996 0.81266081000000001 0.68508553999999999 0.79957562999999998 0.31524753999999999 0.90118814000000003 0.35696781 0.60012454000000004 0.70493972000000005 0.82241702000000005 0.71347094 0.82937711000000003 0.34439892 0.90186 0.36213949000000001 0.60098415999999999 0.31466684 0.92730290000000004 0.38008618 0.58108908000000004 0.34384289000000001 0.92803150000000001 0.39008885999999998 0.57354212000000004 0.65418153999999995 0.55674135999999996 0.39827680999999998 0.54"
+		+ "942988999999998 0.045505512999999997 0.89787148999999999 0.039272006999999998 0.92289889000000003 0.28584498000000003 0.90041088999999996 0.35526185999999998 0.61392515999999997 0.36993935999999999 0.60327481999999999 0.34270915000000002 0.62654197 0.34863418000000002 0.62511908999999999 0.33207223000000002 0.65401339999999997 0.80061435999999997 0.97241186999999996 0.48888278000000002 0.88673371000000001 0.46952450000000001 0.88673341000000006 0.48383921000000002 0.88673389000000002 0.48889458000000002 0.86686282999999997 0.19941908 0.57553624999999997 0.80042261000000003 0.94997960000000004 0.45569189999999998 0.90380985000000003 0.45078047999999998 0.90377932999999999 0.81290132000000004 0.86487793999999996 0.81799096000000004 0.84098333000000003 0.49109530000000001 0.54280645000000005 0.45567395999999999 0.93011527999999999 0.48555060999999999 0.54326229999999998 0.49205001999999998 0.56787538999999998 0.83114122999999995 0.31398039999999999 0.49164963 0.56326169000000004 0.65644758999999997 0.70017063999"
+		+ "999996 0.65593356000000003 0.69522357000000001 0.19066522999999999 0.89827299000000005 0.66894953999999995 0.76244652000000002 0.66647213999999999 0.75606024000000005 0.67877339999999997 0.78869157999999995 0.28074761999999998 0.90041112999999995 0.25171259000000001 0.89959389000000001 0.19015594 0.92456769999999999 0.33064333000000001 0.65905051999999997 0.32510098999999998 0.71988355999999998 0.32562351 0.71486037999999996 0.32479008999999998 0.86056811 0.044496879000000003 0.92205833999999998 0.48900396000000002 0.72038053999999996 0.48394784000000002 0.72041487999999998 0.48908252000000002 0.71539712 0.48396376000000002 0.71545415999999995 0.48862739999999999 0.63728576999999997 0.48890056999999998 0.86182289999999995 0.48385102000000002 0.86686282999999997 0.81861930999999999 0.69908004999999995 0.81361550000000005 0.69905782000000005 0.81363808999999998 0.69402962999999995 0.81930333 0.55562078999999998 0.81823385000000004 0.78529 0.81825696999999997 0.78026163999999998 0.81801318999999995 0.83596389999"
+		+ "999998 0.81324713999999998 0.78526783 0.34117687000000002 0.71487730999999999 0.34625043999999999 0.71488779999999996 0.34592938000000001 0.71993744000000004 0.34073582000000002 0.86064726000000003 0.79909437999999999 0.69899993999999999 0.78769553000000003 0.780186 0.79404545000000004 0.69899224999999998 0.79441117999999999 0.69394827000000003 0.81421595999999996 0.55560105999999998 0.79971868000000002 0.55522472 0.56533723999999996 0.54906427999999996 0.56513082999999997 0.46687010000000001 0.080276429999999996 0.49166575000000001 0.34588814000000001 0.86143386 0.79450971000000004 0.55443244999999997 0.94029498 0.92710972000000003 0.82405514000000002 0.92574250999999996 0.82350045000000005 0.94570940999999997 0.46449304000000002 0.86686271000000004 0.46953779000000001 0.86686355000000004 0.81738584999999997 0.97239321000000001 0.81730234999999996 0.95003963000000002 0.82251697999999995 0.95062964999999999 0.21132935999999999 0.57642543000000002 0.41322318000000002 0.55022537999999999 0.67535561 0.5549544100"
+		+ "0000001 0.67662674 0.69500172000000005 0.67162246000000003 0.69509476000000003 0.67694312000000001 0.70000379999999995 0.67904173999999995 0.76113027 0.77066438999999998 0.85909736000000003 0.41116818999999999 0.90323107999999996 0.44481227000000001 0.54802238999999997 0.40568641 0.92941432999999996 0.44945443000000002 0.55216443999999998 0.46906882999999999 0.56983536000000001 0.46452012999999998 0.71545707999999997 0.46959937000000002 0.72046827999999996 0.46954125000000002 0.86182439 0.46449581000000001 0.86182373999999995 0.68428493000000001 0.76286697000000003 0.78271544000000004 0.77977437000000005 0.68622214000000004 0.76828605000000005 0.37657899 0.60080129000000004 0.46359545000000002 0.57319951000000002 0.37374067 0.60696804999999998 0.75507152 0.32451969000000003 0.48351863 0.63795835000000001 0.46413678000000003 0.63504338000000005 0.35383292999999999 0.65131848999999997 0.35581743999999998 0.64589428999999998 0.46384745999999999 0.62941068 0.46518111000000001 0.57834768000000003 0.81302953 0.8359"
+		+ "4184999999999 0.81300830999999996 0.84096128000000003 0.78104872000000003 0.83974629999999995 0.70630698999999997 0.81307715000000003 0.70347433999999998 0.80674087999999999 0.78213756999999995 0.83480339999999997 0.78232603999999994 0.78480780000000006 0.78731119999999999 0.78521341 0.77354484999999995 0.32509261 0.76845872000000004 0.32497609 0.77476579000000001 0.27684954000000001 0.84394157000000003 0.31426304999999999 0.34855160000000002 0.65305959999999996 0.33590387999999999 0.65816998000000004 0.338415 0.65169268999999996 0.69538343000000002 0.80095004999999997 0.69961315000000002 0.81037652000000004 0.36775901999999999 0.48627365 0.38678544999999998 0.49036235 0.36296447999999998 0.49154603000000002 0.34836616999999998 0.49211988000000001 0.34174711000000002 0.48584294 0.16654572000000001 0.69924401999999997 0.42200368999999999 0.46912872999999999 0.41728383000000002 0.46771580000000001 0.40252218000000001 0.46717 0.41848758000000003 0.46233018999999997 0.38661923999999998 0.48545094999999999 0.54261"
+		+ "826999999996 0.46145749000000003 0.54786586999999998 0.46224200999999998 0.14823244999999999 0.57311939999999995 0.22108978000000001 0.49434716000000001 0.16708239999999999 0.57816076000000005 0.21636986999999999 0.49303466000000001 0.19888705000000001 0.49251308999999999 0.21758719000000001 0.48762631000000001 0.19888607999999999 0.48773455999999998 0.56537420000000005 0.46199616999999998 0.56521337999999999 0.40334457000000001 0.36742880999999999 0.42246607000000003 0.38615376000000001 0.42701802 0.36218765000000003 0.42768856999999999 0.34640673 0.4282009 0.34109413999999999 0.42938524 0.22250012999999999 0.43023419000000002 0.98883456000000003 0.31095219000000002 0.98886216000000005 0.30608596999999999 0.96987014999999999 0.31078938 0.54243511 0.40491322000000002 0.41852081000000002 0.40386704000000001 0.40276039000000002 0.40355372 0.41683796000000001 0.39815232 0.38623269999999998 0.42196720999999998 0.96868014000000002 0.42693299000000001 0.22369855999999999 0.42542764999999999 0.97267234000000002 0.00"
+		+ "49015678999999998 0.54923504999999995 0.39805740000000001 0.21718467999999999 0.42917219000000001 0.19917238000000001 0.42928725000000001 0.21545375999999999 0.42349017 0.19919880000000001 0.42411479000000002 0.56520139999999996 0.39816263000000002 0.56491530000000001 0.30772179 0.36671847000000002 0.32716142999999998 0.38570932000000002 0.33172595999999999 0.36190953999999997 0.33241335 0.34740418000000001 0.33276421 0.34037325000000002 0.32595195999999999 0.98778069000000002 0.21858522 0.42152232000000001 0.30946919000000001 0.41680601 0.30811417000000002 0.40208310000000003 0.30798596 0.41822409999999999 0.30253460999999998 0.38560906 0.32664979 0.54232174 0.30119041000000002 0.54773748 0.30233535 0.97010881000000004 0.092369191000000003 0.21965009999999999 0.33461204 0.98893284999999997 0.097506179999999998 0.21491447 0.33341422999999998 0.19968103000000001 0.33358665999999998 0.21635059000000001 0.32779488000000001 0.19972427000000001 0.32833912999999998 0.56490386000000004 0.30249858000000002 0.56479089"
+		+ "999999998 0.26549729999999999 0.36673197000000002 0.28524217000000002 0.38549583999999998 0.28994228999999999 0.36152053000000001 0.29044351000000002 0.34566665000000002 0.29071840999999998 0.34025561999999998 0.29190016000000002 0.22151366 0.29225405999999998 0.26629125999999997 0.76783192 0.26628402000000001 0.76296567999999998 0.24732605999999999 0.76780546000000005 0.54228288000000002 0.26695417999999999 0.41820025 0.26594826999999999 0.40239554999999999 0.26573780000000002 0.41658497 0.26025831999999999 0.38555324000000002 0.28484777 0.24697118000000001 0.88395447000000005 0.22271203000000001 0.28744577999999998 0.24785888 0.49628597000000002 0.54911297999999997 0.26019469000000001 0.21610355000000001 0.29115849999999999 0.19990200999999999 0.29121712 0.21448228999999999 0.28551713000000001 0.19992766000000001 0.28599228999999998 0.56478351000000004 0.26029082999999997 0.56449020000000005 0.18697041 0.36645552999999997 0.20701689000000001 0.38542040999999999 0.21165985000000001 0.36159584 0.2122595499999"
+		+ "9999 0.34707996000000002 0.21255945000000001 0.34008163000000002 0.20578552999999999"
+		)
+		2 "|Chair1:Chair2|Chair1:ChairShape2" "uvst[0].uvsp[250:499]" (" 0.26489647999999999 0.69266611 0.42133125999999999 0.18875471999999999 0.41664508 0.18738334000000001 0.40194288 0.18727315999999999 0.41807538 0.18185314999999999 0.38538834 0.20656179 0.54210084999999997 0.180437 0.54749148999999997 0.18158637999999999 0.24631723999999999 0.56658012000000002 0.21917370999999999 0.21381395 0.26517766999999998 0.57158165999999999 0.21446567999999999 0.21254677999999999 0.20028012000000001 0.21250928999999999 0.21592333999999999 0.20694423000000001 0.20032823 0.20727298999999999 0.56448025000000002 0.18176224999999999 0.56433498999999998 0.14243898999999999 0.36672807000000002 0.16262509999999999 0.38557829999999998 0.16707763 0.36146583999999998 0.16789452999999999 0.34546798000000001 0.16832158999999999 0.34004267999999999 0.16943140000000001 0.22119417999999999 0.16905786 0.29570273000000002 0.607256 0.29575309 0.61212182000000004 0.31466734000000002 0.60711497000000003 0.54200064999999997 0.14381626 0.41805238 0.14297417000000001 0.40227509 0.14284915000000001 0.416474430"
+		+ "00000001 0.13735222999999999 0.38575630999999999 0.16181508999999999 0.31399447000000003 0.49096686 0.22240709 0.16425870000000001 0.31676689000000002 0.87262803 0.54875755000000004 0.13710691 0.21581023999999999 0.16790941000000001 0.20051189 0.16767634000000001 0.21422014 0.16222748000000001 0.20053389999999999 0.16241001999999999 0.564318 0.13726527999999999 0.56398934000000001 0.080034010000000003 0.36503637 0.10073093 0.38421445999999998 0.10204439999999999 0.36095675999999999 0.11075266 0.34657955000000001 0.12664038 0.29681205999999999 0.644602 0.42113587000000002 0.1036459 0.41620550000000001 0.10080759 0.40136834999999998 0.085323639000000007 0.38323635 0.095809839999999993 0.54271625999999995 0.070295318999999995 0.54780667999999999 0.074614397999999998 0.31736678000000001 0.81751960999999995 0.21952922999999999 0.1055446 0.21468984999999999 0.10495747 0.2004891 0.10449644 0.21565983 0.099530265000000007 0.20050825 0.099177620999999994 0.56397533 0.074854761000000006 0.19434793 1.4850488e-05 0.34507"
+		+ "885999999999 0.049910786999999998 0.36242384 0.043442043999999999 0.34569597000000002 0.061241089999999998 0.33579608999999999 0.092783860999999995 0.29775428999999998 0.67866850000000001 0.43037352000000001 0.071075551000000001 0.42675605 0.066307902000000002 0.41618389 0.034131531 0.35790234999999998 0.038223695000000002 0.32091057000000001 0.037094823999999998 0.33245412000000002 0.021278258000000001 0.32415426000000003 0.043456830000000002 0.31950425999999998 0.072208731999999998 0.29831933999999999 0.70384407000000004 0.44490184999999999 0.050792589999999999 0.44326910000000003 0.045251511000000001 0.43966495999999999 0.015346444000000001 0.32599254999999999 0.019061292000000001 0.22266853 0.033744585000000001 0.25111865999999999 0.030626898999999999 0.25797752000000002 0.012265486000000001 0.25581735 0.035941817000000001 0.25446180000000002 0.068097159000000004 0.24919556000000001 0.069173433000000006 0.29879934000000002 0.76842158999999999 0.50881069999999995 0.047688115000000003 0.31760553000000002 0."
+		+ "77329676999999997 0.50917661000000003 0.042671196000000002 0.50911426999999998 0.010735448 0.25271906999999999 0.011958758999999999 0.54295026999999996 0.010105724 0.22433595000000001 0.0094575696000000001 0.22287224 0.028510381000000001 0.21959667999999999 0.0086442754 0.21760154000000001 0.03301904 0.20025394999999999 0.028375085000000001 0.20019987 0.023522168 0.19992422000000001 0.0051918918999999996 0.87530470000000005 0.00022276880999999999 0.88664626999999996 0.92643178000000004 0.64026850000000002 0.97860466999999995 0.89496350000000002 1.5685196999999999e-05 0.65578210000000003 0.97786295000000001 0.62588208999999995 0.88695157000000002 0.66098838999999998 0.97673219 0.50822961 0.88673711 0.22127210999999999 0.78269314999999995 0.66090446999999997 0.94989102999999997 0.65500307000000002 0.95452011000000003 0.639431 0.95486152000000002 0.88609254000000004 0.89742714000000001 0.88585734000000005 0.90244150000000001 0.0047850423000000003 0.57190012999999995 0.59634279999999995 0.90213405999999996 0.5930"
+		+ "6102999999999 0.89727873000000002 0.59120618999999996 0.90227813000000001 0.91763037000000003 0.83027720000000005 0.56712514000000003 0.90254277000000005 0.56751907000000001 0.92885035000000005 0.61456995999999997 0.59688746999999998 0.60006325999999999 0.59168321000000001 0.61278242000000005 0.60181403 0.59676993 0.92830491000000004 0.61940295000000001 0.61497884999999997 0.85650808 0.00021849472000000001 0.64793294999999995 0.86099630999999999 0.93839240000000002 0.00078300915999999999 0.8619386 0.92532742000000001 0.86623751999999998 0.90048569000000001 0.92350297999999997 0.00079775893000000005 0.62597369999999997 0.86689561999999998 0.62676602999999997 0.86174386999999997 0.97919464000000001 0.55825037 0.86090725999999995 0.90113264000000004 0.97636383999999998 0.69683229999999996 0.62613498999999995 0.92781395 0.65519415999999997 0.92740732000000003 0.62554370999999998 0.62603569000000003 0.6049329 0.60390538000000005 0.62108474999999996 0.92796354999999997 0.62065857999999996 0.90165733999999997 0.9526"
+		+ "8470000000005 0.78989368999999998 0.96270679999999997 0.76375859999999995 0.946109 0.80089467999999997 0.93165284000000004 0.81139296000000005 0.60904658 0.61343592000000002 0.60100268999999995 0.60750221999999998 0.92493546000000004 0.81403524000000005 0.97577143 0.70174961999999996 0.96525132999999996 0.75737988999999994 0.72087741000000005 0.90024185000000001 0.65298009000000001 0.72043455000000001 0.65252995000000003 0.71526151999999998 0.66021823999999996 0.92729402000000005 0.64794527999999996 0.72043436999999999 0.63215089000000002 0.72042375999999997 0.62711154999999996 0.72041708000000004 0.24029985000000001 0.78281849999999997 0.96328789000000004 0.55723016999999997 0.96064961000000004 0.69637298999999997 0.95814347 0.55626023000000002 0.96032161000000005 0.70134949999999996 0.95528763999999999 0.70123517999999996 0.1808082 0.49360934000000001 0.78373813999999997 0.95034479999999999 0.50318806999999999 0.89177470999999997 0.77912508999999996 0.97283030000000004 0.77741534000000001 0.9461273 0.840143"
+		+ "74000000003 0.54949563999999995 0.50318879000000005 0.88673526000000003 0.50320142999999995 0.86686282999999997 0.50824267000000001 0.86686337000000002 0.58422940999999995 0.010102498 0.58015656000000004 0.074600868000000001 0.18003765999999999 0.0076422816999999997 0.18194664999999999 0.026725516000000001 0.18217738 0.032133560999999998 0.18463840000000001 0.099108539999999995 0.83818150000000002 0.69918972000000001 0.84382880000000005 0.78043419000000003 0.83285248000000001 0.69411701000000003 0.83372497999999995 0.55548602000000002 0.83903645999999998 0.55459946000000004 0.577434 0.54993491999999999 0.58166826000000005 0.46743100999999998 0.50030178000000003 0.90346919999999997 0.53744751000000002 0.547912 0.49556199000000001 0.92982178999999998 0.85515951999999995 0.86067981000000005 0.84490054999999997 0.84113687000000004 0.84996044999999998 0.84004933000000004 0.84392469999999997 0.83610927999999995 0.84416979999999997 0.78546464000000005 0.53406131000000001 0.55176466999999996 0.51347708999999997 0.571"
+		+ "33745999999996 0.50895040999999996 0.56743288000000003 0.51175844999999998 0.57669395000000001 0.50320624999999997 0.86182219000000004 0.50333422000000005 0.72024410999999999 0.50837880000000002 0.72020083999999995 0.50337248999999995 0.71518194999999996 0.50315690000000002 0.63405180000000005 0.78693073999999996 0.32535418999999999 0.50987660999999995 0.62807924000000004 0.61781560999999996 0.64654034000000005 0.61967545999999996 0.6519587 0.62389958000000001 0.64787167000000001 0.63510953999999997 0.65251678000000002 0.63755183999999998 0.65895848999999995 0.65479219 0.90110809000000003 0.65981906999999995 0.90105075000000001 0.95150846 0.76816987999999997 0.95265204000000003 0.76233298000000005 0.94540893999999998 0.76942527000000005 0.84915834999999995 0.78510314000000003 0.84881245999999999 0.78006660999999999 0.22328729999999999 0.69648748999999999 0.24214461000000001 0.70150100999999998 0.048498593 0.49115866000000002 0.033734139000000003 0.49041342999999998 0.049816482000000002 0.48578641 0.0287258360"
+		+ "00000001 0.49008507000000001 0.0099054649000000008 0.48879126000000001 0.24225225 0.69658880999999995 0.70698791999999999 0.46069574000000002 0.71223694000000004 0.46146261999999999 0.72827613000000002 0.46606808999999999 0.72784859000000002 0.46121677999999999 0.17423427 0.48713141999999998 0.18039485999999999 0.42953849 0.22364569000000001 0.57540332999999999 0.58638734000000003 0.46885154000000001 0.242681 0.58037698000000004 0.58288675999999995 0.46205153999999998 0.58270180000000005 0.40353834999999999 0.17506648999999999 0.43056485 0.051137552000000003 0.42724103000000002 0.035367022999999997 0.42652705000000002 0.049657687999999998 0.42148050999999997 0.00015837695 0.87887501999999995 0.030301460999999998 0.42632297000000002 0.011378773999999999 0.42553609999999997 0.72759496999999995 0.40259623999999999 0.71188426000000005 0.40297252 0.70659947000000001 0.40419346 0.58800399000000003 0.40467366999999999 0.019187003000000001 0.87894130000000004 0 1 0.58926851000000002 0.39990890000000001 8.268028599999"
+		+ "9997e-05 0.57792801000000005")
+		2 "|Chair1:Chair2|Chair1:ChairShape2" "uvst[0].uvsp[500:749]" (" 0.18388745000000001 0.33376213999999998 0.58098393999999998 0.39782890999999998 0.58065670999999996 0.30776542000000001 0.0020305751999999998 0.78649879 0.020903412 0.79145335999999999 0.051249474000000003 0.33165407000000002 0.036565654000000003 0.33125278000000002 0.052781927999999999 0.32613208999999999 0.031573645999999997 0.33105942999999999 0.012757299999999999 0.33032667999999998 0.020995713999999999 0.78654080999999998 0.70615654999999999 0.30042157000000003 0.71157366 0.30154421999999997 0.72778522999999995 0.30692365999999999 0.72734432999999998 0.30168255999999999 0.17699613 0.32666808000000003 0.18293111000000001 0.29131668999999999 0.0020109428999999998 0.66541404000000004 0.5853796 0.30910325 0.021061740999999998 0.67032855999999996 0.58207237999999994 0.30218192999999999 0.58192217000000002 0.26558535999999999 0.17750100999999999 0.29237353999999999 0.053234748999999998 0.28972821999999998 0.037375278999999997 0.28930264999999999 0.051745146999999998 0.28406119000000002 0.94168156000000003 0.2"
+		+ "7139854000000002 0.032296862000000003 0.28916752000000001 0.013367878999999999 0.28858467999999998 0.72712421000000005 0.26460465999999999 0.71136224000000003 0.26490672999999998 0.70600598999999997 0.26617664000000002 0.58729427999999995 0.26674819 0.96070527999999999 0.27183285000000001 0.93917715999999996 0.39249748000000001 0.58854282000000002 0.26197872 0.94678319 0.0048808241000000002 0.18554105000000001 0.21267808999999999 0.58026332000000003 0.25994076999999999 0.58006471000000004 0.18704607000000001 0.94465958999999999 0.19625582 0.96343303000000002 0.20157525000000001 0.052559249000000002 0.21147460000000001 0.037827711999999999 0.21111969999999999 0.054045997999999998 0.20597783 0.032823301999999999 0.21094330999999999 0.013969888 0.21028498000000001 0.96362042000000003 0.19666549999999999 0.70547736000000005 0.17959657000000001 0.71086590999999999 0.18068944000000001 0.72706419 0.18600607 0.72660749999999996 0.18079915999999999 0.17862512 0.20566603999999999 0.18443920999999999 0.16780801000000001"
+		+ " 0.94698404999999997 0.075193583999999994 0.58475882000000001 0.18842591 0.96593618000000003 0.080475858999999997 0.58147859999999996 0.181477 0.58131253999999999 0.14252818 0.17903055000000001 0.16895178 0.054363396000000001 0.16745241 0.038296439000000002 0.1667766 0.052914496999999998 0.16191908999999999 0.27236247000000002 0.75669175 0.033165630000000001 0.16653261 0.014110507 0.16548768999999999 0.72630011999999999 0.14154929999999999 0.71057402999999997 0.14177904 0.70526272000000001 0.14291508 0.58665370999999999 0.14369161 0.29139099000000002 0.75662684000000002 0.27303830000000001 0.87781483000000005 0.58788931 0.13892365000000001 0.27049234999999999 0.49611259000000002 0.18570401 0.10463466 0.57968158000000003 0.13686708 0.57929008999999998 0.079978227999999998 0.27293624999999999 0.71923345000000005 0.29166955 0.72413653 0.053678676000000002 0.12596224 0.039559018000000001 0.10986976 0.034784100999999998 0.10439998 0.016486797000000001 0.10035308 0.29178008 0.71910297999999995 0.71057742999999995 0"
+		+ ".093605257999999997 0.72674762999999998 0.083848611000000003 0.72658789000000001 0.076500967000000003 0.27212008999999998 0.55119741 0.58413046999999996 0.080577776000000004 0.58519416999999996 0.070223302000000001 0.27336769999999999 0.68514704999999998 0.29209751 0.69005888999999998 0.064945787000000005 0.092560171999999996 0.055288839999999999 0.061338399000000002 0.053172945999999999 0.053439420000000001 0.039204031 0.042987492000000002 0.29221392000000002 0.68501544000000003 0.69744706000000001 0.059874304000000003 0.71143562000000005 0.032645545999999998 0.70847039999999994 0.025157618999999999 0.27351734 0.66000091999999999 0.29236804999999999 0.66489953000000002 0.081191018000000004 0.072222382000000002 0.076219067000000001 0.043850305999999999 0.075079061000000002 0.038960237000000002 0.067591302000000006 0.021919788999999999 0.29238108000000002 0.65988088 0.67929315999999995 0.042477242999999998 0.68763958999999997 0.014114550999999999 0.68273806999999997 0.012447407000000001 0.27304631000000001 0.5"
+		+ "9541643 0.61429471000000002 0.049112778000000003 0.29197070000000003 0.60030925000000002 0.14573041 0.067656219000000004 0.14399662999999999 0.035412713999999998 0.14898105 0.035071548000000001 0.14355113999999999 0.03034481 0.14123303000000001 0.011753716000000001 0.14645277000000001 0.011357732000000001 0.61317730000000004 0.043502849000000003 0.14592132999999999 0.0063587516000000004 0.61807084000000001 0.010323581 0.14103356 0.63494616999999998 0.12236653 0.62785858000000005 0.059166875000000001 0.63096171999999995 0.073909901 0.63123298000000005 0.078969366999999999 0.63058859 0.097311199000000001 0.62779408999999997 0.10240771999999999 0.62722604999999998 0.11728761 0.62725251999999998 0.12223557 0.63342708000000003 0.93896860000000004 0.14508148000000001 0.92408871999999997 0.14044920999999999 0.85739648000000002 0.13964484999999999 0.87564701 0.13674510000000001 0.88072908000000005 0.13617496000000001 0.89560925999999996 0.13624996 0.90070397000000002 0.13685404000000001 0.91902797999999997 0.13977064"
+		+ " 0.92428719999999998 0.14469346 0.12340442 0.78378546000000004 0.061060231 0.77964997000000003 0.075679078999999996 0.77940111999999995 0.080684394000000006 0.77983188999999997 0.098647474999999998 0.78398860000000004 0.10366254 0.78461396999999999 0.1183984 0.78449564999999999 0.061380233999999999 0.80338739999999997 0.92128717999999998 0.28860976999999999 0.85566640000000005 0.28806806000000001 0.87353765999999999 0.29265499 0.87853873000000005 0.29339926999999999 0.89326799000000001 0.29363032999999999 0.89828735999999998 0.29303941 0.91627895999999998 0.28900617000000001 0.92117304 0.29369462000000002 0.77602309000000003 0.027547736 0.774813 0.27184710000000001 0.78415579000000002 0.27705336000000003 0.76982689000000004 0.27661633000000002 0.76033961999999999 0.27661970000000002 0.75529438000000004 0.27662577999999999 0.84643542999999999 0.27708736 0.84139240000000004 0.27704728000000001 0.83156728999999996 0.27697833999999999 0.82655924999999997 0.27194652000000002 0.82658237000000001 0.27692333000000002"
+		+ " 0.81679802999999995 0.27676874000000001 0.81181526000000004 0.27689736999999998 0.78921222999999996 0.27700233000000002 0.78455591000000002 0.27182546000000002 0.78571254000000001 0.027589000999999998 0.77100824999999995 0.027526245000000001 0.76131742999999996 0.027481541000000002 0.77102303999999999 0.022503097 0.82789206999999998 0.022805117 0.75630092999999998 0.027456649 0.84761589999999998 0.027945141999999999 0.84259176000000002 0.027915444000000001 0.83288616000000004 0.027858745000000001 0.77111059000000004 0.00015036851 0.82786274000000004 0.027829125999999999 0.81815749000000004 0.027772153000000001 0.81313413000000001 0.027742220000000001 0.79072737999999998 0.027606624999999999 0.78573340000000003 0.022506104999999998 0.94576687000000004 0.97513627999999997 0.33937103000000002 0.90169226999999996 0.061139327 0.78470320000000005 0.079998516000000006 0.78479772999999997 0.10368637999999999 0.78953737000000002 0.040284418000000002 0.89732635000000005 0.020651600999999999 0.8991285 0.285208520000000"
+		+ "02 0.92671376000000005 0.31015196 0.90106595 0.37541813000000002 0.59105973999999994 0.18563683 0.89822024 0.32006410000000002 0.71987038999999997 0.34089090999999999 0.71992403000000005 0.67011082 0.55602454999999995 0.21777345000000001 0.027639527000000001 0.79941702000000003 0.69396716000000003 0.77567344999999999 0.86032754 0.78609883999999997 0.84087818999999997 0.48506444999999998 0.53824477999999998 0.48672908999999998 0.56382268999999996 0.48385667999999998 0.86182289999999995 0.82236140999999996 0.97242074999999994 0.34682626 0.86669660000000004 0.46454477 0.72047633 0.38416382999999998 0.58407401999999997 0.44333589000000001 0.55336534999999998 0.40617966999999999 0.90313447000000002 0.46955770000000002 0.71547936999999995 0.46896528999999998 0.63615292000000001 0.24667629999999999 0.89951223000000002 0.67191129999999999 0.70007432000000003 0.81326752999999996 0.78023940000000003 0.75632250000000001 0.022438112999999999 0.84262115000000004 0.022891555000000001 0.36551481000000002 0.61276925000000004"
+		+ " 0.34970488999999999 0.64713704999999999 0.68013424 0.76697773000000002 0.78711819999999999 0.83585929999999997 0.96171021000000001 0.94679069999999999 0.35138314999999998 0.57547521999999995 0.94493978999999995 0.94714116999999998 0.41802542999999998 0.55049192999999996 0.36797014 0.49131024000000001 0.81911367000000002 0.92645907000000005 0.2162752 0.57560098000000004 0.55394447000000002 0.55009185999999999 0.54926341999999995 0.46772352 0.36271 0.48647222000000001 0.34699738000000002 0.48665354 0.40283540000000001 0.46219525 0.36725172 0.42755133000000001 0.54772924999999995 0.40370905000000001 0.36244407000000001 0.4225544 0.34780148 0.42257824999999999 0.42169487 0.39696642999999998 0.40233257 0.39840179999999997 0.36690074 0.33226991 0.22029288 0.42213771 0.54935889999999998 0.30799341000000002 0.36163985999999998 0.32726082000000001 0.34576726000000002 0.32712266000000001 0.40240192000000002 0.30279001999999999 0.36659381000000002 0.29035506 0.54765207000000005 0.26574585000000001"
+		)
+		2 "|Chair1:Chair2|Chair1:ChairShape2" "uvst[0].uvsp[750:999]" (" 0.36173814999999998 0.28529364000000002 0.34705257 0.28517753000000001 0.42144039 0.25901604 0.4020687 0.26054876999999999 0.36659302999999999 0.21213447999999999 0.21932317000000001 0.28415470999999998 0.54910517000000003 0.18725976 0.36136654000000001 0.20710585000000001 0.34547576000000002 0.20693497 0.40227360000000001 0.18210427000000001 0.36657706000000001 0.16773959999999999 0.54733949999999998 0.14264093 0.36167672000000001 0.162784 0.34680962999999998 0.16289756 0.42122376 0.13592459000000001 0.40195438 0.13771088000000001 0.36581852999999998 0.10535691 0.21903057000000001 0.16083053999999999 0.54882549999999997 0.080068208000000002 0.42346644 0.18071432000000001 0.42338571000000003 0.14410936999999999 0.42363790000000001 0.30133875999999998 0.42357042 0.26716678999999999 0.42373495999999999 0.46152507999999998 0.42382333 0.40502703000000001 0.22127585 0.2057023 0.2217112 0.32649651000000002 0.22280738999999999 0.48673390999999999 0.42487434000000002 0.46639669 0.14811772000000001 0.5780314800000000"
+		+ "4 0.16648268999999999 0.69430906000000003 0.42487743 0.30612784999999998 0.96996908999999998 0.097280480000000003 0.98774284000000001 0.21364986999999999 0.42470297000000001 0.18551815999999999 0.24621275000000001 0.57149236999999997 0.26482305 0.68773108999999999 0.36082235000000001 0.10375775 0.34505027999999999 0.12086029 0.29692491999999998 0.64963406000000001 0.42185092000000002 0.098676636999999998 0.41764354999999997 0.094939678999999999 0.40144062000000003 0.078077137000000005 0.34791315 0.053319599000000002 0.3429527 0.054244491999999998 0.33216067999999999 0.087746114 0.29783985000000002 0.68371110999999996 0.43266781999999998 0.066591233 0.43041553999999999 0.061156507999999998 0.41902929999999999 0.026692461000000001 0.32518142 0.038480333999999998 0.31976589999999999 0.041790689999999998 0.31455651000000001 0.070488885000000001 0.29834807000000002 0.70885450000000005 0.44930958999999998 0.048538054999999997 0.44837299000000003 0.043582395000000003 0.44451745999999998 0.013639831 0.256156500000000"
+		+ "01 0.030885121000000001 0.54800397000000001 0.0093765342999999994 0.22084907000000001 0.095091350000000005 0.25081560000000003 0.0356456 0.51443755999999996 0.043863486 0.51417738000000002 0.010609029000000001 0.31745501999999998 0.81252486000000002 0.22152533999999999 0.10107061000000001 0.29880290999999998 0.77343868999999998 0.85487986000000005 0.29303747000000002 0.87844509000000004 0.29832165999999999 0.89879799000000005 0.29811987000000001 0.86704605999999995 0.92606025999999997 0.92622066000000003 0.82338666999999999 0.63202678999999995 0.86082088999999995 0.81865078000000002 0.69405114999999995 0.8178879 0.86489987000000002 0.49531415000000001 0.90352010999999999 0.52803074999999999 0.55035239000000002 0.95564698999999997 0.69623703000000003 0.83785814000000003 0.69414288000000002 0.95709062 0.55103290000000005 0.66016704000000004 0.95487827000000003 0.77845818 0.95115691000000002 0.50824731999999995 0.86182219000000004 0.59158604999999997 0.58431529999999998 0.59843272000000003 0.60126334000000003 0."
+		+ "59145605999999995 0.5785228 0.56209092999999999 0.90267014999999995 0.86017381999999998 0.85949766999999999 0.62681465999999997 0.71537876 0.50839334999999997 0.71512675000000003 0.50872534999999997 0.63342034999999997 0.64744126999999996 0.71543579999999996 0.63188761000000004 0.71539330000000001 0.62494516 0.65375525000000001 0.71584839 0.90025562000000003 0.94739353999999998 0.76402395999999995 0.833134 0.69915252999999999 0.77604717000000001 0.022518923999999999 0.81316250999999995 0.022717938 0.62570906000000004 0.901645 0.93596422999999995 0.80200446000000003 0.84891444000000005 0.83509730999999998 0.92782282999999999 0.80772423999999998 0.028697918999999999 0.57372290000000004 0.65409678000000004 0.94943946999999995 0.22311638 0.70137512999999996 0.71899760000000001 0.54927212000000003 0.71366364000000004 0.46694562000000001 0.97960544000000005 0.55330789000000002 0.58223575000000005 0.55021178999999998 0.78224479999999996 0.94580096000000002 0.18678896 0.57696473999999998 0.034075819 0.485334749999999"
+		+ "98 0.010153397 0.48385990000000001 0.029021419999999999 0.48504519000000001 0.17945161000000001 0.48806006000000002 0.035176352000000001 0.42138766999999999 0.0018748841000000001 0.79138695999999997 0.71338928000000001 0.39730912000000002 0.71322315999999997 0.30721077000000002 0.72810984000000001 0.39738509 0.011379943 0.4205004 0.030188692999999999 0.42123707999999999 0.58584093999999998 0.39662111 0.18202507000000001 0.42398344999999998 0.036889802999999999 0.32610538999999999 0.012892724 0.32525440999999999 0.031805802000000001 0.32595449999999998 0.18235032000000001 0.32801725999999998 0.037215381999999998 0.28415080999999998 0.94440937000000003 0.20114048000000001 0.71280478999999997 0.25929877000000001 0.71252406000000001 0.18633199 0.72753382 0.25936895999999998 0.013369892 0.28350011000000003 0.032212528999999997 0.28405571000000002 0.58511787999999998 0.25870462999999999 0.18443929000000001 0.28579870000000002 0.038101221999999997 0.20596987 0.014014812999999999 0.20516335999999999 0.032996770000000"
+		+ "002 0.20582399000000001 0.18397568 0.20694962 0.038134657000000002 0.16168113000000001 0.27292207000000002 0.72428583999999996 0.71194690000000005 0.13628107 0.71207147999999998 0.099483407999999995 0.72665464999999996 0.13640036 0.014013060000000001 0.16021724000000001 0.033073052999999998 0.16142707000000001 0.58447486000000004 0.13553815 0.18590844000000001 0.16223522000000001 0.58686130999999997 0.18027737999999999 0.58747643000000005 0.30095856999999998 0.58812629999999999 0.46123229999999998 0.70530002999999997 0.39944132999999998 6.6173532000000007e-05 0.88378756999999997 0.70471196999999997 0.26141623000000003 0.94149422999999999 0.27630781999999998 0.70398581000000005 0.1381252 0.27230402999999997 0.76160472999999995 0.059804332000000002 0.16862348999999999 0.059472781000000002 0.20488401000000001 0.058640498999999999 0.29094908000000003 0.058195662000000002 0.32500892999999997 0.056436960000000001 0.42848045000000001 0.055091544999999999 0.48504209999999998 0.22371587000000001 0.58033829999999997 0."
+		+ "0020965532999999998 0.67034906000000005 0.94697427999999995 0.080129570999999997 0.039864793000000003 0.10298889999999999 0.055277607999999999 0.12024215000000001 0.27339727000000003 0.69022106999999999 0.70115077000000003 0.064995265999999996 0.017724444999999998 0.094775899999999996 0.035720191999999998 0.099915847000000002 0.05801278 0.054451987 0.068599521999999996 0.087610542999999999 0.27358386000000001 0.66502779999999995 0.68443370000000003 0.044081598999999999 0.043335582999999997 0.038801483999999997 0.055943303 0.050154865 0.080487922000000003 0.04215965 0.086073241999999994 0.070467084999999999 0.27310482000000003 0.60042614000000005 0.61841595000000005 0.042277086999999998 0.073253624000000003 0.019963696999999999 0.079194449 0.037552747999999997 0.57917671999999998 0.0094309961000000001 0.17942514000000001 0.094667821999999999 0.15099895999999999 0.068727508000000007 0.17712212999999999 0.032891769000000001 0.17684168 0.027618167999999998 0.14857561999999999 0.030040804000000001 0.17507902 0.008"
+		+ "4394346999999998 0.58606177999999998 0.076076827999999999 0.27226967000000002 0.55618995000000004 0.32478025999999999 0.86551809000000002 0.075450741000000002 0.49158531 0.14059487000000001 0.63088005999999996 0.64859182000000004 0.88823651999999997 0.63085049000000004 0.88697809000000005 0.91867666999999997 0.00084519293000000001 0.93881338999999997 0.14028613000000001 0.059005897000000002 0.63576233000000004 0.073669112999999994 0.63547206000000001 0.078667104000000002 0.63515573999999997 0.097444824999999999 0.63345759999999995 0.10247632 0.63320248999999995 0.11720477999999999 0.63318585999999999 0.14130661 0.77932042000000001 0.85693026000000005 0.14370732 0.87573767000000002 0.14231941000000001 0.88076966999999995 0.14211476000000001 0.89550251000000003 0.14221953000000001 0.90053128999999998 0.14251133999999999 0.91929322000000002 0.14434180999999999 0.93588464999999998 0.28893702999999998 0.46810429999999997 0.62479209999999996 0.85118400999999999 0.31408226 0.81364088999999995 0.31364721000000001 0.5"
+		+ "0709289000000002 0.57837832 0.774777 0.32006310999999998 0.76978391000000002 0.27179294999999998 0.76004505 0.27157020999999998 0.75500374999999997 0.27159294 0.84617788000000005 0.27205601000000001 0.84118426000000002 0.27201958999999998 0.83155 0.27197152000000002 0.81692176999999999 0.27189758000000003 0.81192237 0.27190377999999998 0.78960030999999997 0.27192094999999999 0.50401795000000005 0.62557428999999998 0.49961999000000001 0.63504320000000003 0.80869502000000004 0.31407334999999997 0.50469923000000005 0.5704844 0.46994647000000001 0.57742125 0.47522735999999999 0.56816292000000002 0.48657188000000001 0.63415438000000002 0.48262757000000001 0.63518947000000003 0.77033311000000004 0.31950620000000002 0.46852732000000002 0.63281774999999996 0.82612096999999995 0.31393378999999999 0.48754898000000002 0.56897706000000003 0.63040512999999998 0.86860943000000002 0.63289790999999995 0.86579764000000003 0.64500683999999997 0.86493819999999999 0.67235571000000005 0.89065254000000005 0.89981752999999998 0.001"
+		+ "0495947000000001 0.63399875000000006 0.88607508000000001 0.88028359 0.00019754333000000001 0.65347891999999996 0.88883120000000004"
+		)
+		2 "|Chair1:Chair2|Chair1:ChairShape2" "uvst[0].uvsp[1000:1249]" (" 0.33903861000000002 0.86508666999999995 0.34185188999999999 0.86758226000000005 0.14732116000000001 0.49256018000000001 0.32511540999999999 0.86891054999999995 0.34301910000000002 0.88360643000000005 0.33862889000000002 0.88581752999999996 0.12365147999999999 0.49134189 0.32403910000000002 0.88801271000000004 0.54148852999999997 0.46632844000000001 0.54439848999999996 0.46914806999999997 0.14751768000000001 0.69424235999999995 0.14751475 0.69910859999999997 0.94512951000000001 0.92809105000000003 0.79767102000000001 0.54738414000000002 0.79330802 0.54922687999999997 0.67631739000000002 0.54983013999999997 0.24267675999999999 0.57551056 0.58928203999999995 0.46610080999999998 0.70587844 0.46557229999999999 0.70880854000000004 0.46840401999999998 0.78156358000000004 0.92686455999999995 0.77671593000000005 0.92610990999999998 0.66049749000000002 0.929811 0.96155148999999995 0.54930990999999996 0.54109770000000001 0.30599061 0.54449206999999999 0.30930644000000002 0.96877842999999997 0.21348697 0.968750769999999"
+		+ "98 0.2183532 0.54452281999999996 0.39681745000000002 0.54114616000000004 0.40015890999999998 0.96983218000000004 0.30585393 0.42510842999999998 0.40026823 0.021042205000000001 0.66546207999999996 0.58872723999999999 0.30574795999999999 0.704952 0.30522755000000001 0.70835727000000004 0.30853682999999998 0.019113943000000001 0.57797569000000004 0.018965187000000001 0.99997950000000002 0.70866941999999999 0.39608818000000001 0.019031214000000001 0.88382983000000004 0.54089271999999999 0.18523423 0.54426688000000001 0.18863636 0.24585789 0.68770461999999999 0.24586532999999999 0.69257062999999996 0.54440385000000002 0.25895178000000002 0.54100239000000006 0.26218343 0.24725278000000001 0.76287042999999999 0.42483546999999999 0.26241323 0.96601099000000001 0.075610234999999998 0.58810794 0.18506642000000001 0.70428937999999996 0.18441373 0.70768929000000003 0.18770133 0.96581011999999999 0.0052970150000000004 0.95813912000000001 0.39284432000000002 0.70808917000000005 0.25805303000000002 0.96045493999999998 0.276"
+		+ "71751 0.3176696 0.76828580999999996 0.51338428000000003 0.049491241999999998 0.31721150999999997 0.70870394000000003 0.31712487 0.70368492999999999 0.31668605999999999 0.68357431999999996 0.31645223 0.67850173000000003 0.54192293000000002 0.076166606999999997 0.54390888999999998 0.080652303999999994 0.31576874999999999 0.64949727000000002 0.31555646999999998 0.64444475999999995 0.54410130000000001 0.13581692000000001 0.54072315000000004 0.13904153999999999 0.31478437999999997 0.61204892 0.42463002 0.13933392 0.29184902000000001 0.59529001000000004 0.61887424999999996 0.047286811999999998 0.67843127000000003 0.047451653000000003 0.68285143000000004 0.049642615000000001 0.69524859999999999 0.065334908999999997 0.69757599000000003 0.069762780999999996 0.29113862000000001 0.55606787999999996 0.29098987999999998 0.55108254999999995 0.70641321000000001 0.097387171999999994 0.7071771 0.10233451 0.28952366000000002 0.49604641999999999 0.29200289000000001 0.87766361000000004 0.70732176000000002 0.13492018 0.2912689399"
+		+ "9999998 0.76151632999999996 0.85066830999999998 0.28751269000000002 0.85162716999999999 0.0012777973999999999 0.14629194000000001 0.77881973999999998 0.14605019999999999 0.63505232 0.14561700999999999 0.63174379000000003 0.060557107999999998 0.49146378000000002 0.85237282999999997 0.14047419 0.85191291999999996 0.14377880000000001 0.96479117999999997 0.55248123000000005 0.65556787999999999 0.93076915000000005 0.71420044000000005 0.54961950000000004 0 0.57052522999999999 0.86746937000000002 0.89543611000000001 0.023688576999999999 0.57334547999999996 0.63931274000000005 0.94982612 0.043477304000000001 0.57471411999999999 0.65700453999999997 0.94703799 0.83587986000000003 0.54753112999999998 0.24119803000000001 0.49411814999999998 0.83252828999999995 0.55058872999999997 0.18182804 0.57621001999999999 0.78550797999999999 0.94552433000000002 0.81975942999999996 0.94269007000000005 0.81646757999999997 0.94495671999999997 0.54914479999999999 0.55040144999999996 0.15019752 0.49180457 0.80099242999999998 0.5504440699"
+		+ "9999995 0.81644022000000005 0.55061537000000005 0.80084586000000002 0.94498627999999996 0.67203014999999999 0.54798608999999998 0.14887354999999999 0.78050308999999995 0.66880238000000003 0.55115062000000004 0.043191689999999998 0.89000939999999995 0.039092116000000003 0.89226669000000003 0.34645851999999999 0.57453631999999999 0.94818323999999998 0.94706261000000003 0.36616182000000003 0.57482617999999996 0.96670478999999998 0.94647013999999996 0.64281200999999999 0.65987229000000003 0.64139884999999996 0.65488957999999997 0.50059759999999998 0.92975956000000004 0.53262465999999997 0.54611653000000004 0.78409684000000002 0.97270668000000005 0.50822562000000004 0.89177746000000002 0.71615463000000001 0.92655354999999995 0.72115183000000005 0.92649042999999998 0.63136375 0.62751776000000004 0.62925428000000005 0.62280058999999999 0.65228492000000005 0.86706941999999998 0.65279381999999997 0.86187762000000001 0.61796647000000005 0.60107166000000001 0.59573913000000001 0.58149247999999998 0.59166980000000002 0.9"
+		+ "2838876999999997 0.56247621999999997 0.92887282000000004 0.62688630999999995 0.89193641999999995 0.63234352999999999 0.89103149999999998 0.64793049999999996 0.89325993999999997 0.65304083000000002 0.89384465999999996 0.41071719000000001 0.92952055 0.44006162999999998 0.54940754000000003 0.46447485999999999 0.89177269000000003 0.46952426000000003 0.89177351999999999 0.31977281000000002 0.86139213999999997 0.18515913000000001 0.92446607000000003 0.32053443999999998 0.71466529000000001 0.24609523 0.92575127000000001 0.25110880000000002 0.92589062 0.45061298999999999 0.93010563000000002 0.49131879000000001 0.53776674999999996 0.48648858 0.89177351999999999 0.28012451999999999 0.92645942999999997 0.34500377999999998 0.62179713999999997 0.29994663999999999 0.89569061999999999 0.38453481 0.57823658 0.36052814 0.59592765999999997 0.33876589000000001 0.92799836000000002 0.30952479999999999 0.92723535999999995 0.34029439 0.89076542999999997 0.34561604000000001 0.89154029000000001 0.31960370999999999 0.89363241000000004"
+		+ " 0.32471224999999998 0.89303416000000002 0.63524765000000005 0.97864741 0.96631610000000001 0.97553067999999998 0.56357705999999996 0.0052244713999999998 0.54746097000000005 0.0042968327000000002 0.56311023000000004 0 0.54262376000000001 0.0050907916999999997 0.51401651000000004 0.0055837897000000003 0.50901812000000002 0.0057125845999999999 0.44399601 0.0086477315000000003 0.43883740999999998 0.010086390000000001 0.41718388000000001 0.022010968999999998 0.41351289000000002 0.026354128000000001 0.39717147000000003 0.075062707000000006 0.39628553 0.080427661999999997 0.39694297000000001 0.13786403999999999 0.39723995000000001 0.14295595999999999 0.39723389999999997 0.18215661999999999 0.39692949999999999 0.18732624 0.39705797999999998 0.26066113000000002 0.39735869000000001 0.26583558000000002 0.39736157999999999 0.30284420000000001 0.39706828999999999 0.30804467000000002 0.39732288999999998 0.39851639 0.39772657 0.40364750999999999 0.39780875999999998 0.46221255999999999 0.39750457 0.46700989999999998 0.39337"
+		+ "264999999999 0.55026048000000005 0.61300885999999999 0.010255322000000001 0.14050968 0.0067915939999999998 0.072270654000000004 0.015094517 0.063862264000000002 0.018423744999999998 0.038712970999999999 0.036595932999999997 0.031914025999999998 0.047116383999999997 0.012411857 0.095082730000000004 0.011184921 0.10505252 0.0090061193000000005 0.15996604 0.0090733124000000002 0.16536117 0.0089863184999999998 0.205063 0.0089453533000000002 0.21016779999999999 0.0083458759000000007 0.28338623000000002 0.0083404229999999996 0.28845501000000001 0.0078657222999999991 0.32510653 0.0077349078000000003 0.33017205999999999 0.0063576804999999998 0.42034920999999997 0.0063523570999999999 0.42536332999999998 0.0051285378000000001 0.48363667999999999 0.0048944987000000004 0.48843375 0.17881994000000001 0.0027301977 0.17443669000000001 0.0034045124999999999 0.73392891999999998 0.54821754 0.96672374000000005 0.95148348999999999 0.020454150000000001 0.89411138999999995 0.63431340000000003 0.94959921000000003 0.6343893999999999"
+		+ "9 0.95461130000000005 0.93577105000000005 0.29402187000000002 0.85273767 0.29215809999999998 0.87291342000000005 0.29770446 0.875561 0.29731393 0.91907435999999998 0.29318723000000002 0.91691434000000005 0.29399737999999997 0.92067533999999995 0.31235316000000002 0.93546569000000002 0.31272316 0.89317155000000004 0.29858157000000002 0.89613162999999996 0.29765812000000003 0.12403763 0.78885203999999998 0.12135795000000001 0.78845416999999995 0.11841854 0.78944760999999997 0.10077949999999999 0.78859824000000001 0.098144813999999997 0.78905164999999999 0.076173879 0.80318986999999997 0.077864169999999996 0.78397386999999996 0.075784110000000002 0.78446965999999996 0.14419456 0.78341687000000004 0.14207507999999999 0.78427409999999997 0.78574394999999997 0.022572809999999999 0.78823334 0.023251878 0.79073804999999997 0.022588595999999999 0.81567162000000004 0.023406191 0.81818670000000004 0.022748066000000001 0.78573424000000003 0.00010965093999999999 0.77609169 0.00016431875999999999 0.83291572000000003 0.0228"
+		+ "3466 0.84512942999999996 0.023579571000000001 0.73392670999999998 0.022325613000000001 0.76147275999999997 1.5242476e-05"
+		)
+		2 "|Chair1:Chair2|Chair1:ChairShape2" "uvst[0].uvsp[1250:1426]" (" 0.75882632000000005 0.023122340000000002 0.76133715999999996 0.022467458999999999 0.76131861999999995 0.022437057999999999 0.76288794999999998 0.31436175 0.76917970000000002 0.32176378 0.81327391000000004 0.31390502999999997 0.73533051999999999 0.31326683999999999 0.84623252999999998 0.31385937000000003 0.77596264999999998 0.32112988999999997 0.78109735000000002 0.31424638999999999 0.73390191999999999 0.027344852999999999 0.73271120000000001 0.27130988 0.73265654000000002 0.27615234 0.19110406999999999 0.89322752000000005 0.18571092 0.89320445000000004 0.046654250000000001 0.89307892 0.65398204000000004 0.55179202999999999 0.72049867999999995 0.89523887999999996 0.71509993000000005 0.89524722000000001 0.86338877999999997 0.89315306999999999 0.85983038000000001 0.89617771000000002 0.65759723999999997 0.89621717000000001 0.65033673999999997 0.89613818999999995 0.49952491999999998 0.89851201000000003 0.49372110000000002 0.89850646000000001 0.62200295999999999 0.89691841999999999 0.60890502000000002 0.8967548600"
+		+ "0000004 0.57628411000000002 0.89676374000000003 0.56500143000000003 0.89768165 0.93943173000000002 0.81374568000000003 0.29714986999999998 0.89507473000000004 0.28435335 0.89553243000000005 0.41218364000000002 0.89807552000000002 0.40636736000000001 0.89812338000000003 0.25582376000000001 0.89437133000000002 0.24861886999999999 0.89455050000000003 0.34126851000000002 0.89700906999999996 0.32991504999999999 0.89642292000000001 0.31216344000000001 0.89618677000000002 0.14555298 0.072719961 0.15011515 0.074421405999999996 0.082767419999999994 0.077433787000000004 0.087065816000000004 0.075182161999999997 0.068428129000000004 0.097198687000000006 0.070781179 0.092861033999999995 0.17876533999999999 0.10068381 0.18076639 0.10518379999999999 0.058517605 0.12881897 0.059355079999999998 0.12397603 0.18125914000000001 0.16078629 0.177846 0.16413324000000001 0.061099302000000001 0.16388105 0.057796076000000002 0.16059846999999999 0.27044368000000002 0.49124657999999999 0.28940827000000002 0.4911122 0.17298156000000001 "
+		+ "0.49195686 0.17593766999999999 0.49494314 0.053217283999999997 0.49249861 0.056182213000000002 0.48990166000000002 0.2221698 0.49414244000000002 0.048427243000000002 0.57389069000000004 0.17564741 0.33141142000000001 0.17898452000000001 0.33487082000000001 0.055946614999999998 0.33295016999999999 0.059413507999999997 0.32977548000000001 0.17735274000000001 0.42254241999999997 0.17390986 0.42573220000000001 0.057790622 0.42371807 0.054520632999999999 0.42025646999999999 6.3243336999999999e-05 0.57306159000000001 0.019028283999999999 0.57304107999999998 0.17729807 0.21042499000000001 0.18066375000000001 0.21386389 0.057265412000000002 0.21278830000000001 0.060711015 0.20962895000000001 0.17976238999999999 0.28434770999999998 0.17633626999999999 0.28754032000000002 0.059931184999999998 0.28619160999999999 0.056607507000000001 0.28275788000000002 0.94685792999999996 1.4970564e-05 0.96581994999999998 0.00036148643000000002 0.16726062999999999 0.57327318000000005 0.22401614 0.49156460000000002 0.34060359000000001 0"
+		+ ".49067857999999998 0.34347372999999998 0.49332416000000001 0.16922514 0.49195820000000001 0.16790181000000001 0.78050702999999999 0.98913598000000003 0.092619509000000003 0.22301668999999999 0.33125225000000003 0.33910847 0.33069852 0.34254277 0.333974 0.99169940000000001 0.0051520647999999999 0.98764390000000002 0.42715868000000001 0.34310889 0.42125552999999999 0.33979678000000002 0.4246105 0.97287542000000005 1.4895244999999999e-05 0.99183916999999999 0.0002405955 0.26534563 0.56669371999999996 0.22256069000000001 0.21046913 0.33880490000000002 0.21052272999999999 0.34222039999999998 0.21378615000000001 0.26688728 0.49639993999999998 0.26593611 0.88404399 0.34236684000000001 0.28379029 0.33901176 0.28712690000000002 0.24802683 0.49139822 0.26699176000000002 0.49148753000000001 0.25013918000000002 0.074820614999999993 0.25469186999999999 0.073144688999999999 0.31357427999999998 0.075264207999999999 0.31789680999999997 0.077499650000000003 0.32998400999999999 0.093015283000000004 0.33225662 0.097371250000000"
+		+ "006 0.29858622000000001 0.81267195999999997 0.29849186999999999 0.81765502999999995 0.34090003000000002 0.12455835 0.34170568000000001 0.1294149 0.29773840000000001 0.87270325000000004 0.29502949000000001 0.49104505999999998 0.34211612000000002 0.16146994000000001 0.33879568999999998 0.16465537 0.31664750000000003 0.87751782 0.29768264 0.87761635000000005 0.78115981999999995 0.94305861000000002 0.65284591999999997 0.94983530000000005 0.65607165999999995 0.94981486000000004 0.81870388999999999 0.94540131000000005 0.81545478000000005 0.94523460000000004 0.78448861999999997 0.94525908999999997 0.94397712 0.94434297 0.946926 0.94668423999999995 0.50725991000000004 0.62176746000000005 0.50784594000000005 0.57371932000000003 0.50154536999999999 0.62975996999999995 0.46612041999999998 0.58242077000000003 0.46390077000000002 0.62947660999999999 0.47257364000000002 0.63659781000000004 0.50275141000000001 0.56682085999999998 0.47325009000000001 0.57430607 0.63363700999999995 0.86535835000000005 0.63083434000000005 0.86"
+		+ "790573999999998 0.33973181000000002 0.86550921000000003 0.34229112 0.868321 0.34175166000000001 0.88665777000000001 0.32767807999999998 0.86459308999999995 0.32039477999999999 0.86671072000000005 0.30028141000000003 0.89048833000000005 0.64785028 0.86589777000000001 0.64756440999999998 0.86925995 0.67270315000000003 0.89585429000000005 0.62961250999999996 0.88386750000000003 0.45595037999999999 0.89878464000000002 0.45055806999999998 0.89877874000000002 0.31281191000000003 0.89650761999999995 0.31347557999999998 0.89621711000000004 0.59369992999999999 0.89756590000000003 0.59436714999999996 0.89724033999999997 0.50014703999999999 0.89845949000000003 0.56525707000000003 0.89784461000000004 0.57662016000000005 0.89734833999999997 0.28452042 0.89565802000000005 0.25618252000000002 0.89467001000000002 0.24894013000000001 0.89468442999999998 0.1914544 0.89326930000000004 0.41279434999999998 0.89822179000000002 0.49434110999999997 0.89836240000000001 0.18605414000000001 0.89322042000000001 0.40699252000000002 0.898"
+		+ "18019000000004 0.34152644999999998 0.89684527999999997 0.33025210999999999 0.89584600999999997 0.29739672 0.89562982000000002 0.65792470999999997 0.89608352999999996 0.71545035000000001 0.89520823999999999 0.65069032000000004 0.89584713999999999 0.62218689999999999 0.89678203999999995 0.72084373000000002 0.89522552 0.60914212000000001 0.89622349000000001"
+		);
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode script -n "uiConfigurationScriptNode";
@@ -19053,8 +19101,8 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -excludeObjectPreset \"All\" \n            -shadows 0\n            -captureSequenceNumber -1\n            -width 389\n            -height 433\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            -pluginObjects \"mayaUsdProxyShapeBaseDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n"
 		+ "\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"|persp\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 1\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 32768\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n"
 		+ "            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n"
-		+ "            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -excludeObjectPreset \"All\" \n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1054\n            -height 794\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n"
-		+ "        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            -pluginObjects \"mayaUsdProxyShapeBaseDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n"
+		+ "            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -bluePencil 1\n            -greasePencils 0\n            -excludeObjectPreset \"All\" \n            -shadows 0\n            -captureSequenceNumber -1\n            -width 456\n            -height 914\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n"
+		+ "        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            -pluginObjects \"mayaUsdProxyShapeBaseDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n"
 		+ "            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showParentContainers 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -showUfeItems 1\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n"
 		+ "            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -selectCommand \"print(\\\"\\\")\" \n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n"
 		+ "            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showParentContainers 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n"
@@ -19066,7 +19114,7 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "                -autoExpandLayers 1\n                -autoExpand 1\n                -showDagOnly 0\n                -showAssets 1\n                -showContainedOnly 0\n                -showPublishedAsConnected 0\n                -showParentContainers 0\n                -showContainerContents 0\n                -ignoreDagHierarchy 0\n                -expandConnections 1\n                -showUpstreamCurves 1\n                -showUnitlessCurves 0\n                -showCompounds 0\n                -showLeafs 1\n                -showNumericAttrsOnly 1\n                -highlightActive 0\n                -autoSelectNewObjects 0\n                -doNotSelectNewObjects 1\n                -dropIsParent 1\n                -transmitFilters 0\n                -setFilter \"0\" \n                -showSetMembers 1\n                -allowMultiSelection 1\n                -alwaysToggleSelect 0\n                -directSelect 0\n                -showUfeItems 1\n                -displayMode \"DAG\" \n                -expandObjects 0\n                -setsIgnoreFilters 1\n"
 		+ "                -containersIgnoreFilters 0\n                -editAttrName 0\n                -showAttrValues 0\n                -highlightSecondary 0\n                -showUVAttrsOnly 0\n                -showTextureNodesOnly 0\n                -attrAlphaOrder \"default\" \n                -animLayerFilterOptions \"allAffecting\" \n                -sortOrder \"none\" \n                -longNames 0\n                -niceNames 1\n                -showNamespace 1\n                -showPinIcons 0\n                -mapMotionTrails 1\n                -ignoreHiddenAttribute 0\n                -ignoreOutlinerColor 0\n                -renderFilterVisible 0\n                $editorName;\n\n\t\t\t$editorName = ($panelName+\"DopeSheetEd\");\n            dopeSheetEditor -e \n                -displayValues 0\n                -snapTime \"none\" \n                -snapValue \"none\" \n                -outliner \"dopeSheetPanel1OutlineEd\" \n                -hierarchyBelow 0\n                -selectionWindow 0 0 0 0 \n                $editorName;\n\t\tif (!$useSceneConfig) {\n"
 		+ "\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"timeEditorPanel\" (localizedPanelLabel(\"Time Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Time Editor\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"clipEditorPanel\" (localizedPanelLabel(\"Trax Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Trax Editor\")) -mbv $menusOkayInPanels  $panelName;\n\n\t\t\t$editorName = clipEditorNameFromPanel($panelName);\n            clipEditor -e \n                -displayValues 0\n                -snapTime \"none\" \n                -snapValue \"none\" \n                -initialized 0\n                -manageSequencer 0 \n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"sequenceEditorPanel\" (localizedPanelLabel(\"Sequencer\")) `;\n"
-		+ "\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Sequencer\")) -mbv $menusOkayInPanels  $panelName;\n\n\t\t\t$editorName = sequenceEditorNameFromPanel($panelName);\n            cameraSequencer -e \n                -displayValues 0\n                -snapTime \"none\" \n                -snapValue \"none\" \n                -initialized 0\n                -showThumbnail 1\n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"hyperGraphPanel\" (localizedPanelLabel(\"Hypergraph Hierarchy\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Hypergraph Hierarchy\")) -mbv $menusOkayInPanels  $panelName;\n\n\t\t\t$editorName = ($panelName+\"HyperGraphEd\");\n            hyperGraph -e \n                -graphLayoutStyle \"hierarchicalLayout\" \n                -orientation \"horiz\" \n                -mergeConnections 0\n                -zoom 1\n"
+		+ "\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Sequencer\")) -mbv $menusOkayInPanels  $panelName;\n\n\t\t\t$editorName = sequenceEditorNameFromPanel($panelName);\n            cameraSequencer -e \n                -displayValues 0\n                -snapTime \"none\" \n                -snapValue \"none\" \n                -initialized 0\n                -showThumbnail 1\n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"hyperGraphPanel\" (localizedPanelLabel(\"Hypergraph Hierarchy\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Hypergraph Hierarchy\")) -mbv $menusOkayInPanels  $panelName;\n\n\t\t\t$editorName = ($panelName+\"HyperGraphEd\");\n            hyperGraph -e \n                -graphLayoutStyle \"hierarchicalLayout\" \n                -orientation \"horiz\" \n                -mergeConnections 1\n                -zoom 1\n"
 		+ "                -animateTransition 0\n                -showRelationships 1\n                -showShapes 0\n                -showDeformers 0\n                -showExpressions 0\n                -showConstraints 0\n                -showConnectionFromSelected 0\n                -showConnectionToSelected 0\n                -showConstraintLabels 0\n                -showUnderworld 0\n                -showInvisible 0\n                -transitionFrames 1\n                -opaqueContainers 0\n                -freeform 0\n                -imagePosition 0 0 \n                -imageScale 1\n                -imageEnabled 0\n                -graphType \"DAG\" \n                -heatMapDisplay 0\n                -updateSelection 1\n                -updateNodeAdded 1\n                -useDrawOverrideColor 0\n                -limitGraphTraversal -1\n                -range 0 0 \n                -iconSize \"smallIcons\" \n                -showCachedConnections 0\n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n"
 		+ "\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"hyperShadePanel\" (localizedPanelLabel(\"Hypershade\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Hypershade\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"visorPanel\" (localizedPanelLabel(\"Visor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Visor\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"nodeEditorPanel\" (localizedPanelLabel(\"Node Editor\")) `;\n\tif ($nodeEditorPanelVisible || $nodeEditorWorkspaceControlOpen) {\n\t\tif (\"\" == $panelName) {\n\t\t\tif ($useSceneConfig) {\n\t\t\t\t$panelName = `scriptedPanel -unParent  -type \"nodeEditorPanel\" -l (localizedPanelLabel(\"Node Editor\")) -mbv $menusOkayInPanels `;\n"
 		+ "\n\t\t\t$editorName = ($panelName+\"NodeEditorEd\");\n            nodeEditor -e \n                -allAttributes 0\n                -allNodes 0\n                -autoSizeNodes 1\n                -consistentNameSize 1\n                -createNodeCommand \"nodeEdCreateNodeCommand\" \n                -connectNodeOnCreation 0\n                -connectOnDrop 0\n                -copyConnectionsOnPaste 0\n                -connectionStyle \"bezier\" \n                -defaultPinnedState 0\n                -additiveGraphingMode 0\n                -connectedGraphingMode 1\n                -settingsChangedCallback \"nodeEdSyncControls\" \n                -traversalDepthLimit -1\n                -keyPressCommand \"nodeEdKeyPressCommand\" \n                -nodeTitleMode \"name\" \n                -gridSnap 0\n                -gridVisibility 1\n                -crosshairOnEdgeDragging 0\n                -popupMenuScript \"nodeEdBuildPanelMenus\" \n                -showNamespace 1\n                -showShapes 1\n                -showSGShapes 0\n                -showTransforms 1\n"
@@ -19081,78 +19129,14 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "                -useBaseRenderer 0\n                -useReducedRenderer 0\n                -smallObjectCulling 0\n                -smallObjectThreshold -1 \n                -interactiveDisableShadows 0\n                -interactiveBackFaceCull 0\n                -sortTransparent 1\n                -controllers 1\n                -nurbsCurves 1\n                -nurbsSurfaces 1\n                -polymeshes 1\n                -subdivSurfaces 1\n                -planes 1\n                -lights 1\n                -cameras 1\n                -controlVertices 1\n                -hulls 1\n                -grid 1\n                -imagePlane 1\n                -joints 1\n                -ikHandles 1\n                -deformers 1\n                -dynamics 1\n                -particleInstancers 1\n                -fluids 1\n                -hairSystems 1\n                -follicles 1\n                -nCloths 1\n                -nParticles 1\n                -nRigids 1\n                -dynamicConstraints 1\n                -locators 1\n                -manipulators 1\n"
 		+ "                -pluginShapes 1\n                -dimensions 1\n                -handles 1\n                -pivots 1\n                -textures 1\n                -strokes 1\n                -motionTrails 1\n                -clipGhosts 1\n                -bluePencil 1\n                -greasePencils 0\n                -excludeObjectPreset \"All\" \n                -shadows 0\n                -captureSequenceNumber -1\n                -width 0\n                -height 0\n                -sceneRenderFilter 0\n                -displayMode \"centerEye\" \n                -viewColor 0 0 0 1 \n                -useCustomBackground 1\n                $editorName;\n            stereoCameraView -e -viewSelected 0 $editorName;\n            stereoCameraView -e \n                -pluginObjects \"gpuCacheDisplayFilter\" 1 \n                -pluginObjects \"mayaUsdProxyShapeBaseDisplayFilter\" 1 \n                $editorName; };\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n"
 		+ "        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -excludeObjectPreset \\\"All\\\" \\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1054\\n    -height 794\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    -pluginObjects \\\"mayaUsdProxyShapeBaseDisplayFilter\\\" 1 \\n    $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -excludeObjectPreset \\\"All\\\" \\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1054\\n    -height 794\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    -pluginObjects \\\"mayaUsdProxyShapeBaseDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -excludeObjectPreset \\\"All\\\" \\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 456\\n    -height 914\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    -pluginObjects \\\"mayaUsdProxyShapeBaseDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -bluePencil 1\\n    -greasePencils 0\\n    -excludeObjectPreset \\\"All\\\" \\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 456\\n    -height 914\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    -pluginObjects \\\"mayaUsdProxyShapeBaseDisplayFilter\\\" 1 \\n    $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 12 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
 	rename -uid "E3976E3C-4B92-88D2-FCBF-8384DBC79B98";
 	setAttr ".b" -type "string" "playbackOptions -min 1 -max 120 -ast 1 -aet 200 ";
 	setAttr ".st" 6;
-createNode reference -n "Unit5_LabSceneRN";
-	rename -uid "37A6F665-4BEE-925A-525C-12BB4FA3778A";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"Unit5_LabSceneRN"
-		"Unit5_LabSceneRN" 8
-		2 "|Unit5_LabScene:ComfyChair" "translate" " -type \"double3\" -7.35184362726005958 0 -7.66351606973976818"
-		
-		2 "|Unit5_LabScene:ComfyChair" "rotate" " -type \"double3\" 0 -156.08354251922841627 0"
-		
-		2 "|Unit5_LabScene:ComfyChair" "rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		
-		3 "Unit5_LabScene:groupId1.groupId" "|Unit5_LabScene:ComfyChair|Unit5_LabScene:ComfyChairShape.instObjGroups.objectGroups[0].objectGroupId" 
-		""
-		3 ":initialShadingGroup.memberWireframeColor" "|Unit5_LabScene:ComfyChair|Unit5_LabScene:ComfyChairShape.instObjGroups.objectGroups[0].objectGrpColor" 
-		""
-		3 "|Unit5_LabScene:ComfyChair|Unit5_LabScene:ComfyChairShape.instObjGroups.objectGroups[0]" 
-		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Unit5_LabScene:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
-		
-		5 1 "Unit5_LabSceneRN" "|Unit5_LabScene:ComfyChair|Unit5_LabScene:ComfyChairShape.instObjGroups" 
-		"Unit5_LabSceneRN.placeHolderList[1]" "";
-	setAttr ".ptag" -type "string" "";
-lockNode -l 1 ;
-createNode reference -n "GlobeRN";
-	rename -uid "DA8DE96C-49C6-BBE0-03D7-B0A0C4DA9519";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"GlobeRN"
-		"GlobeRN" 19
-		2 "|Globe:polySurface3" "translate" " -type \"double3\" 6.95278953571617286 4.61313956324011087 7.21224370051512498"
-		
-		2 "|Globe:polySurface3" "rotate" " -type \"double3\" 0 -26.14965330490553796 0"
-		
-		3 "Globe:groupId4.message" ":initialShadingGroup.groupNodes" "-na"
-		3 "Globe:groupId3.message" ":initialShadingGroup.groupNodes" "-na"
-		3 "Globe:groupId1.groupId" "|Globe:polySurface3|Globe:polySurfaceShape4.instObjGroups.objectGroups[0].objectGroupId" 
-		""
-		3 ":initialShadingGroup.memberWireframeColor" "|Globe:polySurface3|Globe:polySurfaceShape4.instObjGroups.objectGroups[0].objectGrpColor" 
-		""
-		3 "|Globe:polySurface3|Globe:polySurfaceShape4.instObjGroups.objectGroups[0]" 
-		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Globe:groupId2.groupId" "|Globe:polySurface3|Globe:polySurfaceShape4.instObjGroups.objectGroups[1].objectGroupId" 
-		""
-		3 ":initialShadingGroup.memberWireframeColor" "|Globe:polySurface3|Globe:polySurfaceShape4.instObjGroups.objectGroups[1].objectGrpColor" 
-		""
-		3 "|Globe:polySurface3|Globe:polySurfaceShape4.instObjGroups.objectGroups[1]" 
-		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Globe:groupId3.groupId" "|Globe:polySurface3|Globe:polySurfaceShape4.instObjGroups.objectGroups[2].objectGroupId" 
-		""
-		3 ":initialShadingGroup.memberWireframeColor" "|Globe:polySurface3|Globe:polySurfaceShape4.instObjGroups.objectGroups[2].objectGrpColor" 
-		""
-		3 "|Globe:polySurface3|Globe:polySurfaceShape4.instObjGroups.objectGroups[2]" 
-		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Globe:groupId4.groupId" "|Globe:polySurface3|Globe:polySurfaceShape4.instObjGroups.objectGroups[3].objectGroupId" 
-		""
-		3 ":initialShadingGroup.memberWireframeColor" "|Globe:polySurface3|Globe:polySurfaceShape4.instObjGroups.objectGroups[3].objectGrpColor" 
-		""
-		3 "|Globe:polySurface3|Globe:polySurfaceShape4.instObjGroups.objectGroups[3]" 
-		":initialShadingGroup.dagSetMembers" "-na"
-		3 "Globe:groupId2.message" ":initialShadingGroup.groupNodes" "-na"
-		3 "Globe:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
-		5 1 "GlobeRN" "|Globe:polySurface3|Globe:polySurfaceShape4.instObjGroups" 
-		"GlobeRN.placeHolderList[1]" "";
-	setAttr ".ptag" -type "string" "";
-lockNode -l 1 ;
 createNode reference -n "sharedReferenceNode";
 	rename -uid "E06A8454-4CE1-2790-F6CC-11B5A32C957B";
 	setAttr ".ed" -type "dataReferenceEdits" 
@@ -19183,29 +19167,6 @@ createNode checker -n "Table1:checker2";
 createNode place2dTexture -n "Table1:place2dTexture2";
 	rename -uid "1EE3D743-4A91-4982-74FF-2DB11596B01E";
 	setAttr ".re" -type "float2" 4 4 ;
-createNode reference -n "BooksRN";
-	rename -uid "6B8123D9-4F19-C8DF-A70A-ACA3568EA5D8";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"BooksRN"
-		"BooksRN" 0;
-	setAttr ".ptag" -type "string" "";
-lockNode -l 1 ;
-createNode reference -n "BookSetRN1";
-	rename -uid "F0848018-4102-F21E-E3BC-6B9041BD06E9";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"BookSetRN1"
-		"BookSetRN1" 6
-		2 "|BookSet2:BookSet2" "translate" " -type \"double3\" -23.80493624949448872 0.0502777099609375 -5.03477668762191044"
-		
-		2 "|BookSet2:BookSet2" "rotate" " -type \"double3\" 0 180 0"
-		2 "|BookSet2:BookSet2" "rotatePivotTranslate" " -type \"double3\" 0 0 0"
-		5 4 "BookSetRN1" "BookSet2:lambert1SG.dagSetMembers" "BookSetRN1.placeHolderList[1]" 
-		""
-		5 4 "BookSetRN1" "BookSet2:lambert1SG.dagSetMembers" "BookSetRN1.placeHolderList[2]" 
-		""
-		5 4 "BookSetRN1" "BookSet2:lambert1SG.dagSetMembers" "BookSetRN1.placeHolderList[3]" 
-		"";
-lockNode -l 1 ;
 createNode materialInfo -n "BookSet3:materialInfo1";
 	rename -uid "796966D2-4AE5-5CBD-4766-8E825E99BB4B";
 createNode shadingEngine -n "BookSet3:lambert1SG";
@@ -19226,20 +19187,11 @@ createNode place2dTexture -n "Table2:place2dTexture2";
 	setAttr ".re" -type "float2" 4 4 ;
 createNode reference -n "FloorRN1";
 	rename -uid "15C2FEB5-4852-F47D-75B0-A7A0719E1AFE";
-	setAttr -s 3 ".phl";
-	setAttr ".phl[1]" 0;
-	setAttr ".phl[2]" 0;
-	setAttr ".phl[3]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"FloorRN1"
 		"FloorRN1" 0
-		"FloorRN1" 3
-		5 2 "FloorRN1" "Floor1:lambert1SG.dagSetMembers" "FloorRN1.placeHolderList[1]" 
-		""
-		5 2 "FloorRN1" "Floor1:lambert1SG.dagSetMembers" "FloorRN1.placeHolderList[2]" 
-		""
-		5 2 "FloorRN1" "Floor1:lambert1SG.dagSetMembers" "FloorRN1.placeHolderList[3]" 
-		"";
+		"FloorRN1" 1
+		2 "|Floor1:Floor|Floor1:FloorShape" "uvst[0].uvsp[0:13]" " -s 14 -type \"float2\" 0.33333363999999999 4.8782137999999999e-05 0.66666835999999996 9.7473436000000013e-05 0.33333158000000002 0.013937580999999999 0.66666632999999997 0.013986333 0.33328289 0.34726927000000002 0.66661756999999999 0.34731799000000002 0.33328089 0.36115800999999997 0.66661554999999995 0.36120677000000001 0.33323209999999998 0.69448966000000001 0.66656685000000004 0.69453834999999997 1 0.00014622530000000001 0.99999779 0.014035054 1.9985234000000002e-06 0 0 0.013888889999999999";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "LadderRN1";
@@ -19247,14 +19199,75 @@ createNode reference -n "LadderRN1";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"LadderRN1"
 		"LadderRN1" 0
-		"LadderRN1" 6
+		"LadderRN1" 13
 		2 "|Ladder1:Ladder" "translate" " -type \"double3\" -11.79858472774691869 -0.45040839910507202 4.01938152820502559"
 		
 		2 "|Ladder1:Ladder" "rotate" " -type \"double3\" 0 270 0"
 		2 "|Ladder1:Ladder" "rotateX" " -av"
 		2 "|Ladder1:Ladder" "rotateY" " -av"
 		2 "|Ladder1:Ladder" "rotateZ" " -av"
-		2 "|Ladder1:Ladder" "rotatePivotTranslate" " -type \"double3\" 0 0 0";
+		2 "|Ladder1:Ladder" "rotatePivotTranslate" " -type \"double3\" 0 0 0"
+		2 "|Ladder1:Ladder|Ladder1:LadderShape" "uvSet[0].uvSetPoints" " -s 1457"
+		
+		2 "|Ladder1:Ladder|Ladder1:LadderShape" "uvst[0].uvsp[0:249]" (" -type \"float2\" 0.58922821000000003 0.085152693000000002 0.58920037999999997 0.094330490000000003 0.58184241999999997 0.085130318999999996 0.58181464999999999 0.094308153000000006 0.14113550999999999 0.0044792462000000002 0.17821761999999999 0.0045231823000000003 0.16618519000000001 0.0045328777999999997 0.15316798000000001 0.0044924025000000001 0.21313736999999999 0.12826874999999999 0.26162508000000001 0.12824339000000001 0.19467909999999999 0.034220966999999998 0.14972711999999999 0.034244373000000002 0.14977619 0.12830183000000001 0.21327140999999999 0.38480028999999999 0.26175906999999998 0.38477495 0.14991004999999999 0.38483318999999999 0.21340755 0.64133119999999999 0.26189848999999998 0.64130830999999999 0.15003942000000001 0.64136457000000002 0.21365002999999999 0.89791511999999996 0.26203822999999998 0.89834641999999998 0.15107298 0.93175775000000005 0.150097 0.89772445000000001 0.21320433999999999 0.2565344 0.26169210999999998 0.25650909999999999 0.14984306999999999 0.25656748000000001 0.21333858 "
+		+ "0.51306605000000005 0.26182654999999999 0.51304084000000005 0.14999412000000001 0.54730730999999999 0.14997685999999999 0.51309906999999999 0.21349539000000001 0.76959169000000005 0.26200557000000002 0.76961153999999998 0.15004517000000001 0.80382525999999999 0.15006824999999999 0.76962357999999997 0.19501373 0.67554592999999996 0.26192343000000001 0.67552155000000003 0.19488014000000001 0.41901790999999999 0.26177707 0.41898298 0.14992799000000001 0.41904142 0.26184517000000002 0.54724908000000005 0.19494713999999999 0.54728370999999998 0.26204935000000001 0.80389977000000001 0.26157587999999998 0.034186039000000001 0.19472823 0.12827837 0.21315518 0.16247681999999999 0.19486237000000001 0.38480966999999999 0.21328928999999999 0.41900830999999999 0.19499619000000001 0.64134042999999996 0.21342805000000001 0.67553865999999996 0.19521052999999999 0.89756208999999998 0.21306509000000001 0.93232506999999998 0.19479531 0.25654399 0.21322221999999999 0.29074270000000002 0.19492926999999999 0.51307559000000003 0.21"
+		+ "335667 0.54727393000000002 0.19506708 0.76958883 0.72087162999999999 0.012824261 0.720851 0.060706022999999998 0.72085767999999995 0.045147192000000003 0.72086488999999998 0.028382825 0.93544453000000005 0.077450290000000005 0.93545336000000001 0.12533109000000001 0.93545049000000002 0.10977284 0.93544744999999996 0.093008399000000005 0.45828372000000001 0.012884188 0.45821845999999999 0.060765359999999997 0.45823970000000003 0.045206949000000003 0.45826253 0.028442597 0.72085124 0.11654209 0.72085845000000004 0.068660304000000005 0.72085613000000004 0.084218971000000004 0.72085357000000005 0.10098342 0.58959872000000002 0.012880404 0.58953624999999998 0.060762033 0.58955656999999995 0.045203473000000001 0.58957839000000001 0.028439163999999999 0.85217273000000004 0.01282376 0.85219312000000003 0.060705226000000001 0.85218649999999996 0.045146513999999999 0.85217940999999997 0.028382272 0.32692134 0.012929379 0.32702031999999998 0.060810771 0.32698812999999999 0.045252188999999998 0.32695352999999999 0.028487"
+		+ "894999999999 0.25571460000000001 0.25651218999999997 0.25566545000000002 0.16245487 0.21913281000000001 0.16247396 0.21918185000000001 0.25653126999999998 0.15400365999999999 0.16250795000000001 0.15797191999999999 0.16250588999999999 0.19053164 0.15340522000000001 0.19052272000000001 0.13620207000000001 0.18656819999999999 0.16249095999999999 0.19058554 0.25654634999999998 0.25564759999999997 0.12824667000000001 0.25559837000000002 0.034189384000000003 0.21911484000000001 0.12826577 0.22303385000000001 0.034206551000000002 0.19051857 0.12828052000000001 0.19046947 0.034223220999999998 0.157905 0.034240380000000001 0.15398584000000001 0.12829958999999999 0.15398997 0.13622116000000001 0.72087710999999999 2.7926266000000001e-05 0.19473386000000001 0.13900556999999999 0.72086989999999995 0.016792227 0.21033555000000001 0.13619155999999999 0.72085595000000002 0.049115222 0.19754732 0.15340171999999999 0.72086322000000003 0.032350789999999997 0.213149 0.15058735000000001 0.25584909 0.51304388000000001 0.255799559"
+		+ "99999998 0.41898640999999998 0.21926682 0.41900545 0.21931608 0.51306282999999997 0.15413767 0.41903924999999997 0.19071962000000001 0.51307773999999995 0.19067046000000001 0.41902014999999998 0.19066574 0.40993657999999999 0.19065681000000001 0.39273340000000001 0.25181341000000002 0.38477999000000002 0.25578165000000003 0.38477792999999999 0.25176420999999999 0.2907227 0.21924889 0.38479700999999999 0.22321713000000001 0.38479491999999998 0.22322127 0.39271634999999999 0.21919971999999999 0.29073966000000001 0.22316792999999999 0.29073763000000002 0.19065259000000001 0.38481203000000003 0.18663524000000001 0.29075678999999999 0.19060347999999999 0.29075471000000003 0.15411983000000001 0.38483109999999998 0.15412389000000001 0.3927525 0.15803893999999999 0.29077172000000001 0.93544221000000005 0.064653918000000005 0.19486791000000001 0.39553719999999998 0.93544530999999997 0.081418223999999997 0.21046962 0.39272317000000001 0.93545126999999995 0.11374084 0.19768141 0.40993269999999998 0.93544817000000002 0.0"
+		+ "96976465999999997 0.21328316999999999 0.40711852999999998 0.25594586000000003 0.6755234 0.25602764 0.76961190000000002 0.21940708 0.67553616000000005 0.21947812 0.76959389 0.1582306 0.67556709000000004 0.19080279999999999 0.67554808 0.19079836 0.66646539999999999 0.19078982999999999 0.64926331999999998 0.18683341000000001 0.67555010000000004 0.19085263 0.76958941999999997 0.25195265 0.64131307999999998 0.25592094999999998 0.64131110999999996 0.25189936000000002 0.54725431999999996 0.21938563999999999 0.64132822 0.22335429000000001 0.64132630999999996 0.22335922999999999 0.64924806000000002 0.21933438999999999 0.54727095000000003 0.22330265999999999 0.54726898999999996 0.19078587999999999 0.64134239999999998 0.19073734000000001 0.54728584999999996 0.15420385 0.54730511000000004 0.15424946 0.64136201000000004 0.15425248 0.64928335000000004 0.45830115999999999 8.7796549999999995e-05 0.19500169000000001 0.65206712 0.45827833000000001 0.016852216999999999 0.21060582 0.64925372999999997 0.45823427999999999 0.049174"
+		+ "979000000001 0.19781566 0.66646205999999997 0.45825714000000001 0.032410624999999998 0.21342072000000001 0.66364926000000002 0.25225209999999998 0.93305916 0.25629385999999998 0.93305826000000003 0.21909455999999999 0.93300550999999998 0.22315614 0.93299591999999998 0.15512507 0.93115239999999999 0.15475135000000001 0.92247033000000001 0.19059755 0.93077611999999998 0.19083728 0.92215424999999995 0.19098357999999999 0.90528244000000002 0.25567883000000002 0.96220302999999996 0.22091939999999999 0.99487137999999997 0.22376594 0.96250451000000004 0.21969694000000001 0.96661514000000004 0.25210010999999999 0.89833622999999996 0.25606333999999997 0.89834356000000004 0.25210466999999998 0.80388415000000002 0.25607210000000002 0.80389082000000001 0.21962129999999999 0.89801651000000005 0.22358304000000001 0.89807515999999998 0.22355066000000001 0.90611624999999996 0.21952456000000001 0.80381077999999995 0.22349557 0.80382162000000001 0.19098820999999999 0.89751011000000003 0.18690592 0.80373954999999997 0.154262470"
+		+ "00000001 0.80380952000000006 0.15432008 0.89765781 0.15439745999999999 0.90549815 0.15823904999999999 0.80379670999999997 0.19293177 0.99591695999999996 0.1922508 0.96790277999999996 0.19171873 0.96415614999999999 0.72084928000000004 0.12933847000000001 0.19516592999999999 0.90814804999999998 0.72085184000000002 0.1125741 0.21080850000000001 0.90579717999999998 0.72085672999999995 0.080250985999999996 0.1977911 0.92245317000000004 0.72085416000000002 0.097015358999999995 0.21344036999999999 0.92037283999999997 0.19059867 0.28167099000000001 0.19058971 0.26446765999999999 0.25174636 0.25651431000000002 0.22315009 0.25652923999999999 0.22315423000000001 0.26445076000000001 0.15405284 0.25656541999999999 0.15405695 0.26448682000000001 0.58961534999999998 8.3936545999999991e-05 0.19480082000000001 0.26727130999999998 0.58959353000000003 0.016848313 0.21040259 0.2644572 0.58955139000000001 0.049171448 0.19761427000000001 0.28166717000000002 0.58957325999999999 0.032407138000000002 0.21321598 0.27885326999999999 0."
+		+ "19073262999999999 0.53820217000000004 0.19072373000000001 0.52099912999999998 0.25188082000000001 0.51304590999999999 0.22328434999999999 0.51306081000000003 0.22328862999999999 0.52098215000000003 0.1541865 0.51309693000000001 0.15419052999999999 0.52101832999999997 0.85216731000000001 2.7535664999999999e-05 0.19493489999999999 0.52380282 0.85217445999999997 0.016791645000000001 0.21053679 0.52098893999999996 0.85218817000000002 0.049114663000000003 0.19774857000000001 0.53819870999999997 0.85218101999999996 0.032350223999999997 0.2133504 0.53538465000000002 0.19087403999999999 0.79467933999999996 0.19085853999999999 0.77750176000000004 0.25205880000000003 0.76961142000000005 0.2234495 0.76959544000000002 0.22345979999999999 0.77751935000000005 0.15428074 0.76961899 0.15427647999999999 0.77753735000000002 0.32689490999999998 0.00013298929999999999"
+		)
+		2 "|Ladder1:Ladder|Ladder1:LadderShape" "uvst[0].uvsp[250:499]" (" 0.19507693000000001 0.78030478999999997 0.32692954000000002 0.016897316999999999 0.21069611999999999 0.77750980999999997 0.32699635999999999 0.049220159999999999 0.19790319000000001 0.79468631999999995 0.32696173000000001 0.032455831999999997 0.21352419 0.79190665000000005 0.25169723999999999 0.16245693 0.22309618000000001 0.15338841 0.15796721 0.15342210000000001 0.21554555 0.15339214000000001 0.26164304999999999 0.16245154000000001 0.25566080000000002 0.15337123 0.25167936000000002 0.12824893000000001 0.25163013000000001 0.034191581999999998 0.21308814000000001 0.034211472 0.21906564000000001 0.034208499000000003 0.18655035 0.1282827 0.18650125000000001 0.034225459999999999 0.26162924999999998 0.13616471999999999 0.15795408 0.12829761000000001 0.18655447999999999 0.13620417000000001 0.21911901 0.13618731000000001 0.25168347000000002 0.13617034 0.22308307999999999 0.12826388999999999 0.26163821999999998 0.15336794000000001 0.25565170999999998 0.13616821000000001 0.15795820999999999 0.13621911 0.186563399999"
+		+ "99999 0.15340717000000001 0.21912793999999999 0.15339032999999999 0.21553649999999999 0.13618891999999999 0.25169253000000003 0.15337344 0.22308724999999999 0.13618528999999999 0.15399899 0.15342428999999999 0.14978031999999999 0.13622308 0.14978928999999999 0.1534266 0.19233738 0.13620098999999999 0.15393673999999999 0.034242283999999998 0.25183135000000001 0.41898853000000003 0.22323026000000001 0.40991949999999999 0.1581012 0.40995362000000002 0.18670221000000001 0.41902225999999998 0.21567966 0.40992331999999998 0.25579478999999999 0.40990241999999999 0.18668436999999999 0.38481417000000001 0.25573245 0.29072058000000001 0.26176329999999998 0.39269638000000001 0.15808807 0.38482913000000002 0.18668847 0.39273544999999999 0.219253 0.39271843000000001 0.25181755 0.39270138999999998 0.26177222 0.40989923 0.25578579000000001 0.39269936 0.15809222000000001 0.39275040999999999 0.18669744999999999 0.40993868999999999 0.21926202 0.40992152999999998 0.21567059 0.39272045999999999 0.25182654999999998 0.409904570000"
+		+ "00002 0.15413288999999999 0.40995565 0.14991428000000001 0.39275473 0.14992326 0.40995762000000002 0.19247139999999999 0.39273256000000001 0.14986114 0.29077581000000002 0.25197753000000001 0.67552477 0.22337024 0.66645109999999996 0.15822743 0.66648388000000003 0.21581798999999999 0.66645425999999997 0.25593904000000001 0.66643852000000003 0.18681719999999999 0.64134437 0.15817215000000001 0.54730301999999997 0.25586763000000001 0.54725223999999995 0.26190408999999998 0.64923072000000004 0.15821794 0.64135987000000005 0.18682098 0.64926541000000004 0.21939044999999999 0.64924979000000005 0.25195815999999999 0.64923542999999995 0.26191658000000001 0.66643613999999995 0.25592654999999997 0.64923357999999998 0.15822105 0.64928101999999999 0.18682915 0.66646742999999997 0.21940114999999999 0.66645264999999998 0.21580753999999999 0.64925127999999999 0.25197053000000003 0.66644013000000002 0.15425860999999999 0.66648631999999997 0.15004237000000001 0.64928596999999999 0.15426171 0.67556965000000002 0.1500484300000"
+		+ "0001 0.66648876999999995 0.19260479999999999 0.64926242999999995 0.22335990999999999 0.92365754 0.15868561 0.92226803000000002 0.21517227999999999 0.99546771999999994 0.21580087000000001 0.92332261999999998 0.13293458999999999 0.93340635000000005 0.25604181999999998 0.92370933 0.21354041000000001 0.80379515999999995 0.18700612 0.89747577999999995 0.26199867999999998 0.90630918999999999 0.15830232 0.89760404999999999 0.18700838 0.90521079000000004 0.21959656 0.90602726 0.25206620000000002 0.90637422000000001 0.26201499 0.92353176999999997 0.25602155999999998 0.90634941999999996 0.158373 0.90540361000000003 0.18689971 0.92202276000000005 0.21939591 0.92349963999999996 0.21602060000000001 0.90593648000000004 0.25208502999999999 0.92381245000000001 0.15018590000000001 0.90561813000000002 0.15057124 0.92271066000000002 0.19623797000000001 0.96759390999999995 0.19279684 0.90532111999999998 0.19088626 0.80374270999999997 0.1970218 0.99603224000000001 0.21398818 0.96669965999999996 0.22316322 0.28165409000000002 0.15"
+		+ "803423999999999 0.281688 0.21561247 0.28165793 0.26170992999999998 0.29071735999999998 0.25572773999999998 0.28163697999999998 0.22310099 0.16247188000000001 0.18661733 0.25654849000000002 0.26169616000000001 0.26443031 0.15802105999999999 0.25656342999999998 0.18662145999999999 0.26446988999999999 0.21918596000000001 0.26445264000000002 0.25175047 0.2644358 0.26170525 0.28163385000000002 0.25571874 0.26443353000000003 0.15802521 0.26448484999999999 0.18663043000000001 0.28167307000000003 0.21919495 0.28165605999999999 0.21560357999999999 0.26445447999999999 0.25175946999999999 0.28163916 0.154066 0.28169002999999998 0.14984733 0.264489 0.15407069000000001 0.29077377999999998 0.14985634 0.28169206000000002 0.19240436 0.26446667000000001 0.19053644 0.16248888 0.14979401000000001 0.16251019 0.22329779 0.53818542000000003 0.15816759 0.53821914999999998 0.18676901000000001 0.54728794000000003 0.21574698 0.53818940999999998 0.25586268000000001 0.53816861000000005 0.22323503 0.41900343000000001 0.18675133999999999 "
+		+ "0.51307981999999996 0.15810592000000001 0.41903719 0.26183084000000001 0.52096235999999996 0.15815478999999999 0.51309477999999997 0.18675542000000001 0.52100128000000001 0.21932033000000001 0.52098416999999997 0.25188508999999998 0.52096730000000002 0.26184018999999997 0.53816569000000003 0.25585332999999999 0.52096527999999998 0.15815883999999999 0.52101624000000002 0.18676427000000001 0.53820413 0.21932948999999999 0.53818743999999996 0.21573785000000001 0.52098613999999999 0.25189441000000001 0.5381707 0.15419927 0.53822135999999998 0.14998080999999999 0.52102053000000004 0.14998951999999999 0.53822380000000003 0.1925384 0.52099817999999998 0.22348403999999999 0.79473072 0.15824168999999999 0.79472262000000005 0.2159258 0.79471665999999996 0.25606205999999998 0.79478406999999995 0.22337613000000001 0.67553478 0.18687987 0.76959067999999997 0.26201716000000003 0.77754933000000004 0.15825199000000001 0.76961488 0.18688455000000001 0.77750266000000001 0.21948830999999999 0.77751570999999997 0.252070399999999"
+		+ "97 0.77754444 0.26203980999999998 0.79478985000000002 0.25603932000000001 0.77754670000000004 0.15824891999999999 0.77753185999999996 0.18689683000000001 0.79467916000000005 0.21951208 0.79472321000000001 0.21590266 0.77751285000000003 0.25209325999999999 0.79477942000000001 0.15426624999999999 0.79473209 0.15006293000000001 0.77754383999999999 0.15004982 0.79474330000000004 0.19267571999999999 0.77750176000000004 0.15005144000000001 0.67557239999999996 0.22480126 0.99514610000000003 0.21991652 0.96270221 0.21403395 0.96272146999999997 0.19229905 0.99957019000000003 0.15032016000000001 0.96474837999999996 0.26149942999999998 0.96242629999999996 0.19591975 0.96371722000000004 0.19467397 0.93125575999999999 0.18672243999999999 0.93084073000000001 0.16702950999999999 0.94287968 0.15898863999999999 0.93110543000000001 0.16697419999999999 0.95575237000000002 0.15852968000000001 0.96497076999999998 0.17913201000000001 0.95553290999999996 0.18772794000000001 0.96442472999999995 0.17887653000000001 0.9427522999999999"
+		+ "9 0.19234631999999999 0.15340429999999999 0.19474607999999999 0.16248672 0.19248029999999999 0.40993550000000001 0.19261339 0.66646450999999995 0.192642 0.92221916000000004 0.19241326 0.28166991000000002 0.19481303 0.29075232000000001 0.19254735000000001 0.53820120999999999 0.19269258 0.79468024000000004 0.19510764 0.80374937999999996 0.19473114999999999 0.13380465999999999 0.78510815 0.064701735999999996 0.21314031999999999 0.13379501999999999 0.78512877000000003 0.016819909000000001 0.19474263 0.15579815 0.78511487999999996 0.049142905000000001 0.21315171999999999 0.15578834999999999 0.78512210000000004 0.032378471999999998 0.19486521000000001 0.39033645 0.999713 0.12928724 0.21327430999999999 0.39032686 0.99970418000000005 0.081406443999999994 0.19487666000000001 0.41232922999999999 0.99971014000000002 0.11372899 0.21328581999999999 0.41231951 0.99970703999999999 0.096964620000000001 0.19499904000000001 0.64686644000000004 0.52247189999999999 0.064820841000000004 0.21341073999999999 0.64685744000000001 0.5"
+		+ "2253717 0.016939800000000001 0.19501025999999999 0.66885799000000001 0.52249312000000003 0.049262561000000003 0.21342391999999999 0.66885017999999996 0.52251594999999995 0.032498144 0.19520181 0.90301651000000005 0.65660017999999998 0.06468264 0.21363577 0.90346247000000002 0.65659290999999997 0.11256430000000001 0.19493736 0.92467272 0.65659778999999996 0.080241248000000001 0.21331896 0.92561161999999997 0.65659522999999997 0.097005621 0.19479814000000001 0.26207033000000002 0.65378994000000001 0.064813732999999998 0.21320729999999999 0.26206061000000003 0.65385234000000003 0.016932105999999999"
+		)
+		2 "|Ladder1:Ladder|Ladder1:LadderShape" "uvst[0].uvsp[500:749]" (" 0.19480955999999999 0.28406364000000001 0.65381020000000001 0.049255173999999999 0.21321868999999999 0.28405430999999998 0.65383208000000004 0.032490864000000001 0.19493221999999999 0.51860183000000004 0.91645365999999995 0.064645961000000002 0.21334149999999999 0.51859230000000001 0.91643333000000005 0.016764360999999998 0.19494364 0.54059511000000005 0.91644709999999996 0.049087315999999999 0.21335314 0.54058558000000001 0.91643995 0.032322939000000002 0.195072 0.77510953000000005 0.39128727000000002 0.064645961000000002 0.21350214000000001 0.77511668 0.39118831999999998 0.016764503 0.19509609 0.79707313000000002 0.39125511000000002 0.049087379 0.21353127 0.79710745999999999 0.39122047999999998 0.032323050999999998 0.53500921000000001 0.23487843999999999 0.81993722999999996 0.079478121999999998 0.82004469999999996 0.10017512000000001 0.53508513999999996 0.24488836999999999 0.83450431000000003 0.064767025000000006 0.53494381999999996 0.26023366999999997 0.53561955999999999 0.067401610000000001 0.85520719999"
+		+ "999995 0.064673267000000006 0.61045872999999995 0.10014838 0.55012941000000004 0.26020557 0.55027126999999998 0.24486247 0.59578936999999998 0.11473329 0.55019397000000003 0.23485067000000001 0.57509922999999996 0.11467790999999999 0.53547168000000001 0.082746713999999999 0.55065578000000004 0.082719087999999996 0.53553384999999998 0.092757292000000005 0.86990458000000004 0.079246141000000006 0.61052441999999996 0.079462438999999996 0.53538078 0.10810143999999999 0.55056196000000002 0.10807468000000001 0.53544073999999997 0.11811318 0.86999267000000002 0.099935478999999994 0.59594369000000003 0.064782791000000006 0.53528684000000004 0.13345633000000001 0.55046558000000001 0.13343045000000001 0.53535032000000005 0.14346903999999999 0.85543340000000001 0.11462707 0.57524746999999998 0.064712866999999993 0.53520042000000001 0.15881150999999999 0.55037855999999996 0.15878593999999999 0.53527111000000005 0.16882433999999999 0.83474994000000002 0.1147286 0.56056355999999996 0.079303890000000002 0.53512775999999995 "
+		+ "0.1841671 0.55030738999999995 0.1841411 0.53520513000000003 0.19417915999999999 0.56050396000000002 0.10000433 0.53506690000000001 0.20952287 0.55024934000000003 0.20949593 0.55032890999999995 0.21950682999999999 0.55080675999999995 0.067376211000000005 0.55071908000000003 0.092731535000000004 0.55062186999999996 0.11808644 0.55052787000000003 0.14344125999999999 0.55044746 0.16879611999999999 0.55038350999999996 0.1941513 0.53514647000000004 0.21953373000000001 0.82661169999999995 0.082206078000000002 0.83729690000000001 0.071419819999999995 0.8524794 0.071347943999999996 0.86326581000000002 0.082032888999999998 0.86333746 0.097215332000000002 0.85265237000000005 0.1080018 0.83746969999999998 0.10807344000000001 0.82668333999999999 0.097388558 0.60208826999999998 0.096651495000000004 0.60212993999999997 0.082909658999999997 0.59244251000000003 0.073163382999999999 0.57870078000000003 0.073121807999999996 0.56895459000000004 0.082809358999999999 0.56891292000000004 0.096551164999999994 0.57860023000000005 0.1"
+		+ "0629745 0.59234202000000002 0.10633903 0.92763561000000005 0.031798004999999997 0.94054859999999996 0.029621254999999999 0.94062358000000001 0.020443743 0.92774767000000002 0.018056486 0.94793408999999995 0.029681618999999999 0.94800907000000001 0.020504077999999998 0.96081000999999999 0.032068874999999997 0.96092211999999999 0.018327471000000001 0.95101422000000002 0.041706264 0.93727278999999997 0.041593975999999998 0.93754356999999999 0.0084192985999999997 0.95128489000000005 0.0085315304000000008 0.38280734 0.082045867999999994 0.12700682999999999 0.0045173527000000003 0.11398978999999999 0.0046046482999999999 0.38286132 0.097228466999999999 0.088941812999999995 0.0049005005999999997 0.34615338000000001 0.082176626000000003 0.34620756000000003 0.097359381999999994 0.10195798 0.0047341702000000003 0.37216395000000002 0.10800268 0.3569814 0.10805683000000001 0.35685088999999998 0.071402519999999997 0.37203342 0.071348324000000005 0.066872037999999995 3.2695451999999998e-06 0.066896818999999996 0.03421145300"
+		+ "0000003 0.071106455999999998 0.034208488000000002 0.075074672999999995 0.034205816999999999 0.10367096000000001 0.034185298000000003 0.1076392 0.034182280000000002 0.11193444 0.15336137999999999 0.11194097 0.16244497999999999 9.1942368999999998e-05 0.16252504000000001 8.5509468999999994e-05 0.15344144000000001 0.11192209 0.13615786999999999 7.3145879000000003e-05 0.13623825000000001 0.1119164 0.12823661 6.7498528000000001e-05 0.12831688999999999 0.048462934999999999 1.6643407e-05 0.048487764000000003 0.034224800999999999 0.048555191999999997 0.12828206 0.066964351000000005 0.12826884 0.048559106999999997 0.13380834 0.65661269 0.012796577999999999 0.064164020000000002 0.13619207999999999 0.066968291999999999 0.13379513000000001 0.066972032000000001 0.13899602999999999 0.066980339999999999 0.15058758999999999 0.65659875000000001 0.045119509000000002 0.051379192999999997 0.15340461 0.048571244 0.15060066 0.048562902999999998 0.13900932999999999 0.11211848000000001 0.40989238 0.112125 0.41897619000000003 0.000275"
+		+ "95414 0.41905645000000002 0.00026953685999999999 0.40997270000000002 0.11210615 0.39268950000000002 0.00025713028000000002 0.39276987000000002 0.11210054999999999 0.38476791999999999 0.00025150246999999998 0.38484842000000002 0.11203286 0.29071057 0.00018409970000000001 0.29079085999999998 0.048671786000000002 0.29075599000000002 0.04873918 0.38481355 0.067148237999999999 0.38480010999999997 0.067080975000000001 0.29074274999999999 0.048743144000000002 0.39034012000000001 0.87118565999999997 0.077462137 0.064348011999999996 0.39272373999999999 0.067152239000000002 0.39032686 0.067155987 0.39552759999999998 0.067164361000000006 0.40711859 0.87119155999999998 0.10978462 0.051563136000000002 0.40993573999999999 0.048755093999999999 0.40713178999999999 0.048746853999999999 0.39554088999999998 0.11231115 0.66642343999999998 0.11231939000000001 0.67550695000000005 0.00044765701999999999 0.67559486999999996 0.00044323878999999997 0.66650957 0.11229593 0.64922064999999995 0.00043437888999999999 0.64930403000000003 0."
+		+ "11228907 0.64129924999999999 0.00043014826999999999 0.64138167999999995 0.11221784 0.54724211 0.00036686278 0.54732250999999998 0.048855337999999998 0.54728717000000005 0.048921045000000003 0.64134442999999997 0.067332356999999995 0.64133090000000004 0.067264870000000004 0.54727411000000004 0.048924703 0.64687061000000001 0.39402488000000002 0.012796604 0.064531744000000002 0.64925385000000002 0.067336343000000007 0.64685689999999996 0.067340143000000005 0.65205758999999996 0.067348539999999998 0.66364794999999999 0.39398083 0.045119368 0.051743891 0.66646629999999996 0.048935543999999997 0.66366254999999996 0.048928078 0.65207165 0.11210985 0.92264146000000002 0.11162072000000001 0.93168885000000001 0.00044888027999999999 0.93244278000000003 0.00066535943000000004 0.92360467000000002 0.11247139 0.90554928999999995 0.00066144339999999998 0.90638131 0.11254962 0.89765607999999997 0.00061222741999999997 0.89841914 0.11248432 0.80375898000000001 0.00048186744 0.80397355999999998 0.048989814 0.80380887000000001 0"
+		+ ".048997842 0.89792985000000003 0.067436546 0.89755457999999999 0.067422478999999993 0.80374007999999997 0.049016107000000003 0.90347666000000004 0.78511012000000002 0.11655182 0.064660884000000002 0.90545112000000005 0.067451864 0.90301138000000003 0.067487687000000005 0.90814114000000001 0.067620165999999995 0.91955620000000005 0.785115 0.084228708999999999 0.052113231000000003 0.92307609000000002 0.049235288000000002 0.92039548999999998 0.049075857000000001 0.90871298 0.11202639 0.28162684999999998 0.00017751242999999999 0.28170735000000002 0.11201409 0.26442378999999999 0.00016525825999999999 0.26450381000000001 0.11200853 0.25650226999999998 0.00015947216999999999 0.25658259 0.048579820000000003 0.16249010999999999 0.048647257999999999 0.25654768999999999 0.067056282999999994 0.25653446000000002 0.066988914999999996 0.16247718 0.048651129000000001 0.26207386999999999 0.52533984 0.012796612000000001 0.064256078999999994 0.26445787999999998 0.067060299000000004 0.26206078999999999 0.067064061999999994 0.267"
+		+ "26174000000003 0.067072361999999996 0.27885305999999999 0.52529769999999998 0.045119748000000001 0.051471319000000001 0.28167041999999998 0.048663291999999997 0.27886653 0.048654838999999998 0.26727495000000001 0.11221117999999999 0.53815847999999999 0.00036060379000000002 0.53823905999999999 0.11219858000000001 0.52095526000000003 0.00034861540000000001 0.52103573000000003 0.11219272 0.51303387 0.00034306183999999998 0.51311426999999998 0.048763732999999997 0.41902155000000002 0.048831038 0.51307928999999997 0.067240320000000006 0.51306605000000005 0.067172862999999999 0.41900833999999998 0.048834953 0.51860552999999998 0.78791385999999997 0.012851044000000001 0.064439811 0.52098942000000004 0.067244232000000001 0.51859224000000004 0.067247978999999999 0.52379315999999998 0.067256272000000006 0.53538454000000002 0.78792757000000002 0.045173798000000001 0.051654838000000002 0.53820186999999997 0.048846882000000001 0.53539782999999996 0.048838674999999998 0.52380656999999997 0.11246844 0.79467719999999997 0.00"
+		+ "047994070000000001 0.79486358000000001")
+		2 "|Ladder1:Ladder|Ladder1:LadderShape" "uvst[0].uvsp[750:999]" (" 0.11243406 0.77747798000000001 0.00048095293000000001 0.77762293999999998 0.11241896 0.76955783 0.00048259045999999998 0.76968508999999996 0.048942931000000002 0.67555195000000001 0.048992369000000001 0.76960510000000004 0.067420467999999997 0.76957935 0.067357196999999994 0.67553638999999999 0.048992433000000002 0.77512990999999998 0.26266258999999997 0.013062193999999999 0.064613751999999997 0.77749734999999998 0.067422337999999998 0.77510022999999995 0.067423864999999999 0.78029525 0.067425690999999996 0.79187149000000001 0.26272938000000001 0.045385037000000003 0.051800694000000001 0.79471778999999998 0.048991509000000003 0.79192041999999996 0.048992418000000003 0.78033059999999999 0.083832278999999996 0.94272184000000003 0.095679708000000002 0.94283289000000003 0.095753386999999995 0.95570522999999996 0.083594269999999998 0.95550268999999999 0.038542021000000003 0.034232229000000003 0.042510260000000001 0.034229249000000003 0.0059775104999999999 0.034255497000000003 0.0099457529999999999 0.0342527700000"
+		+ "00002 0.048574987999999999 0.15580163999999999 0.066984064999999995 0.15578863000000001 0.048758878999999998 0.41233277000000002 0.067168071999999995 0.41231965999999998 0.048938796 0.66886347999999995 0.067352377000000005 0.66884840000000001 0.049379312000000002 0.92562783000000004 0.049620195999999998 0.93234152000000003 0.068022399999999997 0.93124812999999995 0.067724443999999995 0.92465960999999997 0.048667009999999997 0.28406756999999999 0.067076169000000005 0.28405406999999999 0.048850596000000003 0.54059886999999995 0.067260063999999994 0.54058552000000004 0.048990969000000002 0.79712117000000005 0.067424453999999995 0.79706305 0.010037775000000001 0.16251808000000001 0.0060695526 0.16252095999999999 0.0061369846 0.25657827 0.010105243 0.25657547000000003 0.010031201999999999 0.15343459000000001 0.0060629439999999998 0.15343731999999999 0.010018907000000001 0.13623150000000001 0.0060506761000000001 0.1362343 0.038633987000000002 0.16249752000000001 0.042602196000000002 0.16249469 0.042595793 0.1534110"
+		+ "5999999999 0.038627539000000002 0.15341404 0.038701497000000001 0.25655486999999999 0.042669743000000003 0.25655198000000001 0.042583372000000001 0.13620804 0.038615152 0.13621095 0.10773133 0.16244794000000001 0.10376307 0.16245081 0.10383052 0.25650835 0.10779875999999999 0.25650542999999998 0.10772474 0.15336428999999999 0.10375652 0.15336701 0.10771246 0.13616112999999999 0.10374419 0.13616399000000001 0.075160317000000004 0.15338750000000001 0.071192086000000002 0.15339047 0.071198559999999994 0.16247411 0.075166807000000002 0.16247128999999999 0.075147934 0.13618451000000001 0.071179688000000005 0.13618733999999999 0.071266054999999995 0.25653160000000003 0.075234279000000001 0.25652881999999999 0.010013212000000001 0.12831010000000001 0.0060449624000000002 0.12831275 0.042577720999999999 0.12828650999999999 0.038609482000000001 0.12828954000000001 0.075142241999999998 0.12826303999999999 0.071174003 0.12826578 0.1037385 0.12824252 0.10770675 0.12823958999999999 0.01022171 0.41904959000000003 0.00625347"
+		+ "25000000001 0.41905241999999998 0.0063205253999999997 0.51310986000000003 0.010288787000000001 0.513107 0.010215195999999999 0.40996566000000001 0.0062469537000000002 0.40996846999999997 0.010202892999999999 0.39276251000000001 0.0062346156 0.39276539999999999 0.038817979000000002 0.41902903000000002 0.042786200000000003 0.41902613999999999 0.042779750999999998 0.40994217999999999 0.038811482000000001 0.40994510000000001 0.038885240000000001 0.51308631999999998 0.042853516000000001 0.51308352000000002 0.042767408999999999 0.39273909000000001 0.038799141000000002 0.39274192000000002 0.10791532 0.41897922999999998 0.10394707 0.41898205999999999 0.1040148 0.51303971000000004 0.10798308 0.51303690999999996 0.10790884000000001 0.40989563000000001 0.10394055000000001 0.40989849 0.10789653 0.39269248000000001 0.1039282 0.39269531000000002 0.075350791 0.41900252999999998 0.071382545000000006 0.41900535999999999 0.071449979999999996 0.51306295000000002 0.075418270999999995 0.51306015000000005 0.075344294000000006 0.40"
+		+ "991896 0.071375995999999997 0.40992177000000002 0.075331940999999999 0.39271574999999997 0.071363613000000006 0.39271861000000002 0.010197206 0.38484108 0.0062289564 0.38484397999999997 0.010129821000000001 0.29078378999999999 0.0061615868000000004 0.29078662 0.010123291 0.28170031000000001 0.0061550247000000001 0.28170303000000002 0.042761727999999999 0.38481771999999997 0.038793481999999997 0.38482052 0.042694296999999999 0.29076034000000001 0.038726073 0.29076322999999998 0.042687807000000001 0.28167677000000002 0.038719546000000001 0.28167972000000002 0.075326248999999998 0.38479447 0.071358009999999999 0.38479722 0.075258776999999999 0.29073708999999998 0.071290530000000005 0.29073991999999999 0.075252309000000003 0.28165337000000001 0.071284071000000004 0.28165617999999998 0.10392252 0.38477402999999999 0.10789078000000001 0.38477107999999999 0.1078233 0.29071375999999999 0.10385505 0.29071661999999998 0.10781676 0.28163004000000003 0.10384851 0.28163290000000002 0.010393573999999999 0.67558580999999995"
+		+ " 0.0064252260999999996 0.67558938000000002 0.0064604585000000003 0.76967806000000005 0.010429314 0.76967269000000005 0.010389279 0.66650116000000004 0.0064207980999999997 0.66650450000000006 0.010380317 0.64929645999999996 0.0064119342999999999 0.64929950000000003 0.038994879000000003 0.67556035999999997 0.042963937000000001 0.67555677999999997 0.042958599 0.66647339000000005 0.038989533 0.66647672999999996 0.039038378999999998 0.76962131 0.043009701999999997 0.76961482000000003 0.042947970000000002 0.64927042000000001 0.038979198999999999 0.64927363000000005 0.10810914000000001 0.67550944999999996 0.10414024 0.67551183999999997 0.10423525 0.76955932000000005 0.1082065 0.76955848999999998 0.108101 0.66642612000000001 0.10413217 0.66642862999999997 0.10808582999999999 0.64922321000000005 0.10411726 0.64922583 0.075530514000000007 0.66644775999999994 0.071561314000000001 0.66645061999999999 0.071568109000000005 0.67553324000000003 0.075537510000000002 0.67553043000000002 0.075517355999999994 0.64924568000000005"
+		+ " 0.071548522000000003 0.64924853999999999 0.071634874000000001 0.76957469999999994 0.075607590000000002 0.76957101000000006 0.010375983 0.64137411 0.0064076589999999996 0.64137714999999995 0.010312662 0.54731536000000003 0.0063444319999999997 0.54731821999999997 0.01030637 0.53823178999999999 0.0063380967000000003 0.53823458999999996 0.042942937 0.64134884000000003 0.038974307 0.64135187999999999 0.042877643999999999 0.54729158 0.038909368 0.54729455999999999 0.042871281999999997 0.53820807000000004 0.038902957000000002 0.53821098999999994 0.075511343999999994 0.64132464 0.071542657999999995 0.64132761999999999 0.075443 0.54726821000000003 0.071474655999999998 0.54727106999999997 0.075436451000000002 0.53818445999999998 0.071468100000000007 0.53818737999999999 0.10411055 0.64130467000000002 0.10807905 0.64130198999999999 0.10800812 0.54724508999999999 0.10403981 0.54724782999999999 0.10800144 0.53816127999999996 0.10403312000000001 0.53816408000000004 0.01043932 0.93312185999999997 0.0063975407 0.933125560000"
+		+ "00002 0.040986522999999997 0.99863815 0.010953107 0.96212918000000003 0.010595722 0.92387461999999998 0.0066387429999999999 0.92377578999999999 0.010594018 0.90643530999999999 0.0066385906999999996 0.90641505 0.043594479999999998 0.93302976999999998 0.039534181000000002 0.93302536000000003 0.039129704000000001 0.96602178000000005 0.042814333000000003 0.96272813999999995 0.043287981000000003 0.92352652999999996 0.039322182999999997 0.92368757999999995 0.043067418000000003 0.90604978999999997 0.039111562000000002 0.90614402000000005 0.10756771 0.93108933999999999 0.10370397000000001 0.93104774000000001 0.10421177 0.96491170000000004 0.10824164 0.96480405000000002 0.10792955 0.92240703000000002 0.10399517 0.92221021999999997 0.10825965 0.90543503000000003 0.10428395 0.90534592000000003 0.072095320000000004 0.93076163999999995 0.075970284999999999 0.93082105999999998 0.075779974 0.92200451999999999 0.071841918000000005 0.92214191000000001 0.071017958000000006 0.96414334000000002 0.075009689000000004 0.96440649000"
+		+ "000001 0.075648046999999996 0.90519296999999999 0.071672603000000001 0.90527069999999998 0.047607223999999997 0.99548756999999999 0.13061784000000001 0.96398543999999997 0.11242128999999999 0.96467745000000005 0.065758906000000006 0.99602621999999996 0.041859175999999998 0.99489945000000002 0.043040235000000003 0.96664112999999996 0.048749406000000002 0.96671766000000003 0.048697572000000001 0.96273947000000004 0.066502579000000006 0.96758705 0.066815696999999993 0.96371001000000001 0.010550254 0.89839727000000003 0.0065870727 0.89840931000000002 0.010426516 0.80394578000000005 0.0064591062000000001 0.80395733999999996 0.010426453 0.79484093 0.0064576640999999997 0.79485041000000001 0.043027729000000001 0.89803904000000001 0.039066594000000003 0.89810270000000003 0.04300582 0.80383192999999997 0.039034892000000002 0.80384778999999995 0.043007153999999999 0.79474436999999998 0.039035261000000002 0.79475671000000003 0.075640528999999998 0.89745830999999998 0.071658633999999999 0.89749771"
+		)
+		2 "|Ladder1:Ladder|Ladder1:LadderShape" "uvst[0].uvsp[1000:1249]" (" 0.075623907000000004 0.80371994000000002 0.071643703000000003 0.80372816000000002 0.075621583000000006 0.79465954999999999 0.071644395999999999 0.79466468000000001 0.1043441 0.89754670999999997 0.10832644 0.89759511000000003 0.10826705 0.80374855000000001 0.10429049 0.80374080000000003 0.10825203 0.79467124 0.1042766 0.79466676999999997 0.069848805999999999 0.99590504000000002 0.070490405000000006 0.96789020000000003 0.010110928999999999 0.26449692000000002 0.0061426748999999998 0.2644996 0.042675443 0.26447329000000003 0.038707189000000003 0.26447636000000002 0.10780447999999999 0.26442680000000002 0.10383622000000001 0.26442975000000002 0.075239964000000006 0.26445022000000001 0.071271703000000006 0.26445287000000001 0.010294364 0.52102846000000003 0.0063260985000000002 0.52103126 0.042859104000000002 0.52100480000000005 0.038890813000000003 0.52100771999999995 0.10798888 0.52095829999999999 0.10402057000000001 0.52096111000000001 0.075424001000000004 0.52098155000000002 0.071455671999999998 0.520984349999"
+		+ "99998 0.010427685000000001 0.77760576999999997 0.0064587778999999996 0.77761292000000004 0.043009523000000001 0.77753675 0.039038066000000003 0.77754526999999996 0.10822054 0.77747679000000003 0.1042481 0.77747624999999998 0.075612633999999998 0.77748298999999998 0.071638644000000001 0.77748704000000002 0.046178183999999997 0.15340841999999999 0.046165887000000003 0.1362052 0.069365024999999997 0.13618851000000001 0.046362094999999999 0.40993953 0.046349822999999998 0.39273669999999999 0.069549024000000001 0.39272001000000001 0.046541753999999998 0.66647053000000001 0.046530875999999999 0.64926748999999995 0.069733544999999994 0.64924990999999999 0.046885050999999997 0.92334687999999998 0.046646442000000003 0.90595495999999998 0.069855987999999994 0.90531158 0.046270285000000001 0.28167420999999998 0.046257839000000002 0.26447072999999999 0.069457062 0.26445413000000001 0.046453758999999997 0.53820562000000005 0.046441596000000002 0.52100241000000003 0.069641009000000004 0.52098566000000002 0.0465934200000000"
+		+ "03 0.79473335000000001 0.046595164000000001 0.77752953999999996 0.069821380000000002 0.77748936000000002 0.069377407000000002 0.15339179 0.069561444 0.40992296 0.069746256000000006 0.66645193000000003 0.070039451000000003 0.92221379000000003 0.069469488999999995 0.28165737000000002 0.069653391999999995 0.53818869999999996 0.069825693999999994 0.79466808 0.41627628 0.18429258000000001 0.37494716 0.11465429000000001 0.35424994999999998 0.11471836000000001 0.41630799000000002 0.16894730999999999 0.41609006999999998 0.19430105 0.40109267999999998 0.18409754 0.40090513 0.19410790999999999 0.41606240999999999 0.20964700999999999 0.38953704 0.099965795999999996 0.41588333 0.21965541 0.40087801000000001 0.20945162000000001 0.40069723000000002 0.21946272 0.41586202 0.23500122000000001 0.38945916000000003 0.079262830000000006 0.91922647000000002 0.035200894000000003 0.91939234999999997 0.014515594 0.40067923 0.23480633000000001 0.93373167999999995 0.049949113000000003 0.40112673999999998 0.16875314999999999 0.954421159"
+		+ "99999999 0.050125349 0.41568970999999999 0.24501048 0.40050572000000001 0.24481747000000001 0.41567373000000002 0.26035541000000001 0.37476503999999999 0.064686716000000005 0.93413645000000001 4.1264143999999998e-08 0.40049371 0.26016143000000003 0.41713085999999999 0.067529700999999998 0.40195096000000002 0.067335770000000003 0.41711572000000002 0.082873612999999999 0.35407567000000001 0.064770088000000003 0.95483220000000002 0.00016171334000000001 0.40193820000000002 0.082680523000000006 0.416942 0.092884994999999998 0.40176563999999998 0.092690072999999998 0.41692289999999999 0.10822817 0.33950525999999998 0.079450621999999999 0.96935183000000003 0.014916146999999999 0.40174591999999998 0.10803544 0.41674188000000001 0.11823963 0.40156670999999999 0.11804428 0.41671627999999999 0.13358303999999999 0.33957511000000001 0.10013418 0.96917975000000001 0.035616040000000002 0.40153778000000001 0.13338985 0.41652864000000001 0.14359358 0.40135147999999998 0.14339858 0.41649779999999997 0.15893793000000001 0.40131"
+		+ "654999999999 0.15874381000000001 0.85060292000000004 0.083061539000000004 0.85050106000000003 0.095093473999999997 0.83758615999999997 0.082951552999999997 0.83748429999999996 0.094983584999999995 0.10191769000000001 0.00024475776999999997 0.088901042999999999 0.00037165571000000001 0.12696621999999999 0 0.11394957 0.00012672787 0.076869115000000002 0.00048985570999999996 0.15316489 2.814766e-06 0.16618215 3.8211247e-06 0.17821461 5.6620252000000001e-06 0.14113244 1.1456830000000001e-06 0.12811518999999999 2.6205078000000002e-07 0.12811831000000001 0.0045177825000000003 0.55901115999999995 0.21452795999999999 0.55906831999999995 0.18917331000000001 0.55913632999999996 0.16381918000000001 0.55921984000000002 0.13846496 0.55931425000000001 0.11311004 0.55940889999999999 0.087754219999999994 0.55888563000000002 0.26523968999999997 0.55895393999999998 0.2398835 0.52638465000000001 0.21450168999999999 0.52644563 0.18914618999999999 0.52651548000000004 0.16379008 0.52659761999999999 0.13843378000000001 0.5266884600"
+		+ "0000002 0.11307784999999999 0.52677912000000005 0.08772286 0.52632374000000004 0.23985627000000001 0.52625418000000002 0.26521039000000002 0.26269471999999999 0.028620709000000001 0.26270294 0.032588616000000001 0.064614966999999995 0.79468 0.26273756999999998 0.049353011000000002 0.051801257000000003 0.77751939999999997 0.26267078999999999 0.017030099 0.26276156000000001 0.060943550999999999 0.26263615000000001 0.00026580408999999998 0.78792048000000003 0.028409555999999999 0.78792214000000005 0.032377574999999999 0.064452171000000003 0.53819262999999995 0.78792930000000005 0.049141946999999998 0.051642637999999998 0.52099865999999995 0.78791553000000003 0.016818928 0.78793418000000004 0.060732572999999998 0.78790842999999999 5.4885702000000001e-05 0.52531958000000001 0.028355438 0.52531439000000002 0.032323413000000002 0.064268477000000004 0.28166109 0.52529258000000001 0.049087722 0.051458827999999998 0.26446702999999999 0.52533465999999995 0.016764587000000001 0.52527743999999998 0.060678307000000001 0.52"
+		+ "535653000000004 2.1047737e-07 0.78511249999999999 0.10099316 0.78511310000000001 0.097025162999999998 0.064858532999999996 0.92243867999999996 0.78511565999999999 0.080260790999999998 0.051839656999999997 0.90580612000000005 0.78511070999999999 0.11258384 0.78511739000000003 0.068670108999999993 0.78510815 0.12934822000000001 0.39400365999999998 0.028355014000000001 0.39399826999999998 0.032323044000000002 0.064543991999999994 0.66645591999999998 0.39397541000000003 0.049087393999999999 0.051732581 0.64926349999999999 0.39401944999999999 0.016764633000000001 0.39395964 0.060677773999999997 0.39404233999999999 2.1332798e-07 0.87118852000000002 0.093020245000000001 0.87118923999999998 0.096988246 0.064360327999999994 0.40992658999999998 0.87119234000000001 0.11375269 0.051550809000000003 0.39273298000000001 0.87118638000000004 0.081430069999999993 0.87119442000000002 0.12534292 0.87118328 0.064665765 0.65660602000000001 0.028355142 0.65660428999999998 0.032323106999999997 0.064176417999999999 0.1533956700000000"
+		+ "1 0.65659708000000006 0.049087538999999999 0.051366843000000002 0.1362014 0.65661097000000002 0.016764543999999999 0.65659206999999997 0.060678339999999997 0.65661818000000005 2.4340760999999999e-07 0.39121228000000002 0.028355114000000001 0.21071844000000001 0.79470717999999996 0.39124691 0.045119408999999999 0.1950897 0.79188042999999997 0.39118009999999998 0.012796597999999999 0.21350899000000001 0.78031671000000002 0.39127907000000001 0.060677990000000001 0.19788338 0.77750313000000004 0.91643828000000005 0.028354922000000001 0.21054591 0.53819209000000001 0.91644537000000004 0.045119230000000003 0.19494098000000001 0.53539407000000006 0.91643167000000003 0.012796409999999999 0.21334422 0.52379334 0.91645198999999999 0.060677941999999999 0.19773959999999999 0.52099549999999994 0.65383725999999998 0.028522892000000001 0.21041143000000001 0.28166061999999997 0.65381539 0.045287199 0.19480690000000001 0.27886265999999998 0.65385753000000002 0.012964130000000001 0.21321005000000001 0.26726168 0.65379511999999"
+		+ "995 0.060845758999999999 0.19760533999999999 0.26446396 0.65659462999999996 0.10097361000000001 0.21058361 0.92306297999999998 0.65659719999999999 0.084209241000000004 0.19506977 0.91955852999999999 0.65659230999999996 0.11653236 0.21360161999999999 0.90869330999999998 0.65659957999999996 0.068650565999999996 0.19799243 0.90545118000000002 0.52252138000000004 0.028530179999999999 0.21061583 0.66645639999999995 0.52249855000000001 0.045294466999999998 0.19500765 0.66365748999999996 0.52254259999999997 0.012971771 0.21341382 0.65205842000000003 0.52247732999999996 0.060852941000000001 0.19780660999999999 0.64925997999999996 0.99970632999999998 0.092996552999999996 0.21047862000000001 0.40992596999999997 0.99970943000000001 0.10976099 0.19487389999999999 0.40712816000000002 0.99970347000000004 0.077438443999999995 0.21327705999999999 0.39552763000000002 0.99971228999999995 0.12531929999999999 0.19767240999999999 0.39272984999999999 0.78512377 0.028410509 0.21034454 0.15339479 0.78511655000000002 0.04517487399999"
+		+ "9997")
+		2 "|Ladder1:Ladder|Ladder1:LadderShape" "uvst[0].uvsp[1250:1456]" (" 0.19473990999999999 0.15059711000000001 0.78513049999999995 0.012851944000000001 0.21314298000000001 0.13899602 0.78510988000000004 0.060733705999999998 0.19753838000000001 0.13619813 0.32702850999999999 0.064778744999999999 0.26276976000000002 0.064911521999999999 0.72085904999999995 0.064692377999999995 0.78511797999999999 0.064702116000000004 0.45821308999999999 0.064733252000000005 0.39395422000000002 0.064645736999999995 0.39115366000000001 2.0797417000000001e-07 0.65659034000000005 0.12932874 0.52256 0.00017537976999999999 0.85219478999999998 0.064673245000000004 0.78793590999999996 0.064700595999999999 0.91642623999999995 2.5217241000000002e-07 0.93545412999999999 0.12929900999999999 0.87119519999999995 0.12931086 0.99970108000000002 0.064642071999999995 0.58953111999999996 0.064729943999999998 0.52527230999999996 0.064646213999999994 0.65387421999999995 0.00016766261000000001 0.72084928000000004 0.064674056999999993 0.65659034000000005 0.064646370999999994 0.78513597999999996 5.5609124999999998e-05 0"
+		+ ".039681478999999999 0.0028290275999999998 0.039702254999999999 0.031425327000000003 0.073889664999999993 0.0028041909000000001 0.073910370000000003 0.031400501999999997 0.18764729999999999 0.0028224030999999998 0.18766206999999999 0.031418717999999998 0.22187017000000001 0.031401098000000002 0.22185545000000001 0.0028047891999999999 0.042485412 2.1001051000000001e-05 0.13025788999999999 0.034166085999999998 0.11184883 0.034179155000000003 0.071081675999999996 2.3287344999999999e-07 0.21904804999999999 2.5035520999999996e-07 0.21307050999999999 3.3153014999999998e-06 0.19466143999999999 1.2787e-05 0.19045179000000001 1.4970676999999999e-05 0.26224165999999999 0.93236892999999998 0.13158037 0.53823352000000002 0.13158491 0.54731679 0.13164372999999999 0.77757507999999997 0.13162268999999999 0.79479659000000003 0.1316532 0.76964593000000003 0.13164052000000001 0.67558450000000003 0.13160416 0.80389643 0.13157173 0.52103031 0.13156775000000001 0.51310884999999995 0.13151887000000001 0.41905104999999998 0.13143811"
+		+ " 0.26449837999999998 0.13144726000000001 0.28170191999999999 0.13143404 0.25657712999999999 0.13138490999999999 0.16251958999999999 0.13145195000000001 0.29078543000000001 0.13174776999999999 0.90625829000000002 0.13232531 0.92396628999999997 0.13167015000000001 0.89811063000000002 0.13163261000000001 0.64929634000000003 0.13163821000000001 0.66650032999999997 0.13162984 0.64137458999999997 0.13150518 0.39276444999999999 0.13151407000000001 0.40996729999999998 0.13150102 0.38484301999999998 0.13137119999999999 0.13623275000000001 0.13138016999999999 0.15343598999999999 0.13136703999999999 0.12831143 0.13131808 0.034254115000000002 0.12976151999999999 0.93331122 0.13073029999999999 0.67549627999999995 0.130834 0.76955724000000003 0.13085324000000001 0.77748614999999999 0.13089554 0.79470730000000001 0.13092524999999999 0.80380684000000002 0.13053411000000001 0.41896302000000002 0.13060184999999999 0.51302080999999999 0.13060768 0.52094220999999996 0.13062035 0.53814547999999995 0.13062704 0.54722881000000001 0"
+		+ ".13035008000000001 0.16243160000000001 0.13041757000000001 0.25648913000000001 0.13042330999999999 0.26441040999999998 0.13043547999999999 0.28161395 0.13044205 0.29069742999999998 0.13097706000000001 0.89801752999999995 0.13091037999999999 0.90616417000000005 0.13035747 0.92387109999999995 0.13069865 0.64128642999999996 0.13070567 0.64920825000000004 0.13072136000000001 0.66641212000000005 0.13050959000000001 0.38475502 0.13051523000000001 0.39267644000000002 0.13052768000000001 0.4098793 0 0.034259576 0.13032556000000001 0.12822338999999999 0.13033122 0.13614476 0.13034359000000001 0.153348 0.065924420999999997 0.99999373999999996 0.070486783999999997 0.99955738000000005 0.073796167999999995 0.99642366000000004 0.074345641000000004 0.96749788999999997 0.038963909999999997 0.96253520000000004 0.037977688000000002 0.99517977000000002 0.0070474665000000002 0.96227098 0.047256636999999997 0.99946457 0.0012270109 0.96250069000000005 0.196862 1 0.15449984 0.96486890000000003 0.22360653999999999 0.9659902500000000"
+		+ "5 0.25177317999999999 0.96206552000000001 0.22179742 0.99860883 0.21552858999999999 0.99944425000000003 0.13212304999999999 0.96408318999999998 0.18898518 0.99644124999999995 0.18839504000000001 0.96751595000000001 0.52542602999999999 0.21677621999999999 0.52539957000000004 0.21211368 0.52548552000000004 0.19142461 0.52545923000000005 0.18675354 0.52555417999999998 0.16607019000000001 0.52552902999999995 0.16139576999999999 0.52563614000000003 0.14071248 0.52561247 0.13604184999999999 0.52572799000000003 0.11535276 0.52570521999999997 0.11069086 0.52582026000000004 0.089993886999999995 0.52579724999999999 0.085340522000000002 0.52590340000000002 0.064637772999999996 0.52527230999999996 0.26282969 0.52536612999999999 0.24212697 0.52534049999999999 0.23747325 0.56002629000000004 0.18690148000000001 0.56005174000000002 0.19155686 0.55996990000000002 0.21225293000000001 0.55999613000000004 0.21691543999999999 0.56009447999999995 0.16154888000000001 0.56011873000000001 0.16620117000000001 0.56017881999999997 0.136"
+		+ "19359 0.56020212000000003 0.14084861000000001 0.56027453999999999 0.11083563 0.56029761 0.11549758 0.56036997 0.085476615000000006 0.56039375000000002 0.090145662000000001 0.55991393 0.23760547000000001 0.55993992000000004 0.24227485000000001 0.55984657999999998 0.26296058 0.56047851000000004 0.064790874999999998 0.55019987000000004 0.27021801000000001 0.53501253999999998 0.27024346999999999 0.37110971999999998 0.084019333000000002 0.076909757999999995 0.0050071598999999996 0.35907906000000001 0.084220894000000004 0.37132757999999999 0.097034752000000002 0.35929680000000003 0.097236291000000002 0.39171231000000001 0.14069781000000001 0.39148870000000002 0.16605547000000001 0.39192471000000001 0.11534292 0.39212050999999998 0.089991003 0.39230427000000001 0.064640461999999996 0.39086005000000001 0.24212517 0.39126557000000001 0.191414 0.39105454000000001 0.21677096000000001 0.42613602 0.16163509000000001 0.42635566000000003 0.1362758 0.42656514000000001 0.11091881000000001 0.42676102999999999 0.085565536999999"
+		+ "997 0.42532027 0.26305129999999999 0.42550734000000001 0.23770146 0.42570466000000001 0.21234937000000001 0.42591578000000002 0.18699372 0.4003236 0.27017194 0.39168652999999998 0.26510002999999999 0.39075133000000001 0.26281524000000001 0.42431065000000001 0.26542726 0.42687333 0.064876415000000007 0.41550350000000003 0.27036582999999997 0.39249989000000002 0.16367899 0.39156627999999999 0.16139356999999999 0.39272198000000003 0.13832523999999999 0.39178908000000001 0.13604297000000001 0.42512470000000002 0.16401205999999999 0.42605826000000002 0.16629705 0.42534292000000001 0.13865744999999999 0.42627790999999998 0.14094633000000001 0.39293325000000001 0.11297187 0.39200023000000001 0.11069118 0.42555251999999999 0.1133021 0.42648860999999999 0.11559270000000001 0.42668590000000001 0.090235575999999998 0.39187124000000001 0.23974469000000001 0.39093527 0.23745669 0.42449930000000002 0.24007276999999999 0.42543312999999999 0.24235420999999999 0.39227786999999997 0.18903364 0.391343 0.18674511999999999 0.3920"
+		+ "6684000000003 0.214389 0.39113103999999999 0.21209948000000001 0.42469667999999999 0.21471912000000001 0.42562935000000002 0.21699877000000001 0.42490636999999998 0.18936579000000001 0.42583892000000001 0.19164690000000001 0.39312904999999998 0.087618268999999999 0.39219504999999999 0.085336498999999996 0.42574960000000001 0.087946474999999996"
+		);
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "GlobeRN1";
@@ -19676,109 +19689,205 @@ select -ne :defaultColorMgtGlobals;
 select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
-connectAttr "Unit5_LabSceneRN.phl[1]" "FloorRN1.phl[1]";
-connectAttr "LadderRN.phl[1]" "FloorRN1.phl[2]";
-connectAttr "GlobeRN.phl[1]" "FloorRN1.phl[3]";
-connectAttr "|BookShelf1|pCube6|pCubeShape6.iog" "BookShelvesRN1.phl[1]";
-connectAttr "|BookShelf1|pCube2|pCubeShape2.iog" "BookShelvesRN1.phl[2]";
-connectAttr "|BookShelf1|pCube5|pCubeShape5.iog" "BookShelvesRN1.phl[3]";
-connectAttr "|BookShelf1|pCube3|pCubeShape3.iog" "BookShelvesRN1.phl[4]";
-connectAttr "|BookShelf1|pCube9|pCubeShape9.iog" "BookShelvesRN1.phl[5]";
-connectAttr "|BookShelf1|pCube7|pCubeShape7.iog" "BookShelvesRN1.phl[6]";
-connectAttr "|BookShelf1|pCube1|pCubeShape1.iog" "BookShelvesRN1.phl[7]";
-connectAttr "|BookShelf1|pCube8|pCubeShape8.iog" "BookShelvesRN1.phl[8]";
-connectAttr "|BookShelf1|pCube4|pCubeShape4.iog" "BookShelvesRN1.phl[9]";
-connectAttr "|BookShelf1|pCube10|pCubeShape10.iog" "BookShelvesRN1.phl[10]";
-connectAttr "|BookShelf2|pCube6|pCubeShape6.iog" "BookShelvesRN1.phl[11]";
-connectAttr "|BookShelf2|pCube2|pCubeShape2.iog" "BookShelvesRN1.phl[12]";
-connectAttr "|BookShelf2|pCube5|pCubeShape5.iog" "BookShelvesRN1.phl[13]";
-connectAttr "|BookShelf2|pCube3|pCubeShape3.iog" "BookShelvesRN1.phl[14]";
-connectAttr "|BookShelf2|pCube9|pCubeShape9.iog" "BookShelvesRN1.phl[15]";
-connectAttr "|BookShelf2|pCube7|pCubeShape7.iog" "BookShelvesRN1.phl[16]";
-connectAttr "|BookShelf2|pCube1|pCubeShape1.iog" "BookShelvesRN1.phl[17]";
-connectAttr "|BookShelf2|pCube8|pCubeShape8.iog" "BookShelvesRN1.phl[18]";
-connectAttr "|BookShelf2|pCube4|pCubeShape4.iog" "BookShelvesRN1.phl[19]";
-connectAttr "|BookShelf2|pCube10|pCubeShape10.iog" "BookShelvesRN1.phl[20]";
-connectAttr "|BookShelf3|pCube6|pCubeShape6.iog" "BookShelvesRN1.phl[21]";
-connectAttr "|BookShelf3|pCube2|pCubeShape2.iog" "BookShelvesRN1.phl[22]";
-connectAttr "|BookShelf3|pCube5|pCubeShape5.iog" "BookShelvesRN1.phl[23]";
-connectAttr "|BookShelf3|pCube3|pCubeShape3.iog" "BookShelvesRN1.phl[24]";
-connectAttr "|BookShelf3|pCube9|pCubeShape9.iog" "BookShelvesRN1.phl[25]";
-connectAttr "|BookShelf3|pCube7|pCubeShape7.iog" "BookShelvesRN1.phl[26]";
-connectAttr "|BookShelf3|pCube1|pCubeShape1.iog" "BookShelvesRN1.phl[27]";
-connectAttr "|BookShelf3|pCube8|pCubeShape8.iog" "BookShelvesRN1.phl[28]";
-connectAttr "|BookShelf3|pCube4|pCubeShape4.iog" "BookShelvesRN1.phl[29]";
-connectAttr "|BookShelf3|pCube10|pCubeShape10.iog" "BookShelvesRN1.phl[30]";
-connectAttr "|BookShelf4|pCube6|pCubeShape6.iog" "BookShelvesRN1.phl[31]";
-connectAttr "|BookShelf4|pCube2|pCubeShape2.iog" "BookShelvesRN1.phl[32]";
-connectAttr "|BookShelf4|pCube5|pCubeShape5.iog" "BookShelvesRN1.phl[33]";
-connectAttr "|BookShelf4|pCube3|pCubeShape3.iog" "BookShelvesRN1.phl[34]";
-connectAttr "|BookShelf4|pCube9|pCubeShape9.iog" "BookShelvesRN1.phl[35]";
-connectAttr "|BookShelf4|pCube7|pCubeShape7.iog" "BookShelvesRN1.phl[36]";
-connectAttr "|BookShelf4|pCube1|pCubeShape1.iog" "BookShelvesRN1.phl[37]";
-connectAttr "|BookShelf4|pCube8|pCubeShape8.iog" "BookShelvesRN1.phl[38]";
-connectAttr "|BookShelf4|pCube4|pCubeShape4.iog" "BookShelvesRN1.phl[39]";
-connectAttr "|BookShelf4|pCube10|pCubeShape10.iog" "BookShelvesRN1.phl[40]";
-connectAttr "|BookShelf5|pCube6|pCubeShape6.iog" "BookShelvesRN1.phl[41]";
-connectAttr "|BookShelf5|pCube2|pCubeShape2.iog" "BookShelvesRN1.phl[42]";
-connectAttr "|BookShelf5|pCube5|pCubeShape5.iog" "BookShelvesRN1.phl[43]";
-connectAttr "|BookShelf5|pCube3|pCubeShape3.iog" "BookShelvesRN1.phl[44]";
-connectAttr "|BookShelf5|pCube9|pCubeShape9.iog" "BookShelvesRN1.phl[45]";
-connectAttr "|BookShelf5|pCube7|pCubeShape7.iog" "BookShelvesRN1.phl[46]";
-connectAttr "|BookShelf5|pCube1|pCubeShape1.iog" "BookShelvesRN1.phl[47]";
-connectAttr "|BookShelf5|pCube8|pCubeShape8.iog" "BookShelvesRN1.phl[48]";
-connectAttr "|BookShelf5|pCube4|pCubeShape4.iog" "BookShelvesRN1.phl[49]";
-connectAttr "|BookShelf5|pCube10|pCubeShape10.iog" "BookShelvesRN1.phl[50]";
-connectAttr "|BookShelf6|pCube6|pCubeShape6.iog" "BookShelvesRN1.phl[51]";
-connectAttr "|BookShelf6|pCube2|pCubeShape2.iog" "BookShelvesRN1.phl[52]";
-connectAttr "|BookShelf6|pCube5|pCubeShape5.iog" "BookShelvesRN1.phl[53]";
-connectAttr "|BookShelf6|pCube3|pCubeShape3.iog" "BookShelvesRN1.phl[54]";
-connectAttr "|BookShelf6|pCube9|pCubeShape9.iog" "BookShelvesRN1.phl[55]";
-connectAttr "|BookShelf6|pCube7|pCubeShape7.iog" "BookShelvesRN1.phl[56]";
-connectAttr "|BookShelf6|pCube1|pCubeShape1.iog" "BookShelvesRN1.phl[57]";
-connectAttr "|BookShelf6|pCube8|pCubeShape8.iog" "BookShelvesRN1.phl[58]";
-connectAttr "|BookShelf6|pCube4|pCubeShape4.iog" "BookShelvesRN1.phl[59]";
-connectAttr "|BookShelf6|pCube10|pCubeShape10.iog" "BookShelvesRN1.phl[60]";
-connectAttr "|BookShelf7|pCube6|pCubeShape6.iog" "BookShelvesRN1.phl[61]";
-connectAttr "|BookShelf7|pCube2|pCubeShape2.iog" "BookShelvesRN1.phl[62]";
-connectAttr "|BookShelf7|pCube5|pCubeShape5.iog" "BookShelvesRN1.phl[63]";
-connectAttr "|BookShelf7|pCube3|pCubeShape3.iog" "BookShelvesRN1.phl[64]";
-connectAttr "|BookShelf7|pCube9|pCubeShape9.iog" "BookShelvesRN1.phl[65]";
-connectAttr "|BookShelf7|pCube7|pCubeShape7.iog" "BookShelvesRN1.phl[66]";
-connectAttr "|BookShelf7|pCube1|pCubeShape1.iog" "BookShelvesRN1.phl[67]";
-connectAttr "|BookShelf7|pCube8|pCubeShape8.iog" "BookShelvesRN1.phl[68]";
-connectAttr "|BookShelf7|pCube4|pCubeShape4.iog" "BookShelvesRN1.phl[69]";
-connectAttr "|BookShelf7|pCube10|pCubeShape10.iog" "BookShelvesRN1.phl[70]";
-connectAttr "|BookShelf8|pCube6|pCubeShape6.iog" "BookShelvesRN1.phl[71]";
-connectAttr "|BookShelf8|pCube2|pCubeShape2.iog" "BookShelvesRN1.phl[72]";
-connectAttr "|BookShelf8|pCube5|pCubeShape5.iog" "BookShelvesRN1.phl[73]";
-connectAttr "|BookShelf8|pCube3|pCubeShape3.iog" "BookShelvesRN1.phl[74]";
-connectAttr "|BookShelf8|pCube9|pCubeShape9.iog" "BookShelvesRN1.phl[75]";
-connectAttr "|BookShelf8|pCube7|pCubeShape7.iog" "BookShelvesRN1.phl[76]";
-connectAttr "|BookShelf8|pCube1|pCubeShape1.iog" "BookShelvesRN1.phl[77]";
-connectAttr "|BookShelf8|pCube8|pCubeShape8.iog" "BookShelvesRN1.phl[78]";
-connectAttr "|BookShelf8|pCube4|pCubeShape4.iog" "BookShelvesRN1.phl[79]";
-connectAttr "|BookShelf8|pCube10|pCubeShape10.iog" "BookShelvesRN1.phl[80]";
-connectAttr "|BookShelf9|pCube6|pCubeShape6.iog" "BookShelvesRN1.phl[81]";
-connectAttr "|BookShelf9|pCube2|pCubeShape2.iog" "BookShelvesRN1.phl[82]";
-connectAttr "|BookShelf9|pCube5|pCubeShape5.iog" "BookShelvesRN1.phl[83]";
-connectAttr "|BookShelf9|pCube3|pCubeShape3.iog" "BookShelvesRN1.phl[84]";
-connectAttr "|BookShelf9|pCube9|pCubeShape9.iog" "BookShelvesRN1.phl[85]";
-connectAttr "|BookShelf9|pCube7|pCubeShape7.iog" "BookShelvesRN1.phl[86]";
-connectAttr "|BookShelf9|pCube1|pCubeShape1.iog" "BookShelvesRN1.phl[87]";
-connectAttr "|BookShelf9|pCube8|pCubeShape8.iog" "BookShelvesRN1.phl[88]";
-connectAttr "|BookShelf9|pCube4|pCubeShape4.iog" "BookShelvesRN1.phl[89]";
-connectAttr "|BookShelf9|pCube10|pCubeShape10.iog" "BookShelvesRN1.phl[90]";
-connectAttr "|BookShelf10|pCube6|pCubeShape6.iog" "BookShelvesRN1.phl[91]";
-connectAttr "|BookShelf10|pCube2|pCubeShape2.iog" "BookShelvesRN1.phl[92]";
-connectAttr "|BookShelf10|pCube5|pCubeShape5.iog" "BookShelvesRN1.phl[93]";
-connectAttr "|BookShelf10|pCube3|pCubeShape3.iog" "BookShelvesRN1.phl[94]";
-connectAttr "|BookShelf10|pCube9|pCubeShape9.iog" "BookShelvesRN1.phl[95]";
-connectAttr "|BookShelf10|pCube7|pCubeShape7.iog" "BookShelvesRN1.phl[96]";
-connectAttr "|BookShelf10|pCube1|pCubeShape1.iog" "BookShelvesRN1.phl[97]";
-connectAttr "|BookShelf10|pCube8|pCubeShape8.iog" "BookShelvesRN1.phl[98]";
-connectAttr "|BookShelf10|pCube4|pCubeShape4.iog" "BookShelvesRN1.phl[99]";
-connectAttr "|BookShelf10|pCube10|pCubeShape10.iog" "BookShelvesRN1.phl[100]";
+connectAttr "|Shelves|BookShelf1|pCube6|pCubeShape6.iog" "BookShelvesRN1.phl[1]";
+connectAttr "|Shelves|BookShelf1|pCube2|pCubeShape2.iog" "BookShelvesRN1.phl[2]"
+		;
+connectAttr "|Shelves|BookShelf1|pCube5|pCubeShape5.iog" "BookShelvesRN1.phl[3]"
+		;
+connectAttr "|Shelves|BookShelf1|pCube3|pCubeShape3.iog" "BookShelvesRN1.phl[4]"
+		;
+connectAttr "|Shelves|BookShelf1|pCube9|pCubeShape9.iog" "BookShelvesRN1.phl[5]"
+		;
+connectAttr "|Shelves|BookShelf1|pCube7|pCubeShape7.iog" "BookShelvesRN1.phl[6]"
+		;
+connectAttr "|Shelves|BookShelf1|pCube1|pCubeShape1.iog" "BookShelvesRN1.phl[7]"
+		;
+connectAttr "|Shelves|BookShelf1|pCube8|pCubeShape8.iog" "BookShelvesRN1.phl[8]"
+		;
+connectAttr "|Shelves|BookShelf1|pCube4|pCubeShape4.iog" "BookShelvesRN1.phl[9]"
+		;
+connectAttr "|Shelves|BookShelf1|pCube10|pCubeShape10.iog" "BookShelvesRN1.phl[10]"
+		;
+connectAttr "|Shelves|BookShelf2|pCube6|pCubeShape6.iog" "BookShelvesRN1.phl[11]"
+		;
+connectAttr "|Shelves|BookShelf2|pCube2|pCubeShape2.iog" "BookShelvesRN1.phl[12]"
+		;
+connectAttr "|Shelves|BookShelf2|pCube5|pCubeShape5.iog" "BookShelvesRN1.phl[13]"
+		;
+connectAttr "|Shelves|BookShelf2|pCube3|pCubeShape3.iog" "BookShelvesRN1.phl[14]"
+		;
+connectAttr "|Shelves|BookShelf2|pCube9|pCubeShape9.iog" "BookShelvesRN1.phl[15]"
+		;
+connectAttr "|Shelves|BookShelf2|pCube7|pCubeShape7.iog" "BookShelvesRN1.phl[16]"
+		;
+connectAttr "|Shelves|BookShelf2|pCube1|pCubeShape1.iog" "BookShelvesRN1.phl[17]"
+		;
+connectAttr "|Shelves|BookShelf2|pCube8|pCubeShape8.iog" "BookShelvesRN1.phl[18]"
+		;
+connectAttr "|Shelves|BookShelf2|pCube4|pCubeShape4.iog" "BookShelvesRN1.phl[19]"
+		;
+connectAttr "|Shelves|BookShelf2|pCube10|pCubeShape10.iog" "BookShelvesRN1.phl[20]"
+		;
+connectAttr "|Shelves|BookShelf3|pCube6|pCubeShape6.iog" "BookShelvesRN1.phl[21]"
+		;
+connectAttr "|Shelves|BookShelf3|pCube2|pCubeShape2.iog" "BookShelvesRN1.phl[22]"
+		;
+connectAttr "|Shelves|BookShelf3|pCube5|pCubeShape5.iog" "BookShelvesRN1.phl[23]"
+		;
+connectAttr "|Shelves|BookShelf3|pCube3|pCubeShape3.iog" "BookShelvesRN1.phl[24]"
+		;
+connectAttr "|Shelves|BookShelf3|pCube9|pCubeShape9.iog" "BookShelvesRN1.phl[25]"
+		;
+connectAttr "|Shelves|BookShelf3|pCube7|pCubeShape7.iog" "BookShelvesRN1.phl[26]"
+		;
+connectAttr "|Shelves|BookShelf3|pCube1|pCubeShape1.iog" "BookShelvesRN1.phl[27]"
+		;
+connectAttr "|Shelves|BookShelf3|pCube8|pCubeShape8.iog" "BookShelvesRN1.phl[28]"
+		;
+connectAttr "|Shelves|BookShelf3|pCube4|pCubeShape4.iog" "BookShelvesRN1.phl[29]"
+		;
+connectAttr "|Shelves|BookShelf3|pCube10|pCubeShape10.iog" "BookShelvesRN1.phl[30]"
+		;
+connectAttr "|Shelves|BookShelf4|pCube6|pCubeShape6.iog" "BookShelvesRN1.phl[31]"
+		;
+connectAttr "|Shelves|BookShelf4|pCube2|pCubeShape2.iog" "BookShelvesRN1.phl[32]"
+		;
+connectAttr "|Shelves|BookShelf4|pCube5|pCubeShape5.iog" "BookShelvesRN1.phl[33]"
+		;
+connectAttr "|Shelves|BookShelf4|pCube3|pCubeShape3.iog" "BookShelvesRN1.phl[34]"
+		;
+connectAttr "|Shelves|BookShelf4|pCube9|pCubeShape9.iog" "BookShelvesRN1.phl[35]"
+		;
+connectAttr "|Shelves|BookShelf4|pCube7|pCubeShape7.iog" "BookShelvesRN1.phl[36]"
+		;
+connectAttr "|Shelves|BookShelf4|pCube1|pCubeShape1.iog" "BookShelvesRN1.phl[37]"
+		;
+connectAttr "|Shelves|BookShelf4|pCube8|pCubeShape8.iog" "BookShelvesRN1.phl[38]"
+		;
+connectAttr "|Shelves|BookShelf4|pCube4|pCubeShape4.iog" "BookShelvesRN1.phl[39]"
+		;
+connectAttr "|Shelves|BookShelf4|pCube10|pCubeShape10.iog" "BookShelvesRN1.phl[40]"
+		;
+connectAttr "|Shelves|BookShelf5|pCube6|pCubeShape6.iog" "BookShelvesRN1.phl[41]"
+		;
+connectAttr "|Shelves|BookShelf5|pCube2|pCubeShape2.iog" "BookShelvesRN1.phl[42]"
+		;
+connectAttr "|Shelves|BookShelf5|pCube5|pCubeShape5.iog" "BookShelvesRN1.phl[43]"
+		;
+connectAttr "|Shelves|BookShelf5|pCube3|pCubeShape3.iog" "BookShelvesRN1.phl[44]"
+		;
+connectAttr "|Shelves|BookShelf5|pCube9|pCubeShape9.iog" "BookShelvesRN1.phl[45]"
+		;
+connectAttr "|Shelves|BookShelf5|pCube7|pCubeShape7.iog" "BookShelvesRN1.phl[46]"
+		;
+connectAttr "|Shelves|BookShelf5|pCube1|pCubeShape1.iog" "BookShelvesRN1.phl[47]"
+		;
+connectAttr "|Shelves|BookShelf5|pCube8|pCubeShape8.iog" "BookShelvesRN1.phl[48]"
+		;
+connectAttr "|Shelves|BookShelf5|pCube4|pCubeShape4.iog" "BookShelvesRN1.phl[49]"
+		;
+connectAttr "|Shelves|BookShelf5|pCube10|pCubeShape10.iog" "BookShelvesRN1.phl[50]"
+		;
+connectAttr "|Shelves|BookShelf6|pCube6|pCubeShape6.iog" "BookShelvesRN1.phl[51]"
+		;
+connectAttr "|Shelves|BookShelf6|pCube2|pCubeShape2.iog" "BookShelvesRN1.phl[52]"
+		;
+connectAttr "|Shelves|BookShelf6|pCube5|pCubeShape5.iog" "BookShelvesRN1.phl[53]"
+		;
+connectAttr "|Shelves|BookShelf6|pCube3|pCubeShape3.iog" "BookShelvesRN1.phl[54]"
+		;
+connectAttr "|Shelves|BookShelf6|pCube9|pCubeShape9.iog" "BookShelvesRN1.phl[55]"
+		;
+connectAttr "|Shelves|BookShelf6|pCube7|pCubeShape7.iog" "BookShelvesRN1.phl[56]"
+		;
+connectAttr "|Shelves|BookShelf6|pCube1|pCubeShape1.iog" "BookShelvesRN1.phl[57]"
+		;
+connectAttr "|Shelves|BookShelf6|pCube8|pCubeShape8.iog" "BookShelvesRN1.phl[58]"
+		;
+connectAttr "|Shelves|BookShelf6|pCube4|pCubeShape4.iog" "BookShelvesRN1.phl[59]"
+		;
+connectAttr "|Shelves|BookShelf6|pCube10|pCubeShape10.iog" "BookShelvesRN1.phl[60]"
+		;
+connectAttr "|Shelves|BookShelf7|pCube6|pCubeShape6.iog" "BookShelvesRN1.phl[61]"
+		;
+connectAttr "|Shelves|BookShelf7|pCube2|pCubeShape2.iog" "BookShelvesRN1.phl[62]"
+		;
+connectAttr "|Shelves|BookShelf7|pCube5|pCubeShape5.iog" "BookShelvesRN1.phl[63]"
+		;
+connectAttr "|Shelves|BookShelf7|pCube3|pCubeShape3.iog" "BookShelvesRN1.phl[64]"
+		;
+connectAttr "|Shelves|BookShelf7|pCube9|pCubeShape9.iog" "BookShelvesRN1.phl[65]"
+		;
+connectAttr "|Shelves|BookShelf7|pCube7|pCubeShape7.iog" "BookShelvesRN1.phl[66]"
+		;
+connectAttr "|Shelves|BookShelf7|pCube1|pCubeShape1.iog" "BookShelvesRN1.phl[67]"
+		;
+connectAttr "|Shelves|BookShelf7|pCube8|pCubeShape8.iog" "BookShelvesRN1.phl[68]"
+		;
+connectAttr "|Shelves|BookShelf7|pCube4|pCubeShape4.iog" "BookShelvesRN1.phl[69]"
+		;
+connectAttr "|Shelves|BookShelf7|pCube10|pCubeShape10.iog" "BookShelvesRN1.phl[70]"
+		;
+connectAttr "|Shelves|BookShelf8|pCube6|pCubeShape6.iog" "BookShelvesRN1.phl[71]"
+		;
+connectAttr "|Shelves|BookShelf8|pCube2|pCubeShape2.iog" "BookShelvesRN1.phl[72]"
+		;
+connectAttr "|Shelves|BookShelf8|pCube5|pCubeShape5.iog" "BookShelvesRN1.phl[73]"
+		;
+connectAttr "|Shelves|BookShelf8|pCube3|pCubeShape3.iog" "BookShelvesRN1.phl[74]"
+		;
+connectAttr "|Shelves|BookShelf8|pCube9|pCubeShape9.iog" "BookShelvesRN1.phl[75]"
+		;
+connectAttr "|Shelves|BookShelf8|pCube7|pCubeShape7.iog" "BookShelvesRN1.phl[76]"
+		;
+connectAttr "|Shelves|BookShelf8|pCube1|pCubeShape1.iog" "BookShelvesRN1.phl[77]"
+		;
+connectAttr "|Shelves|BookShelf8|pCube8|pCubeShape8.iog" "BookShelvesRN1.phl[78]"
+		;
+connectAttr "|Shelves|BookShelf8|pCube4|pCubeShape4.iog" "BookShelvesRN1.phl[79]"
+		;
+connectAttr "|Shelves|BookShelf8|pCube10|pCubeShape10.iog" "BookShelvesRN1.phl[80]"
+		;
+connectAttr "|Shelves|BookShelf9|pCube6|pCubeShape6.iog" "BookShelvesRN1.phl[81]"
+		;
+connectAttr "|Shelves|BookShelf9|pCube2|pCubeShape2.iog" "BookShelvesRN1.phl[82]"
+		;
+connectAttr "|Shelves|BookShelf9|pCube5|pCubeShape5.iog" "BookShelvesRN1.phl[83]"
+		;
+connectAttr "|Shelves|BookShelf9|pCube3|pCubeShape3.iog" "BookShelvesRN1.phl[84]"
+		;
+connectAttr "|Shelves|BookShelf9|pCube9|pCubeShape9.iog" "BookShelvesRN1.phl[85]"
+		;
+connectAttr "|Shelves|BookShelf9|pCube7|pCubeShape7.iog" "BookShelvesRN1.phl[86]"
+		;
+connectAttr "|Shelves|BookShelf9|pCube1|pCubeShape1.iog" "BookShelvesRN1.phl[87]"
+		;
+connectAttr "|Shelves|BookShelf9|pCube8|pCubeShape8.iog" "BookShelvesRN1.phl[88]"
+		;
+connectAttr "|Shelves|BookShelf9|pCube4|pCubeShape4.iog" "BookShelvesRN1.phl[89]"
+		;
+connectAttr "|Shelves|BookShelf9|pCube10|pCubeShape10.iog" "BookShelvesRN1.phl[90]"
+		;
+connectAttr "|Shelves|BookShelf10|pCube6|pCubeShape6.iog" "BookShelvesRN1.phl[91]"
+		;
+connectAttr "|Shelves|BookShelf10|pCube2|pCubeShape2.iog" "BookShelvesRN1.phl[92]"
+		;
+connectAttr "|Shelves|BookShelf10|pCube5|pCubeShape5.iog" "BookShelvesRN1.phl[93]"
+		;
+connectAttr "|Shelves|BookShelf10|pCube3|pCubeShape3.iog" "BookShelvesRN1.phl[94]"
+		;
+connectAttr "|Shelves|BookShelf10|pCube9|pCubeShape9.iog" "BookShelvesRN1.phl[95]"
+		;
+connectAttr "|Shelves|BookShelf10|pCube7|pCubeShape7.iog" "BookShelvesRN1.phl[96]"
+		;
+connectAttr "|Shelves|BookShelf10|pCube1|pCubeShape1.iog" "BookShelvesRN1.phl[97]"
+		;
+connectAttr "|Shelves|BookShelf10|pCube8|pCubeShape8.iog" "BookShelvesRN1.phl[98]"
+		;
+connectAttr "|Shelves|BookShelf10|pCube4|pCubeShape4.iog" "BookShelvesRN1.phl[99]"
+		;
+connectAttr "|Shelves|BookShelf10|pCube10|pCubeShape10.iog" "BookShelvesRN1.phl[100]"
+		;
 connectAttr "BookShelfShape1.iog" "BookShelvesRN1.phl[101]";
 connectAttr "BookShelfShape2.iog" "BookShelvesRN1.phl[102]";
 connectAttr "BookShelfShape3.iog" "BookShelvesRN1.phl[103]";
@@ -19801,13 +19910,7 @@ relationship "shadowLink" ":lightLinker1" "BookSet1:lambert1SG.message" ":defaul
 relationship "shadowLink" ":lightLinker1" "BookSet3:lambert1SG.message" ":defaultLightSet.message";
 connectAttr "layerManager.dli[0]" "defaultLayer.id";
 connectAttr "renderLayerManager.rlmi[0]" "defaultRenderLayer.rlid";
-connectAttr "sharedReferenceNode.sr" "FloorRN.sr";
-connectAttr "sharedReferenceNode.sr" "BookShelvesRN.sr";
 connectAttr "sharedReferenceNode.sr" "TableRN.sr";
-connectAttr "sharedReferenceNode.sr" "LadderRN.sr";
-connectAttr "sharedReferenceNode.sr" "BookSetRN.sr";
-connectAttr "sharedReferenceNode.sr" "Unit5_LabSceneRN.sr";
-connectAttr "sharedReferenceNode.sr" "GlobeRN.sr";
 connectAttr "standardSurface2.oc" "standardSurface2SG.ss";
 connectAttr "standardSurface2SG.msg" "materialInfo1.sg";
 connectAttr "standardSurface2.msg" "materialInfo1.m";
@@ -19820,8 +19923,6 @@ connectAttr "Table1:place2dTexture1.ofs" "Table1:checker1.fs";
 connectAttr "Table1:checker2.oc" "Table1:checker1.c1";
 connectAttr "Table1:place2dTexture2.o" "Table1:checker2.uv";
 connectAttr "Table1:place2dTexture2.ofs" "Table1:checker2.fs";
-connectAttr "sharedReferenceNode.sr" "BooksRN.sr";
-connectAttr "sharedReferenceNode.sr" "BookSetRN1.sr";
 connectAttr "BookSet3:lambert1SG.msg" "BookSet3:materialInfo1.sg";
 connectAttr ":lambert1.msg" "BookSet3:materialInfo1.m";
 connectAttr "Table2:checker1.msg" "BookSet3:materialInfo1.t" -na;
