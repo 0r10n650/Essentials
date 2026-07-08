@@ -76,6 +76,11 @@ MonoBehaviour:
   baseMaxSpeed: 8
   jumpForce: 3
   gravity: -20
+  rayDistance: 0.15
+  footWidth: 0.5
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &3214034631071099215
 GameObject:
   m_ObjectHideFlags: 0
