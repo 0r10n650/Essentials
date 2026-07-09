@@ -31081,7 +31081,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4413898227408482837, guid: 9f810ae661400054097a2cf0f624c631, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 4413898227408482837, guid: 9f810ae661400054097a2cf0f624c631, type: 3}
       propertyPath: m_LocalPosition.z
@@ -31089,7 +31089,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4413898227408482837, guid: 9f810ae661400054097a2cf0f624c631, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.92387956
+      value: 0.38268617
       objectReference: {fileID: 0}
     - target: {fileID: 4413898227408482837, guid: 9f810ae661400054097a2cf0f624c631, type: 3}
       propertyPath: m_LocalRotation.x
@@ -31101,7 +31101,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4413898227408482837, guid: 9f810ae661400054097a2cf0f624c631, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.38268343
+      value: -0.92387843
       objectReference: {fileID: 0}
     - target: {fileID: 4413898227408482837, guid: 9f810ae661400054097a2cf0f624c631, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -31113,7 +31113,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4413898227408482837, guid: 9f810ae661400054097a2cf0f624c631, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 45
+      value: -135
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31806,7 +31806,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4413898227408482837, guid: 9f810ae661400054097a2cf0f624c631, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.34
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 4413898227408482837, guid: 9f810ae661400054097a2cf0f624c631, type: 3}
       propertyPath: m_LocalPosition.z
@@ -31814,7 +31814,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4413898227408482837, guid: 9f810ae661400054097a2cf0f624c631, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.92387956
+      value: 0.38268617
       objectReference: {fileID: 0}
     - target: {fileID: 4413898227408482837, guid: 9f810ae661400054097a2cf0f624c631, type: 3}
       propertyPath: m_LocalRotation.x
@@ -31826,7 +31826,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4413898227408482837, guid: 9f810ae661400054097a2cf0f624c631, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.38268343
+      value: -0.92387843
       objectReference: {fileID: 0}
     - target: {fileID: 4413898227408482837, guid: 9f810ae661400054097a2cf0f624c631, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -31838,7 +31838,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4413898227408482837, guid: 9f810ae661400054097a2cf0f624c631, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 45
+      value: -135
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33638,7 +33638,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4413898227408482837, guid: 9f810ae661400054097a2cf0f624c631, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.28
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 4413898227408482837, guid: 9f810ae661400054097a2cf0f624c631, type: 3}
       propertyPath: m_LocalPosition.z
@@ -33658,7 +33658,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4413898227408482837, guid: 9f810ae661400054097a2cf0f624c631, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.38268343
+      value: 0.3826833
       objectReference: {fileID: 0}
     - target: {fileID: 4413898227408482837, guid: 9f810ae661400054097a2cf0f624c631, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
